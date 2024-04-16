@@ -1,3 +1,5 @@
+[<img src="/static/favicon.png" align="right" width="192" height="192">](https://www.webdevladder.net/)
+
 # webdevladder.net
 
 > climbing together 🪜
