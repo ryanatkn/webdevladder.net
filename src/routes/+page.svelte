@@ -22,11 +22,11 @@
 				alt="the webdevladder icon, the James Webb Space Telescope alignment light flare flower against deep star-filled space"
 				class="mb_xl"
 			/>
-			<blockquote class="shadow_inset_inverse_md px_xl">climbing together 🪜</blockquote>
+			<blockquote class="shadow_inset_xs px_xl">climbing together 🪜</blockquote>
 		</header>
 	</section>
-	<section class="panel p_xs3 shadow_md w_100">
-		<div class="panel shadow_inset_inverse_md bg px_xl3 py_xl">
+	<section class="panel p_md shadow_outset_xs w_100">
+		<div class="panel shadow_inset_xs bg px_xl3 py_xl">
 			<h2 class="mt_md">welcome</h2>
 			<p>
 				This is the website for webdevladder, <a href="https://youtube.com/@webdevladder"
@@ -36,8 +36,8 @@
 				TypeScript.
 			</p>
 			<p>
-				While doing my normal work on free and open source software, I'm making these videos on the
-				realworld technical topics I find most interesting, often advanced and very niche.
+				While working on free and open source software, I'm making these videos on the realworld
+				technical topics I find most interesting, often advanced and very niche.
 			</p>
 			<p>Each video will have an accompanying blog post here - Atom feed coming soon.</p>
 			<aside>

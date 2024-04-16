@@ -9,7 +9,7 @@ is the website for [a YouTube channel](https://youtube.com/@webdevladder)
 making educational programming screencasts
 with [Svelte](https://svelte.dev/) and TypeScript.
 
-While doing my normal work on free and open source software,
+While working on free and open source software,
 I'm making these videos on the realworld technical topics I find most interesting,
 often advanced and very niche.
 
