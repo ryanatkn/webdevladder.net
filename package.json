@@ -1,11 +1,20 @@
 {
-  "name": "@ryanatkn/fuz_template",
+  "name": "webdevladder.net",
   "version": "0.0.1",
-  "description": "a static web app and Node library template with TypeScript, Svelte, SvelteKit, Vite, esbuild, Fuz, and Gro",
-  "icon": "❄",
+  "description": "educational programming screencasts with Svelte and TypeScript",
+  "motto": "climbing together",
+  "icon": "🪜",
+  "license": "MIT",
   "public": true,
-  "homepage": "https://template.fuz.dev/",
-  "repository": "https://github.com/ryanatkn/fuz_template",
+  "homepage": "https://www.webdevladder.net/",
+  "repository": "https://github.com/webdevladder/webdevladder.net",
+  "author": {
+    "name": "Ryan Atkinson",
+    "email": "mail@ryanatkn.com",
+    "url": "https://www.ryanatkn.com/"
+  },
+  "bugs": "https://github.com/webdevladder/webdevladder.net/issues",
+  "funding": "https://www.ryanatkn.com/funding",
   "type": "module",
   "engines": {
     "node": ">=20.10"

@@ -21,7 +21,7 @@
 </script>
 
 <svelte:head>
-	<title>@ryanatkn/fuz_template</title>
+	<title>webdevladder.net</title>
 </svelte:head>
 
 <svelte:body
