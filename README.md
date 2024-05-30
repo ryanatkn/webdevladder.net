@@ -6,7 +6,7 @@
 
 [webdevladder.net](https://www.webdevladder.net/)
 is the website for [a YouTube channel](https://youtube.com/@webdevladder)
-making educational programming screencasts
+for advanced realworld webdev
 with [Svelte](https://svelte.dev/) and TypeScript.
 
 While working on free and open source software,

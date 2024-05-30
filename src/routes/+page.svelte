@@ -32,8 +32,7 @@
 				This is the website for webdevladder, <a href="https://youtube.com/@webdevladder"
 					>a YouTube channel</a
 				>
-				making educational programming screencasts with <a href="https://svelte.dev/">Svelte</a> and
-				TypeScript.
+				for advanced realworld webdev with <a href="https://svelte.dev/">Svelte</a> and TypeScript.
 			</p>
 			<p>
 				While working on free and open source software, I'm making these videos on the realworld
