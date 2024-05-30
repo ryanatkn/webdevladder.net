@@ -3,8 +3,8 @@
 		<a rel="me" href="https://discord.gg/YU5tyeK72X">Discord</a>
 	</li>
 	<li>
-		<a rel="me" href="https://www.spiderspace.org/">spiderspace.org</a> - nontechnical design and process
-		videos
+		<a rel="me" href="https://www.spiderspace.org/">spiderspace.org</a> - nontechnical community website
+		with a YouTube channel about building it
 	</li>
 	<li>
 		<a rel="me" href="https://www.webdevladder.net/" class="selected">webdevladder.net</a> - advanced
