@@ -2,14 +2,15 @@
 
 # webdevladder.net
 
-> climbing together 🪜
+> climbing together 🪜 [webdevladder.net](https://www.webdevladder.net/)
 
-[webdevladder.net](https://www.webdevladder.net/)
-is the website for [a YouTube channel](https://youtube.com/@webdevladder) and blog
+Webdevladder is [a YouTube channel](https://youtube.com/@webdevladder) and
+[blog](https://www.webdevladder.net/)
 for realworld webdev with TypeScript and [Svelte](https://svelte.dev/).
 
 While working on free and open source software,
-I'm making these videos on the realworld technical topics I find most interesting,
-often advanced and very niche.
+I'm making videos and blog posts on the realworld technical topics I find most interesting.
 
-Join [the Discord](https://discord.gg/YU5tyeK72X) to follow along.
+- [webdevladder.net](https://www.webdevladder.net/)
+- join [the Discord](https://discord.gg/YU5tyeK72X) to follow along
+- [my homepage](https://www.ryanatkn.com/)
