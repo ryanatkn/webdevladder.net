@@ -29,10 +29,8 @@
 		<div class="panel shadow_inset_xs bg px_xl3 py_xl">
 			<h2 class="mt_md">welcome</h2>
 			<p>
-				This is the website for webdevladder, <a href="https://youtube.com/@webdevladder"
-					>a YouTube channel</a
-				>
-				for advanced realworld webdev with <a href="https://svelte.dev/">Svelte</a> and TypeScript.
+				Webdevladder is <a href="https://youtube.com/@webdevladder">a YouTube channel</a> and blog
+				for realworld webdev with TypeScript and <a href="https://svelte.dev/">Svelte</a>.
 			</p>
 			<p>
 				While working on free and open source software, I'm making these videos on the realworld

@@ -5,9 +5,8 @@
 > climbing together 🪜
 
 [webdevladder.net](https://www.webdevladder.net/)
-is the website for [a YouTube channel](https://youtube.com/@webdevladder)
-for advanced realworld webdev
-with [Svelte](https://svelte.dev/) and TypeScript.
+is the website for [a YouTube channel](https://youtube.com/@webdevladder) and blog
+for realworld webdev with TypeScript and [Svelte](https://svelte.dev/).
 
 While working on free and open source software,
 I'm making these videos on the realworld technical topics I find most interesting,

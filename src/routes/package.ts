@@ -6,7 +6,7 @@ import type {Src_Json} from '@ryanatkn/gro/src_json.js';
 export const package_json = {
 	name: 'webdevladder.net',
 	version: '0.0.1',
-	description: 'educational programming screencasts with Svelte and TypeScript',
+	description: 'a YouTube channel and blog for realworld webdev with TypeScript and Svelte',
 	motto: 'climbing together',
 	icon: '🪜',
 	license: 'MIT',
