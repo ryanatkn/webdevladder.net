@@ -14,7 +14,7 @@
 <main class="width_md">
 	<section class="box">
 		<header class="box">
-			<h1 class="my_xl">webdevladder</h1>
+			<h1 class="my_xl3">webdevladder</h1>
 			<img
 				src="{base}/favicon.png"
 				width="var(--icon_size_xl2)"
