@@ -16,7 +16,7 @@
 		<header class="box">
 			<h1 class="my_xl3">webdevladder</h1>
 		</header>
-		<Breadcrumb>{package_json.icon}</Breadcrumb>
+		<Breadcrumb>{package_json.glyph}</Breadcrumb>
 	</section>
 	<section class="box w_100 mb_lg">
 		<div class="panel p_md width_md">
@@ -26,7 +26,7 @@
 	<section class="box">
 		<Library_Footer {pkg}>
 			<div class="mb_xl">
-				<Breadcrumb>{package_json.icon}</Breadcrumb>
+				<Breadcrumb>{package_json.glyph}</Breadcrumb>
 			</div>
 		</Library_Footer>
 	</section>
