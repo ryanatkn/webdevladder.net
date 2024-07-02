@@ -31,7 +31,7 @@
 				While working on free and open source software, I'm making these videos on the realworld
 				technical topics I find most interesting, often advanced and very niche.
 			</p>
-			<p>Each video will have an accompanying blog post here - Atom feed coming soon.</p>
+			<p>Some videos will have an accompanying blog post here - Atom feed coming soon.</p>
 			<aside>
 				<Community_Links />
 			</aside>
