@@ -2,6 +2,7 @@
 	import {base} from '$app/paths';
 	import {parse_package_meta} from '@ryanatkn/gro/package_meta.js';
 	import Library_Footer from '@ryanatkn/fuz/Library_Footer.svelte';
+	import Webdevladder_Logo from '@ryanatkn/fuz/Webdevladder_Logo.svelte';
 
 	import {package_json, src_json} from '$routes/package.js';
 	import Community_Links from '$routes/Community_Links.svelte';
@@ -14,14 +15,8 @@
 <main class="width_md">
 	<section class="box">
 		<header class="box">
+			<Webdevladder_Logo size="var(--icon_size_xl2)" classes="mt_xl5" />
 			<h1 class="my_xl3">webdevladder</h1>
-			<img
-				src="{base}/favicon.png"
-				width="var(--icon_size_xl2)"
-				height="var(--icon_size_xl2)"
-				alt="the webdevladder icon, the James Webb Space Telescope alignment light flare flower against deep star-filled space"
-				class="mb_xl"
-			/>
 			<blockquote class="shadow_inset_xs px_xl">climbing together 🪜</blockquote>
 		</header>
 	</section>
