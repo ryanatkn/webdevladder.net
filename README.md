@@ -1,6 +1,6 @@
-[<img src="/static/logo.svg" alt="a spider web between two rungs of a ladder" align="right" width="192" height="192">](https://www.webdevladder.net/)
-
 # webdevladder.net
+
+[<img src="/static/logo.svg" alt="a spider web between two rungs of a ladder" align="right" width="192" height="192">](https://www.webdevladder.net/)
 
 > climbing together 🪜 [webdevladder.net](https://www.webdevladder.net/)
 
