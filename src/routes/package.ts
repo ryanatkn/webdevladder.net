@@ -10,7 +10,7 @@ export const package_json = {
 	motto: 'climbing together',
 	glyph: '🪜',
 	logo: 'logo.svg',
-	logo_alt: 'a spider web between the rungs of a ladder',
+	logo_alt: 'a spider web between two rungs of a ladder',
 	license: 'MIT',
 	public: true,
 	homepage: 'https://www.webdevladder.net/',
@@ -30,7 +30,7 @@ export const package_json = {
 	devDependencies: {
 		'@ryanatkn/belt': '^0.24.1',
 		'@ryanatkn/eslint-config': '^0.1.3',
-		'@ryanatkn/fuz': '^0.106.1',
+		'@ryanatkn/fuz': '^0.106.2',
 		'@ryanatkn/gro': '^0.128.0',
 		'@ryanatkn/moss': '^0.6.2',
 		'@sveltejs/adapter-static': '^3.0.2',
