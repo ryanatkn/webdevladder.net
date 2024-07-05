@@ -9,13 +9,13 @@
   "license": "MIT",
   "public": true,
   "homepage": "https://www.webdevladder.net/",
-  "repository": "https://github.com/webdevladder/webdevladder.net",
+  "repository": "https://github.com/ryanatkn/webdevladder.net",
   "author": {
     "name": "Ryan Atkinson",
     "email": "mail@ryanatkn.com",
     "url": "https://www.ryanatkn.com/"
   },
-  "bugs": "https://github.com/webdevladder/webdevladder.net/issues",
+  "bugs": "https://github.com/ryanatkn/webdevladder.net/issues",
   "funding": "https://www.ryanatkn.com/funding",
   "scripts": {
     "start": "gro dev",
