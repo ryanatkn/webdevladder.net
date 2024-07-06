@@ -3,9 +3,9 @@
 	import {parse_package_meta} from '@ryanatkn/gro/package_meta.js';
 	import Library_Footer from '@ryanatkn/fuz/Library_Footer.svelte';
 	import Webdevladder_Logo from '@ryanatkn/fuz/Webdevladder_Logo.svelte';
+	import Community_Links from '@ryanatkn/fuz/Community_Links.svelte';
 
 	import {package_json, src_json} from '$routes/package.js';
-	import Community_Links from '$routes/Community_Links.svelte';
 	import Project_Links from '$routes/Project_Links.svelte';
 
 	// TODO put in context?
@@ -40,7 +40,7 @@
 			</nav>
 		</div>
 	</section>
-	<section>
+	<section class="mb_xl7">
 		<Library_Footer {pkg}>
 			{#snippet logo_header()}
 				<a class="mb_md" href="{base}/about">about</a>
