@@ -7,6 +7,7 @@
 
 	import {package_json, src_json} from '$routes/package.js';
 	import Project_Links from '$routes/Project_Links.svelte';
+	import Videos from '$routes/Videos.svelte';
 
 	// TODO put in context?
 	const pkg = parse_package_meta(package_json.homepage, package_json, src_json);
@@ -24,9 +25,20 @@
 		<div class="panel shadow_inset_xs bg px_xl3 py_xl">
 			<h2 class="mt_md">welcome</h2>
 			<p>
-				Webdevladder is <a href="https://youtube.com/@webdevladder">a YouTube channel</a> and blog
-				for realworld webdev with TypeScript and <a href="https://svelte.dev/">Svelte</a>.
+				Webdevladder is a blog and collection of YouTube channels for <a
+					href="https://www.ryanatkn.com/">my realworld webdev work</a
+				>. The blog will be created soon, and I'll post videos here about the process of making it.
 			</p>
+			<ul>
+				<li>
+					<a href="https://www.youtube.com/@webdevladder">@webdevladder</a> - technical videos about
+					realworld topics in TypeScript and <a href="https://svelte.dev/">Svelte</a>
+				</li>
+				<li>
+					<a href="https://www.youtube.com/@webdevladder_vods">@webdevladder_vods</a> - raw realworld
+					programming in TypeScript and Svelte
+				</li>
+			</ul>
 			<p>
 				While working on free and open source software, I'm making these videos on the realworld
 				technical topics I find most interesting, often advanced and very niche.
@@ -38,6 +50,11 @@
 			<nav class="size_xl5 box row wrap">
 				<Project_Links />
 			</nav>
+		</div>
+	</section>
+	<section class="panel p_md shadow_outset_xs w_100">
+		<div class="panel shadow_inset_xs bg px_xl3 py_xl">
+			<Videos />
 		</div>
 	</section>
 	<section class="mb_xl7">
