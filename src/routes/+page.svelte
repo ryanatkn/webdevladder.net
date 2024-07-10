@@ -9,7 +9,7 @@
 	import Project_Links from '$routes/Project_Links.svelte';
 	import Videos from '$routes/Videos.svelte';
 
-	// TODO put in context
+	// TODO put in context?
 	const pkg = parse_package_meta(package_json.homepage, package_json, src_json);
 </script>
 
