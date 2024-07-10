@@ -4,6 +4,7 @@
 	import Library_Footer from '@ryanatkn/fuz/Library_Footer.svelte';
 	import Webdevladder_Logo from '@ryanatkn/fuz/Webdevladder_Logo.svelte';
 	import Community_Links from '@ryanatkn/fuz/Community_Links.svelte';
+	import Card from '@ryanatkn/fuz/Card.svelte';
 
 	import {package_json, src_json} from '$routes/package.js';
 	import Project_Links from '$routes/Project_Links.svelte';
@@ -51,6 +52,9 @@
 				<Project_Links />
 			</nav>
 		</div>
+	</section>
+	<section class="box">
+		<Card href="{base}/blog" icon="🖊️">blog</Card>
 	</section>
 	<section class="panel p_md shadow_outset_xs w_100">
 		<div class="panel shadow_inset_xs bg px_xl3 py_xl">
