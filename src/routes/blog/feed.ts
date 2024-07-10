@@ -19,7 +19,7 @@ export const feed: Blog_Feed = {
 			title: 'Hello webdevladder blog',
 			slug: 'hello-webdevladder-blog',
 			date_published: '2024-07-10T22:07:32.473Z',
-			date_modified: '2024-07-10T22:07:32.473Z',
+			date_modified: '2024-07-10T23:06:38.928Z',
 			summary: "creating webdevladder's blog",
 			tags: ['webdev', 'svelte', 'typescript', 'sveltekit', 'vite'],
 			comments: {url: 'https://mastodon.social/@webdevladder/112764548975084845', type: 'mastodon'},
