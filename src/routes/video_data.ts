@@ -24,4 +24,19 @@ export const webdevladder_vods_videos: Video_Item[] = [
 		url: 'https://www.youtube.com/watch?v=QET2GbcW9ww',
 		duration: 5392000,
 	},
+	{
+		title: "Programming my channel's website using Svelte, adding videos with reactive durations",
+		url: 'https://www.youtube.com/watch?v=A8u5_0mNEO8',
+		duration: 3231000,
+	},
+	{
+		title: 'Coding a blog creation library for SvelteKit developers from scratch',
+		url: 'https://www.youtube.com/watch?v=wP9qghWkTLc',
+		duration: 3585000,
+	},
+	{
+		title: 'Extracting fuz_blog from my personal blog and publishing to npm',
+		url: 'https://www.youtube.com/watch?v=dh_6Vyjbuiw',
+		duration: 8504000,
+	},
 ];
