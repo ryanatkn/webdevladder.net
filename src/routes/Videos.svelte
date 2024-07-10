@@ -1,20 +1,6 @@
 <script lang="ts">
-	import type {Video_Item} from '$routes/video.js';
 	import Video from '$routes/Video.svelte';
-
-	const webdevladder_videos: Video_Item[] = [
-		{
-			title: 'How Svelte runes syntax is better than plain JavaScript with signals',
-			url: 'https://www.youtube.com/watch?v=IsJtmbvW2SI',
-		},
-	];
-
-	const webdevladder_vods_videos: Video_Item[] = [
-		{
-			title: 'Svelte 5 refactoring to reactive SvelteSet in my ear trainer Earbetter',
-			url: 'https://www.youtube.com/watch?v=bE-BYtepFr8',
-		},
-	];
+	import {webdevladder_videos, webdevladder_vods_videos} from '$routes/video_data.js';
 </script>
 
 <h2 class="mt_md">videos</h2>
