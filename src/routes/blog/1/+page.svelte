@@ -55,11 +55,11 @@
 		<Toot
 			url={post.comments.url}
 			replies
-			storage_key="1_comments"
-			initial_autoload={true}
+			autoload={true}
 			reply_filter_rules={(item: any) => [
 				{type: 'favourited_by', favourited_by: [item.account.acct]},
 			]}
+			storage_key="1_comments"
 		/>
 	</section>
 </Blog_Post>
