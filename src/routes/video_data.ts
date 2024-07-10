@@ -39,4 +39,9 @@ export const webdevladder_vods_videos: Video_Item[] = [
 		url: 'https://www.youtube.com/watch?v=dh_6Vyjbuiw',
 		duration: 8504000,
 	},
+	{
+		title: "Creating my channel's blog and adding Mastodon comments",
+		url: 'https://www.youtube.com/watch?v=V4Fg3-B6Su8',
+		duration: 2784000,
+	},
 ];
