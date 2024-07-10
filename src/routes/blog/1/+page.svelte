@@ -26,7 +26,7 @@
 		If you're interested in the full videos where I made the software, extracting it from my
 		personal blog:
 	</p>
-	<ul>
+	<ol>
 		<li>
 			<a href="https://www.youtube.com/watch?v=wP9qghWkTLc"
 				>Coding a blog creation library for SvelteKit developers from scratch</a
@@ -37,6 +37,6 @@
 				>Extracting fuz_blog from my personal blog and publishing to npm</a
 			>
 		</li>
-	</ul>
+	</ol>
 	<p>Stay tuned for more.</p>
 </Blog_Post>
