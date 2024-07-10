@@ -38,5 +38,5 @@
 			>
 		</li>
 	</ul>
-	<p>More to come!</p>
+	<p>Stay tuned for more.</p>
 </Blog_Post>
