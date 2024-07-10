@@ -3,7 +3,7 @@
 import type {Blog_Feed} from '@ryanatkn/fuz_blog/blog.js';
 
 export const feed: Blog_Feed = {
-	title: "Ryan Atkinson's blog",
+	title: 'webdevladder.net blog',
 	id: 'https://www.webdevladder.net/',
 	home_page_url: 'https://www.webdevladder.net/',
 	description: 'blog of a web developer building free and open source tools and toys',
