@@ -35,6 +35,7 @@
     "@ryanatkn/eslint-config": "^0.4.0",
     "@ryanatkn/fuz": "^0.108.4",
     "@ryanatkn/fuz_blog": "^0.1.5",
+    "@ryanatkn/fuz_mastodon": "^0.16.0",
     "@ryanatkn/gro": "^0.129.14",
     "@ryanatkn/moss": "^0.7.1",
     "@sveltejs/adapter-static": "^3.0.2",
