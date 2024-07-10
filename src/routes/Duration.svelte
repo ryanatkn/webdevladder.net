@@ -1,5 +1,5 @@
 <script lang="ts">
-	// import {SvelteDate} from 'svelte/reactivity';
+	import {SvelteDate} from 'svelte/reactivity';
 
 	interface Props {
 		/**
@@ -10,12 +10,11 @@
 
 	const {duration}: Props = $props();
 
-	const date = new Date(duration);
-	// TODO is this ill advised?
-	// $effect(() => {
-	// 	// date.setTime(duration); // TODO this actually sets twice, on init and then here on mount
-	// });
-	// $inspect(date, date.getTime());
+	const date = new SvelteDate(duration);
+	// TODO is this ill advised? is there a better way to sync the prop to the reactive object?
+	$effect(() => {
+		date.setTime(duration); // TODO this actually sets twice, on init and then here on mount
+	});
 
 	const hours = $derived(date.getUTCHours());
 	const minutes = $derived(date.getUTCMinutes());
