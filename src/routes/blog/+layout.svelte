@@ -13,13 +13,13 @@
 </script>
 
 <div class="breadcrumbs">
-	<Breadcrumb><Webdevladder_Logo /></Breadcrumb>
+	<Breadcrumb><Webdevladder_Logo size="var(--icon_size_sm)" /></Breadcrumb>
 </div>
 <div class="wrapper">
 	{@render children()}
 </div>
 <div class="breadcrumbs mb_xl5">
-	<Breadcrumb><Webdevladder_Logo /></Breadcrumb>
+	<Breadcrumb><Webdevladder_Logo size="var(--icon_size_sm)" /></Breadcrumb>
 </div>
 
 <!-- TODO 404, needs to work with prerendering -->
