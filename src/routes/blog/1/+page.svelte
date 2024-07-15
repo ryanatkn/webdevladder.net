@@ -1,7 +1,6 @@
 <script lang="ts" context="module">
 	import type {Blog_Post_Data} from '@ryanatkn/fuz_blog/blog.js';
 	import Blog_Post from '@ryanatkn/fuz_blog/Blog_Post.svelte';
-	import Toot from '@ryanatkn/fuz_mastodon/Toot.svelte';
 
 	export const post = {
 		title: 'Hello webdevladder blog',
@@ -51,20 +50,5 @@
 			</li>
 		</ol>
 		<p>Stay tuned for more.</p>
-	</section>
-	<section>
-		<h2>Comments</h2>
-		<!-- TODO the storage key is weird -->
-		<!-- TODO use local cache in dev -->
-		<!-- TODO remove `:any` when fuz_mastodon types are fixed -->
-		<Toot
-			url={post.comments.url}
-			replies
-			autoload={true}
-			reply_filter_rules={(item: any) => [
-				{type: 'favourited_by', favourited_by: [item.account.acct]},
-			]}
-			storage_key="1_comments"
-		/>
 	</section>
 </Blog_Post>
