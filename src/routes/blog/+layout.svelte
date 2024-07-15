@@ -18,7 +18,7 @@
 <div class="wrapper">
 	{@render children()}
 </div>
-<div class="breadcrumbs mb_xl5">
+<div class="breadcrumbs mb_xl9">
 	<Breadcrumb><Webdevladder_Logo size="var(--icon_size_sm)" /></Breadcrumb>
 </div>
 
