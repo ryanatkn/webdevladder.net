@@ -15,4 +15,12 @@ export interface Channel {
 
 export type Channel_Name = Flavored<string, 'Channel_Name'>;
 export type Channel_Summary = Flavored<string, 'Channel_Summary'>;
-export type Playlist = Flavored<string, 'Playlist'>;
+
+export interface Playlist {
+	name: Playlist_Name;
+	url: Url;
+	summary: Playlist_Summary; // TODO maybe accept a snippet
+}
+
+export type Playlist_Name = Flavored<string, 'Playlist'>; // TODO maybe refactor to an object with `Playlist_Name`?
+export type Playlist_Summary = Flavored<string, 'Playlist_Summary'>;

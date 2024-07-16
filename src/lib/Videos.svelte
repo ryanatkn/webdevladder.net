@@ -9,6 +9,8 @@
 	const {channels}: Props = $props();
 
 	// TODO @many probably extract, maybe to `fuz_video`
+
+	// TODO @many maybe render a tab with all videos for this channel, or even all channels in one list
 </script>
 
 <h2 class="mt_md">videos</h2>
