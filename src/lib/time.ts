@@ -1,8 +1,17 @@
+import type {Flavored} from '@ryanatkn/belt/types.js';
+
+// TODO @many probably extract, maybe to `fuz_video` or `belt`?
+
+export type Hours = Flavored<number, 'Hours'>;
+export type Minutes = Flavored<number, 'Minutes'>;
+export type Seconds = Flavored<number, 'Seconds'>;
+export type Milliseconds = Flavored<number, 'Milliseconds'>;
+
 export interface Time {
-	hours: number;
-	minutes: number;
-	seconds: number;
-	ms: number;
+	hours: Hours;
+	minutes: Minutes;
+	seconds: Seconds;
+	ms: Milliseconds;
 }
 
 export const parse_time = (str: string): Time | null => {

@@ -4,7 +4,7 @@
 	import Code from '@ryanatkn/fuz_code/Code.svelte';
 	import Copy_To_Clipboard from '@ryanatkn/fuz/Copy_To_Clipboard.svelte';
 
-	import {parse_time, time_to_ms} from '$routes/tools/time.js';
+	import {parse_time, time_to_ms} from '$lib/time.js';
 
 	/**
 	 * This component takes in a YouTube-formatted timestamp and outputs milliseconds.

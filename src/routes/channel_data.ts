@@ -1,6 +1,7 @@
-import type {Video_Item} from '$routes/video.js';
+import type {Channel} from '$lib/channel.js';
+import type {Video} from '$lib/video.js';
 
-export const webdevladder_videos: Video_Item[] = [
+const webdevladder_videos: Video[] = [
 	{
 		title: 'How Svelte runes syntax is better than plain JavaScript with signals',
 		url: 'https://www.youtube.com/watch?v=IsJtmbvW2SI',
@@ -8,7 +9,7 @@ export const webdevladder_videos: Video_Item[] = [
 	},
 ];
 
-export const webdevladder_vods_videos: Video_Item[] = [
+const webdevladder_vods_videos: Video[] = [
 	{
 		title: 'Svelte 5 refactoring to reactive SvelteSet in my ear trainer Earbetter',
 		url: 'https://www.youtube.com/watch?v=bE-BYtepFr8',
@@ -55,3 +56,22 @@ export const webdevladder_vods_videos: Video_Item[] = [
 		duration: 3931000,
 	},
 ];
+
+export const webdevladder_channel: Channel = {
+	name: 'webdevladder',
+	url: 'https://www.youtube.com/@webdevladder',
+	summary:
+		'technical videos about realworld topics in TypeScript and <a href="https://svelte.dev/">Svelte</a>',
+	videos: webdevladder_videos,
+	playlists: [],
+};
+
+export const webdevladder_vods_channel: Channel = {
+	name: 'webdevladder_vods',
+	url: 'https://www.youtube.com/@webdevladder_vods',
+	summary: 'raw realworld programming in TypeScript and Svelte',
+	videos: webdevladder_vods_videos,
+	playlists: ['webdevladder.net', 'fuz_blog', 'fuz_mastodon', 'Earbetter'],
+};
+
+export const channels: Channel[] = [webdevladder_channel, webdevladder_vods_channel];

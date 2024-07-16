@@ -8,7 +8,8 @@
 
 	import {package_json, src_json} from '$routes/package.js';
 	import Project_Links from '$routes/Project_Links.svelte';
-	import Videos from '$routes/Videos.svelte';
+	import Videos from '$lib/Videos.svelte';
+	import {channels} from '$routes/channel_data.js';
 
 	// TODO put in context?
 	const pkg = parse_package_meta(package_json.homepage, package_json, src_json);
@@ -58,7 +59,7 @@
 	</section>
 	<section class="panel p_md shadow_outset_xs w_100">
 		<div class="panel shadow_inset_xs bg px_xl3 py_xl">
-			<Videos />
+			<Videos {channels} />
 		</div>
 	</section>
 	<section>
