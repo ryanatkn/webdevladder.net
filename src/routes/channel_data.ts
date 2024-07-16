@@ -18,7 +18,7 @@ const webdevladder_vods_videos: Video[] = [
 		playlists: ['Earbetter'],
 	},
 	{
-		title: 'Embedding Mastodon toots with rules to control reply visibility with Svelte components',
+		title: 'Embedding Mastodon toots with rules to control reply visibility',
 		url: 'https://www.youtube.com/watch?v=5w9iUZ5TesE',
 		duration: 6537000,
 		playlists: ['fuz_mastodon'],
@@ -64,6 +64,12 @@ const webdevladder_vods_videos: Video[] = [
 		url: 'https://www.youtube.com/watch?v=j1qTO5xolC4',
 		duration: 3931000,
 		playlists: ['fuz_blog'],
+	},
+	{
+		title: "Programming playlists for my channel's website",
+		url: 'https://www.youtube.com/watch?v=tNoG-CLLWXc',
+		duration: 8619000,
+		playlists: ['webdevladder.net'],
 	},
 ];
 
