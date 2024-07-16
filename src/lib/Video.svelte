@@ -1,12 +1,14 @@
 <script lang="ts">
-	import type {Video_Item} from '$routes/video.js';
+	import type {Video} from '$lib/video.js';
 	import Duration from '$routes/Duration.svelte';
 
 	interface Props {
-		video: Video_Item;
+		video: Video;
 	}
 
 	const {video}: Props = $props();
+
+	// TODO @many probably extract, maybe to `fuz_video`
 </script>
 
 <div class="panel p_md mb_lg">
