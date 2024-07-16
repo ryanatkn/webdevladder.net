@@ -44,4 +44,14 @@ export const webdevladder_vods_videos: Video_Item[] = [
 		url: 'https://www.youtube.com/watch?v=V4Fg3-B6Su8',
 		duration: 2784000,
 	},
+	{
+		title: 'Adding features to my blog software for SvelteKit developers',
+		url: 'https://www.youtube.com/watch?v=YWxT8WZLWgM',
+		duration: 9146000,
+	},
+	{
+		title: 'Programming automatic Mastodon comments into my SvelteKit blog library',
+		url: 'https://www.youtube.com/watch?v=j1qTO5xolC4',
+		duration: 3931000,
+	},
 ];

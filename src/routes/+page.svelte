@@ -61,6 +61,9 @@
 			<Videos />
 		</div>
 	</section>
+	<section>
+		<a class="chip mb_md size_xl" href="{base}/tools">tools</a>
+	</section>
 	<section class="mb_xl7">
 		<Library_Footer {pkg}>
 			{#snippet logo_header()}
