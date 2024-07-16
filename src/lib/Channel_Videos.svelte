@@ -20,8 +20,8 @@
 <section class="channel_videos">
 	<!-- TODO format these logos, responsive design -->
 	<header class="mb_xl7">
-		<div class="logo_wrapper"><Logo name={channel.name} size="var(--icon_size_xl)" /></div>
-		<div class="logo_label">
+		<div class="header_icon"><Logo name={channel.name} size="var(--icon_size_xl)" /></div>
+		<div class="header_content">
 			<h3>
 				<a href={channel.url}>@{channel.name}</a>
 			</h3>
@@ -35,8 +35,8 @@
 		<section>
 			<!-- TODO format these logos, responsive design -->
 			<header class="mb_lg">
-				<div class="logo_wrapper"><Logo name={playlist.name} /></div>
-				<div class="logo_label">
+				<div class="header_icon"><Logo name={playlist.name} /></div>
+				<div class="header_content">
 					<h4>
 						<a href={playlist.url}>{playlist.name}</a>
 					</h4>
@@ -82,15 +82,11 @@
 	blockquote {
 		margin-top: var(--space_md);
 	}
-	.logo_wrapper {
+	.header_icon {
 		margin-right: var(--space_lg);
 	}
-	.logo_label {
+	.header_content {
 		flex: 1;
 		max-width: 100%;
 	}
-	/* @media max-width(600px) {
-		header {
-		}
-	} */
 </style>
