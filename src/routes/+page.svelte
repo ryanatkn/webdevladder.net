@@ -24,7 +24,7 @@
 		</header>
 	</section>
 	<section class="panel p_md shadow_outset_xs w_100">
-		<div class="panel shadow_inset_xs bg px_xl3 py_xl">
+		<div class="panel shadow_inset_xs bg p_xl">
 			<h2 class="mt_md">welcome</h2>
 			<p>
 				Webdevladder is a blog and collection of YouTube channels for <a
@@ -58,7 +58,7 @@
 		<Card href="{base}/blog" icon="🖊️">blog</Card>
 	</section>
 	<section class="panel p_md shadow_outset_xs w_100">
-		<div class="panel shadow_inset_xs bg px_xl3 py_xl">
+		<div class="panel shadow_inset_xs bg p_xl">
 			<Videos {channels} />
 		</div>
 	</section>
