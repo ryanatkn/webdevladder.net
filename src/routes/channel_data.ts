@@ -81,8 +81,20 @@ const webdevladder_vods_videos: Video[] = [
 		title: 'CSS framework programming - adding two new colors to Moss',
 		url: 'https://www.youtube.com/watch?v=w91nWStWyaw',
 		duration: 4050000,
-		playlists: ['moss'],
+		playlists: ['Moss'],
 	},
+	{
+		title: 'Raw CSS programming - better button color variants in my CSS framework',
+		url: 'https://www.youtube.com/watch?v=eYZVB8LdTV8',
+		duration: 4827000,
+		playlists: ['Moss'],
+	},
+	// {
+	// 	title: '',
+	// 	url: '',
+	// 	duration: ,
+	// 	playlists: [''],
+	// },
 ];
 
 export const webdevladder_channel: Channel = {
@@ -106,7 +118,7 @@ export const webdevladder_vods_channel: Channel = {
 			summary: "coding my channel's website",
 		},
 		{
-			name: 'moss',
+			name: 'Moss',
 			url: 'https://www.youtube.com/playlist?list=PLio_5jgyVNVnMuJCJ6g6A9nSfS6xUfaWR',
 			summary: 'CSS framework programming',
 		},
