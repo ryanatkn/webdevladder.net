@@ -71,6 +71,18 @@ const webdevladder_vods_videos: Video[] = [
 		duration: 8619000,
 		playlists: ['webdevladder.net'],
 	},
+	{
+		title: 'My open source ear trainer Earbetter is a free tool for aural skills',
+		url: 'https://www.youtube.com/watch?v=zW2zI1A_Ikw',
+		duration: 188000,
+		playlists: ['Earbetter'],
+	},
+	{
+		title: 'CSS framework programming - adding two new colors to Moss',
+		url: 'https://www.youtube.com/watch?v=w91nWStWyaw',
+		duration: 4050000,
+		playlists: ['moss'],
+	},
 ];
 
 export const webdevladder_channel: Channel = {
@@ -92,6 +104,11 @@ export const webdevladder_vods_channel: Channel = {
 			name: 'webdevladder.net',
 			url: 'https://www.youtube.com/playlist?list=PLio_5jgyVNVlYerzp8npCg8mUs2zKEavS',
 			summary: "coding my channel's website",
+		},
+		{
+			name: 'moss',
+			url: 'https://www.youtube.com/playlist?list=PLio_5jgyVNVnMuJCJ6g6A9nSfS6xUfaWR',
+			summary: 'CSS framework programming',
 		},
 		{
 			name: 'fuz_blog',

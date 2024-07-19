@@ -1,6 +1,7 @@
 <script lang="ts">
 	import Webdevladder_Logo from '@ryanatkn/fuz/Webdevladder_Logo.svelte';
 	import Fuz_Logo from '@ryanatkn/fuz/Fuz_Logo.svelte';
+	import Moss_Logo from '@ryanatkn/fuz/Moss_Logo.svelte';
 	import Earbetter_Logo from '@ryanatkn/fuz/Earbetter_Logo.svelte';
 	import type {Channel_Name, Playlist_Name} from '$lib/channel.js';
 
@@ -18,6 +19,8 @@
 	<Webdevladder_Logo {size} />
 {:else if name === 'webdevladder_vods'}
 	<Webdevladder_Logo {size} fill="#6a3e1b" />
+{:else if name === 'moss'}
+	<Moss_Logo {size} />
 {:else if name === 'fuz'}
 	<Fuz_Logo {size} />
 {:else if name === 'fuz_blog'}
