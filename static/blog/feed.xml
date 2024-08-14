@@ -7,7 +7,7 @@
   <subtitle>blog of a web developer building free and open source tools and toys</subtitle>
   <link href="https://www.webdevladder.net/" />
   <link href="https://www.webdevladder.net/blog/feed.xml" rel="self" type="application/atom+xml" />
-	<updated>2024-07-10T23:06:38.928Z</updated>
+	<updated>2024-08-14T18:10:26.092Z</updated>
   <icon>https://www.webdevladder.net/favicon.png</icon>
   <author>
     <name>Ryan Atkinson</name>
@@ -15,6 +15,16 @@
     <uri>https://www.ryanatkn.com/</uri>
   </author>
   
+  <entry>
+    <id>https://www.webdevladder.net/blog/2</id>
+    <title>Introducing webdevladder</title>
+    <link rel="alternate" href="https://www.webdevladder.net/blog/introducing-webdevladder" />
+    <published>2024-08-14T18:10:26.092Z</published>
+    <updated>2024-08-14T18:10:26.092Z</updated>
+    <summary>todo</summary>
+    <category term="todo" />
+  </entry>
+
   <entry>
     <id>https://www.webdevladder.net/blog/1</id>
     <title>Hello webdevladder blog</title>
