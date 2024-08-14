@@ -18,7 +18,6 @@
 
 <Blog_Post {post}>
 	<section>
-		<h1>Introducing webdevladder</h1>
 		<!-- <aside>
 			Prefer to watch? This blog post is also a <a href="https://youtube.com/VIDEO">video</a>.
 		</aside> -->
