@@ -2,10 +2,10 @@ import{f as P,c as t,s as e,a as Y,t as A,W as o,r as a}from"../chunks/disclose-
 			me as I make open source software. I've been a professional web developer since 2011, and
 			since 2019 I've been working in public full-time, publishing most of my code to <a href="https://github.com/ryanatkn">GitHub</a> as I write it.</p> <p>The open web is humanity's shared, decentralized platform. I love the web for its wide reach
 			and gatekeeper optionality. For all its flaws, the web allows us to reach more people with
-			less friction. My goal is to work in this space on the things I find meaningful. I've been
-			lucky to have the resources to work independently for the past 5 years as I pursue a career in
-			open source. Over the next few years I hope to continue making software that people value
-			enough to sustain its development.</p> <p>With webdevladder, I'm producing videos and blog posts about the technology I use in my work,
+			less friction than any other platform. My goal is to work in this space on the things I find
+			meaningful. I've been lucky to have the resources to work independently for the past 5 years
+			as I pursue a career in open source. Over the next few years I hope to continue making
+			software that people value enough to sustain its development.</p> <p>With webdevladder, I'm producing videos and blog posts about the technology I use in my work,
 			with an emphasis on <a href="https://svelte.dev/">Svelte</a> and <a href="https://www.typescriptlang.org/">TypeScript</a>. My projects span the whole stack,
 			from a CSS framework to a Svelte UI library to a fullstack social app framework. I also make
 			websites that use the stack and tools to streamline the process. The social app framework is
