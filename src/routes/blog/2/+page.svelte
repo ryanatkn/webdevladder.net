@@ -31,10 +31,10 @@
 		<p>
 			The open web is humanity's shared, decentralized platform. I love the web for its wide reach
 			and gatekeeper optionality. For all its flaws, the web allows us to reach more people with
-			less friction. My goal is to work in this space on the things I find meaningful. I've been
-			lucky to have the resources to work independently for the past 5 years as I pursue a career in
-			open source. Over the next few years I hope to continue making software that people value
-			enough to sustain its development.
+			less friction than any other platform. My goal is to work in this space on the things I find
+			meaningful. I've been lucky to have the resources to work independently for the past 5 years
+			as I pursue a career in open source. Over the next few years I hope to continue making
+			software that people value enough to sustain its development.
 		</p>
 		<p>
 			With webdevladder, I'm producing videos and blog posts about the technology I use in my work,
