@@ -31,7 +31,7 @@
 	// TODO redirect from the numbers or render UI to navigate to it, maybe in `Blog_Post`
 </script>
 
-<div class="breadcrumbs">
+<div class="breadcrumbs mt_xl3">
 	<Breadcrumb><Webdevladder_Logo size="var(--icon_size_sm)" /></Breadcrumb>
 </div>
 <div class="wrapper">
