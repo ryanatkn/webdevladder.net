@@ -37,7 +37,7 @@
 <div class="wrapper">
 	{@render children()}
 </div>
-<div class="breadcrumbs mb_xl9">
+<div class="breadcrumbs">
 	<Breadcrumb><Webdevladder_Logo size="var(--icon_size_sm)" /></Breadcrumb>
 </div>
 
@@ -58,7 +58,8 @@
 		padding: var(--space_xl2);
 	}
 	.breadcrumbs {
-		margin-top: var(--space_xl3);
+		margin-top: var(--space_xl7);
+		margin-bottom: var(--space_xl9);
 		display: flex;
 		flex-direction: column;
 		align-items: center;
