@@ -24,6 +24,18 @@ export const feed: Blog_Feed = {
 			tags: ['webdev', 'svelte', 'typescript', 'sveltekit', 'vite'],
 			comments: {url: 'https://mastodon.social/@webdevladder/112764548975084845', type: 'mastodon'},
 		},
+		{
+			id: 'https://www.webdevladder.net/blog/2',
+			url: 'https://www.webdevladder.net/blog/introducing-webdevladder',
+			blog_post_id: 2,
+			title: 'Introducing webdevladder',
+			slug: 'introducing-webdevladder',
+			date_published: '2024-08-14T18:10:26.092Z',
+			date_modified: '2024-08-14T18:10:26.092Z',
+			summary:
+				'I describe the purpose of my YouTube channel and blog, webdevladder, and my plans for the future',
+			tags: ['webdevladder'],
+		},
 	],
 };
 
