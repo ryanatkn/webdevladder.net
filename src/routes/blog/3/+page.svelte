@@ -249,7 +249,7 @@ $lastname = 'Turing'; // logs "Alan Turing"
 		<aside>
 			I think I'm mis-using the term glitch here. (please send feedback with better terminology) The
 			problem remains the same - without the implicit synchronous transactions that Svelte 5's
-			signals implementation gives us, updating values is error-prone.
+			signals implementation gives us, updating values can be error-prone and wasteful.
 		</aside>
 		<p>
 			One important detail here is that signals do allow reading intermediate values. If you read <code
