@@ -247,9 +247,9 @@ $lastname = 'Turing'; // logs "Alan Turing"
 			/>. Svelte 5 and the proposed standard are glitch-free.
 		</p>
 		<aside>
-			It's possible I'm mis-using the term glitch here. (please send feedback with better
-			terminology) The problem remains the same - without the implicit synchronous transactions that
-			Svelte 5's signals implementation gives us, updating values is error-prone.
+			I think I'm mis-using the term glitch here. (please send feedback with better terminology) The
+			problem remains the same - without the implicit synchronous transactions that Svelte 5's
+			signals implementation gives us, updating values is error-prone.
 		</aside>
 		<p>
 			One important detail here is that signals do allow reading intermediate values. If you read <code
@@ -422,9 +422,12 @@ $lastname = 'Turing'; // logs "Alan Turing"
 		<h2>Footnotes</h2>
 		<Footnote_Content number={1}>
 			<p>
-				Not all signals implementations are glitch-free, as I understand the term. For example <a
-					href="https://www.youtube.com/watch?v=IsJtmbvW2SI">my first video</a
-				>
+				Not all signals implementations are glitch-free, as I understand the term. (in hindsight I
+				think I'm misinterpreting the <a
+					href="https://wikipedia.org/wiki/Reactive_programming#Glitches"
+					>Wikipedia glitch description</a
+				>, confusing glitches with something related to transactions) For example
+				<a href="https://www.youtube.com/watch?v=IsJtmbvW2SI">my first video</a>
 				describes glitchy values that are possible in the store-compatible
 				<a href="https://github.com/preactjs/signals">Preact Signals</a>
 				library (starting at
