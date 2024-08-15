@@ -12,11 +12,11 @@
 		<link href="/_app/immutable/assets/Webdevladder_Logo.CtNwUba2.css" rel="stylesheet">
 		<link href="/_app/immutable/assets/Blog_Post.DRBj5fj3.css" rel="stylesheet">
 		<link href="/_app/immutable/assets/Code.6MsqTNE4.css" rel="stylesheet">
-		<link rel="modulepreload" href="/_app/immutable/entry/start.cDKu33Fs.js">
-		<link rel="modulepreload" href="/_app/immutable/chunks/entry.mK7r-n-F.js">
+		<link rel="modulepreload" href="/_app/immutable/entry/start.Djt-bkmI.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/entry.BLCHW2eg.js">
 		<link rel="modulepreload" href="/_app/immutable/chunks/runtime.DaMnY2TH.js">
-		<link rel="modulepreload" href="/_app/immutable/chunks/paths.CmN3zFzV.js">
-		<link rel="modulepreload" href="/_app/immutable/entry/app.BBGb4BCf.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/paths.BKl48M9v.js">
+		<link rel="modulepreload" href="/_app/immutable/entry/app.CcJ-pjmN.js">
 		<link rel="modulepreload" href="/_app/immutable/chunks/render.Cfeg4UTt.js">
 		<link rel="modulepreload" href="/_app/immutable/chunks/disclose-version.BYBXgRTm.js">
 		<link rel="modulepreload" href="/_app/immutable/chunks/if.BWrb9-uY.js">
@@ -27,14 +27,14 @@
 		<link rel="modulepreload" href="/_app/immutable/chunks/attributes.D3tYDR4N.js">
 		<link rel="modulepreload" href="/_app/immutable/chunks/html.BF6w9W7Z.js">
 		<link rel="modulepreload" href="/_app/immutable/chunks/blog.BiWGpsRr.js">
-		<link rel="modulepreload" href="/_app/immutable/nodes/2.ByZwE1zh.js">
-		<link rel="modulepreload" href="/_app/immutable/chunks/Breadcrumb.D_Nx8Gc7.js">
+		<link rel="modulepreload" href="/_app/immutable/nodes/2.ZtyCyYtA.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/Breadcrumb.9uiIe0HB.js">
 		<link rel="modulepreload" href="/_app/immutable/chunks/each.DkJDPH3D.js">
 		<link rel="modulepreload" href="/_app/immutable/chunks/style.CvgM4cLM.js">
-		<link rel="modulepreload" href="/_app/immutable/chunks/stores.DSUMgjlz.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/stores.B5IqvEyq.js">
 		<link rel="modulepreload" href="/_app/immutable/chunks/Webdevladder_Logo.BTJ2jOPO.js">
-		<link rel="modulepreload" href="/_app/immutable/nodes/11.D4maL0D5.js">
-		<link rel="modulepreload" href="/_app/immutable/nodes/8.crdfQOyS.js">
+		<link rel="modulepreload" href="/_app/immutable/nodes/11.NXpIWkrs.js">
+		<link rel="modulepreload" href="/_app/immutable/nodes/8.pLe5Ld_Q.js">
 		<link rel="modulepreload" href="/_app/immutable/chunks/Blog_Post.DIsqY5Xn.js">
 		<link rel="modulepreload" href="/_app/immutable/chunks/index.BqZq1FS5.js">
 		<link rel="modulepreload" href="/_app/immutable/chunks/input.ClIx--46.js">
@@ -117,7 +117,9 @@ lastname  <span class="token operator">=</span> <span class="token string">'Turi
 fullname  <span class="token operator">=</span> firstname <span class="token operator">+</span> <span class="token string">' '</span> <span class="token operator">+</span> lastname
 firstname <span class="token operator">=</span> <span class="token string">'Barbara'</span> <span class="token comment">// does code see 'Barbara Turing' here? if so it's a glitch</span>
 lastname  <span class="token operator">=</span> <span class="token string">'Liskov'</span>
-<!----><!--]--><!--]--></code></pre><!----> <p>Glitches can be a source of:</p> <ul><li>bugs: what happens if you make an API call with a nonsense value? or will your frontend code
+<!----><!--]--><!--]--></code></pre><!----> <aside>It's possible I'm mis-using the term glitch here. (please send feedback with better
+			terminology) The problem remains the same - without the implicit synchronous transactions that
+			Svelte 5's signals implementation gives us, updating values is error-prone.</aside> <p>Glitches can be a source of:</p> <ul><li>bugs: what happens if you make an API call with a nonsense value? or will your frontend code
 				error when encountering them? who knows! I hope your tests are thorough</li> <li>complexity: your code may have to deal with strange values that needn't exist</li> <li>waste: glitchy calculations are by definition immediately invalidated, so they're pure waste
 				- this can affect the UX with many updates or expensive calculations</li></ul> <p>Derived stores have glitches:</p> <pre class="svelte-1a6bj2n"><code class="svelte-1a6bj2n"><!--[!--><!--[--><!----><span class="token keyword">const</span> firstname <span class="token operator">=</span> <span class="token function">writable</span><span class="token punctuation">(</span><span class="token string">'Barbara'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
 <span class="token keyword">const</span> lastname <span class="token operator">=</span> <span class="token function">writable</span><span class="token punctuation">(</span><span class="token string">'Liskov'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
@@ -182,7 +184,7 @@ $lastname <span class="token operator">=</span> <span class="token string">'Turi
 			
 			<script>
 				{
-					__sveltekit_xjx8fp = {
+					__sveltekit_10ev9ee = {
 						base: ""
 					};
 
@@ -191,8 +193,8 @@ $lastname <span class="token operator">=</span> <span class="token string">'Turi
 					const data = [null,null,null];
 
 					Promise.all([
-						import("/_app/immutable/entry/start.cDKu33Fs.js"),
-						import("/_app/immutable/entry/app.BBGb4BCf.js")
+						import("/_app/immutable/entry/start.Djt-bkmI.js"),
+						import("/_app/immutable/entry/app.CcJ-pjmN.js")
 					]).then(([kit, app]) => {
 						kit.start(app, element, {
 							node_ids: [0, 2, 11],
