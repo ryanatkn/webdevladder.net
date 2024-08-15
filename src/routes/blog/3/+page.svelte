@@ -18,6 +18,7 @@
 
 <script lang="ts">
 	import Blog_Post from '@ryanatkn/fuz_blog/Blog_Post.svelte';
+	import 'prismjs';
 	import Code from '@ryanatkn/fuz_code/Code.svelte';
 	import Details from '@ryanatkn/fuz/Details.svelte';
 
@@ -219,6 +220,27 @@ lastname  = 'Liskov'
 				- this can affect the UX with many updates or expensive calculations
 			</li>
 		</ul>
+		<p>Derived stores have glitches:</p>
+		<Code
+			lang="ts"
+			content={`let firstname = writable('Barbara');
+let lastname = writable('Liskov');
+const fullname = derived([firstname, lastname], ([$firstname, $lastname]) => {
+	const $fullname = $firstname + ' ' + $lastname;
+	console.log('derived fullname', $fullname);
+	return $fullname;
+});
+$fullname; // logs "Barbara Liskov"
+$firstname = 'Alan'; // glitch - logs "Alan Liskov"
+$lastname = 'Turing'; // logs "Alan Turing"
+`}
+		/>
+		<p>
+			<a
+				href="https://svelte-5-preview.vercel.app/#H4sIAAAAAAAACm2RS2-DMBCE_8pqFclEoeVOHlJ67rE3yMEBQ60aG60NVYX475XBPCr16Nn5ZlfjASuphMU0G1DzRmCK97bFGN1P6x-2F8oJjNGajgqvXGxBsnW3XOdONq0hB8M3ScefSsRQCpK9KEeoyDTAZjyxzpBg51x7SAkHlSTr_D64wgJH7I3TkxNnx_PiU_wf27u0X6YPrsJo66DqlAq-cEGUrTviNeYRQ5QddoPDOjnC9QaDT1wyD7vQjYETMGBw2tDzBhklXpWpIxaOWO9KZ2R5HgNDwnWkN32Sx3m6iZAkoExtIcfQEMwV5Dgbd2Wyu-KaTUitpCs-4WVh_eQvuGuXfXQkdc32yyZg1j1wScLPY4yNKWUlRYmpo06Mj_EXp61TVkgCAAA="
+				>REPL</a
+			>
+		</p>
 		<p>
 			Signals are one reactivity system that can avoid glitches, depending on the implementation<Footnote
 				number={1}
