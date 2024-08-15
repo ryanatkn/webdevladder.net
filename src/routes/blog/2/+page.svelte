@@ -9,6 +9,10 @@
 		summary:
 			'I describe the purpose of my YouTube channel and blog, webdevladder, and my plans for the future',
 		tags: ['webdevladder'],
+		comments: {
+			type: 'mastodon',
+			url: 'https://mastodon.social/@webdevladder/112963856513901706',
+		},
 	} satisfies Blog_Post_Data;
 </script>
 

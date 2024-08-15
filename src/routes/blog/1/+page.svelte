@@ -10,8 +10,8 @@
 		summary: "creating webdevladder's blog",
 		tags: ['webdev', 'svelte', 'typescript', 'sveltekit', 'vite'],
 		comments: {
-			url: 'https://mastodon.social/@webdevladder/112764548975084845',
 			type: 'mastodon',
+			url: 'https://mastodon.social/@webdevladder/112764548975084845',
 		},
 	} satisfies Blog_Post_Data;
 </script>
