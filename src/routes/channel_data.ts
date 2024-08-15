@@ -3,6 +3,18 @@ import type {Video} from '$lib/video.js';
 
 const webdevladder_videos: Video[] = [
 	{
+		title: 'Introducing webdevladder',
+		url: 'https://www.youtube.com/watch?v=FHJnRybXZNw',
+		duration: 493000,
+		playlists: [],
+	},
+	{
+		title: 'Svelte 5 signals fix its glitchy and inconsistent reactivity',
+		url: 'https://www.youtube.com/watch?v=lcnimZTNOCA',
+		duration: 918000,
+		playlists: [],
+	},
+	{
 		title: 'How Svelte runes syntax is better than plain JavaScript with signals',
 		url: 'https://www.youtube.com/watch?v=IsJtmbvW2SI',
 		duration: 1389000,
