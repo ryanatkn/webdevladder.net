@@ -208,11 +208,6 @@ lastname  = 'Liskov'
 `}
 			lang="ts"
 		/>
-		<aside>
-			It's possible I'm mis-using the term glitch here. (please send feedback with better
-			terminology) The problem remains the same - without the implicit synchronous transactions that
-			Svelte 5's signals implementation gives us, updating values is error-prone.
-		</aside>
 		<p>Glitches can be a source of:</p>
 		<ul>
 			<li>
@@ -251,6 +246,11 @@ $lastname = 'Turing'; // logs "Alan Turing"
 				number={1}
 			/>. Svelte 5 and the proposed standard are glitch-free.
 		</p>
+		<aside>
+			It's possible I'm mis-using the term glitch here. (please send feedback with better
+			terminology) The problem remains the same - without the implicit synchronous transactions that
+			Svelte 5's signals implementation gives us, updating values is error-prone.
+		</aside>
 		<p>
 			One important detail here is that signals do allow reading intermediate values. If you read <code
 				>fullname</code
