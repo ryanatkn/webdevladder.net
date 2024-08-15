@@ -208,6 +208,11 @@ lastname  = 'Liskov'
 `}
 			lang="ts"
 		/>
+		<aside>
+			It's possible I'm mis-using the term glitch here. (please send feedback with better
+			terminology) The problem remains the same - without the implicit synchronous transactions that
+			Svelte 5's signals implementation gives us, updating values is error-prone.
+		</aside>
 		<p>Glitches can be a source of:</p>
 		<ul>
 			<li>
