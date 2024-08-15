@@ -22,9 +22,11 @@
 
 <Blog_Post {post}>
 	<section>
-		<!-- <aside>
-			Prefer to watch? This blog post is also a <a href="https://youtube.com/VIDEO">video</a>.
-		</aside> -->
+		<aside>
+			Prefer to watch? This blog post is also a <a
+				href="https://www.youtube.com/watch?v=FHJnRybXZNw">video</a
+			>.
+		</aside>
 		<p>
 			Webdevladder is a <a href="https://youtube.com/@webdevladder">YouTube channel</a> and
 			<a href="https://www.webdevladder.net/blog">blog</a> about the technical topics that interest
