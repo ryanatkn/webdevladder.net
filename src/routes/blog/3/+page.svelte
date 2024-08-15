@@ -354,6 +354,13 @@ lastname  = 'Liskov'
 				>these issues</a
 			>.
 		</p>
+		<aside>
+			I still consider Svelte 5 easy, but I view its design as trading away some ease for
+			simplicity. For example the character count has increased a bit in components, but it's much
+			more explicit and predictable. I'm borrowing the simple/easy dichotomy from <a
+				href="https://www.youtube.com/watch?v=SxdOUGdseq4">Rich Hickey</a
+			>.
+		</aside>
 		<p>
 			Svelte 3 has two different reactive systems - component-local reactivity (including reactive
 			statements) and stores (including derived) - each with its own problems, and where the former
