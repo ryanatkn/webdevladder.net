@@ -223,8 +223,8 @@ lastname  = 'Liskov'
 		<p>Derived stores have glitches:</p>
 		<Code
 			lang="ts"
-			content={`let firstname = writable('Barbara');
-let lastname = writable('Liskov');
+			content={`const firstname = writable('Barbara');
+const lastname = writable('Liskov');
 const fullname = derived([firstname, lastname], ([$firstname, $lastname]) => {
 	const $fullname = $firstname + ' ' + $lastname;
 	console.log('derived fullname', $fullname);
@@ -237,7 +237,7 @@ $lastname = 'Turing'; // logs "Alan Turing"
 		/>
 		<p>
 			<a
-				href="https://svelte-5-preview.vercel.app/#H4sIAAAAAAAACm2RS2-DMBCE_8pqFclEoeVOHlJ67rE3yMEBQ60aG60NVYX475XBPCr16Nn5ZlfjASuphMU0G1DzRmCK97bFGN1P6x-2F8oJjNGajgqvXGxBsnW3XOdONq0hB8M3ScefSsRQCpK9KEeoyDTAZjyxzpBg51x7SAkHlSTr_D64wgJH7I3TkxNnx_PiU_wf27u0X6YPrsJo66DqlAq-cEGUrTviNeYRQ5QddoPDOjnC9QaDT1wyD7vQjYETMGBw2tDzBhklXpWpIxaOWO9KZ2R5HgNDwnWkN32Sx3m6iZAkoExtIcfQEMwV5Dgbd2Wyu-KaTUitpCs-4WVh_eQvuGuXfXQkdc32yyZg1j1wScLPY4yNKWUlRYmpo06Mj_EXp61TVkgCAAA="
+				href="https://svelte-5-preview.vercel.app/#H4sIAAAAAAAACm2RS2-DMBCE_8pqFclEccudPKT03GNvkIMDhloxNlobqgrx3yuHZ6QePTvf7GrcY6m0dJikPRpRS0zw2jTI0f824eE6qb1Ejs62lAfl5HJSjb9kJvOqbix56H9IeXHXkkMhSXWyGKAkWwMb8dh5S5IdMxOg3BrnoVTkfNgIZ5jxiH0IugsSbH9cnVr8Y_xU7mG7F1_Zaj35piuidNnCl5gbhyjdbQa7ZbKH8wX6kDhn7jahKwMHYMDgsKLHFbJavmtbRWw6YrkrGZH5uZ8Ykr4ls-pPeRinqwhxDNpWDjKcOoKxggxH46ZOdtXCsCdSaeXzb3ib2TB5BTftsq-WlKnYdtkTGPUAnOLp95FjbQtVKllg4qmVw234A3D_DmNMAgAA"
 				>REPL</a
 			>
 		</p>
