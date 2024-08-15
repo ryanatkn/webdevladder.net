@@ -31,7 +31,7 @@
 <Blog_Post {post}>
 	<section>
 		<aside>
-			This blog post is also <a href="https://www.youtube.com/watch?v=lcnimZTNOCA">a video</a>.
+			This blog post is also a <a href="https://www.youtube.com/watch?v=lcnimZTNOCA">video</a>.
 		</aside>
 		<p>
 			<a href="https://svelte.dev/">Svelte</a> is a frontend JS framework that's known in part for
@@ -47,12 +47,13 @@
 				>well-liked</a
 			>
 			by its users. But 5 years later, Svelte 5 is again rethinking its reactivity, this time with
-			<a href="https://svelte.dev/blog/runes">runes-based signals</a> - why? I thought we loved it?
+			<a href="https://svelte.dev/blog/runes">signals and runes syntax</a> - why? I thought we loved
+			it?
 		</p>
 		<p>
 			To many, Svelte 3 was a fresh and attractive answer to the hard problem of building reactive
 			UIs. It chose plain HTML as its starting point, and added some of the simplest possible syntax
-			to make it reactive. Few frameworks look better in trivial examples:
+			to make its semantics reactive. Few frameworks look better in trivial examples:
 		</p>
 		<!-- eslint-disable-next-line no-useless-concat -->
 		<Code
