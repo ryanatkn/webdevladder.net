@@ -12,11 +12,11 @@
 		<link href="/_app/immutable/assets/Webdevladder_Logo.CtNwUba2.css" rel="stylesheet">
 		<link href="/_app/immutable/assets/Blog_Post.DRBj5fj3.css" rel="stylesheet">
 		<link href="/_app/immutable/assets/Code.6MsqTNE4.css" rel="stylesheet">
-		<link rel="modulepreload" href="/_app/immutable/entry/start.BpQ1tr5_.js">
-		<link rel="modulepreload" href="/_app/immutable/chunks/entry.yjElktzY.js">
+		<link rel="modulepreload" href="/_app/immutable/entry/start.Cdtn_Yij.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/entry.92vzRSx3.js">
 		<link rel="modulepreload" href="/_app/immutable/chunks/runtime.DaMnY2TH.js">
-		<link rel="modulepreload" href="/_app/immutable/chunks/paths.D_2KLeXU.js">
-		<link rel="modulepreload" href="/_app/immutable/entry/app.B5pi86Tc.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/paths.Dr9pb-Gu.js">
+		<link rel="modulepreload" href="/_app/immutable/entry/app.Bwe9Se9c.js">
 		<link rel="modulepreload" href="/_app/immutable/chunks/render.Cfeg4UTt.js">
 		<link rel="modulepreload" href="/_app/immutable/chunks/disclose-version.BYBXgRTm.js">
 		<link rel="modulepreload" href="/_app/immutable/chunks/if.BWrb9-uY.js">
@@ -27,13 +27,13 @@
 		<link rel="modulepreload" href="/_app/immutable/chunks/attributes.D3tYDR4N.js">
 		<link rel="modulepreload" href="/_app/immutable/chunks/html.BF6w9W7Z.js">
 		<link rel="modulepreload" href="/_app/immutable/chunks/blog.BiWGpsRr.js">
-		<link rel="modulepreload" href="/_app/immutable/nodes/2.DOatcmbc.js">
-		<link rel="modulepreload" href="/_app/immutable/chunks/Breadcrumb.pqb5kvDw.js">
+		<link rel="modulepreload" href="/_app/immutable/nodes/2.BB_DHtnN.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/Breadcrumb.D_3eDxgZ.js">
 		<link rel="modulepreload" href="/_app/immutable/chunks/each.DkJDPH3D.js">
 		<link rel="modulepreload" href="/_app/immutable/chunks/style.CvgM4cLM.js">
-		<link rel="modulepreload" href="/_app/immutable/chunks/stores.CrYdY9we.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/stores.D2FdMAG2.js">
 		<link rel="modulepreload" href="/_app/immutable/chunks/Webdevladder_Logo.BTJ2jOPO.js">
-		<link rel="modulepreload" href="/_app/immutable/nodes/8.Cckuq6sW.js">
+		<link rel="modulepreload" href="/_app/immutable/nodes/8.D59lvS83.js">
 		<link rel="modulepreload" href="/_app/immutable/chunks/Blog_Post.DIsqY5Xn.js">
 		<link rel="modulepreload" href="/_app/immutable/chunks/index.BqZq1FS5.js">
 		<link rel="modulepreload" href="/_app/immutable/chunks/input.ClIx--46.js">
@@ -128,9 +128,9 @@ lastname  <span class="token operator">=</span> <span class="token string">'Lisk
 $fullname<span class="token punctuation">;</span> <span class="token comment">// logs "Barbara Liskov"</span>
 $firstname <span class="token operator">=</span> <span class="token string">'Alan'</span><span class="token punctuation">;</span> <span class="token comment">// glitch - logs "Alan Liskov"</span>
 $lastname <span class="token operator">=</span> <span class="token string">'Turing'</span><span class="token punctuation">;</span> <span class="token comment">// logs "Alan Turing"</span>
-<!----><!--]--><!--]--></code></pre><!----> <p><a href="https://svelte-5-preview.vercel.app/#H4sIAAAAAAAACm2RS2-DMBCE_8pqFclEccudPKT03GNvkIMDhloxNlobqgrx3yuHZ6QePTvf7GrcY6m0dJikPRpRS0zw2jTI0f824eE6qb1Ejs62lAfl5HJSjb9kJvOqbix56H9IeXHXkkMhSXWyGKAkWwMb8dh5S5IdMxOg3BrnoVTkfNgIZ5jxiH0IugsSbH9cnVr8Y_xU7mG7F1_Zaj35piuidNnCl5gbhyjdbQa7ZbKH8wX6kDhn7jahKwMHYMDgsKLHFbJavmtbRWw6YrkrGZH5uZ8Ykr4ls-pPeRinqwhxDNpWDjKcOoKxggxH46ZOdtXCsCdSaeXzb3ib2TB5BTftsq-WlKnYdtkTGPUAnOLp95FjbQtVKllg4qmVw234A3D_DmNMAgAA">REPL</a></p> <p>Signals are one reactivity system that can avoid glitches, depending on the implementation<sup class="font_mono"><a id="footnote_link_1" href="#footnote_1">[1]</a></sup><!---->. Svelte 5 and the proposed standard are glitch-free.</p> <aside>It's possible I'm mis-using the term glitch here. (please send feedback with better
-			terminology) The problem remains the same - without the implicit synchronous transactions that
-			Svelte 5's signals implementation gives us, updating values is error-prone.</aside> <p>One important detail here is that signals do allow reading intermediate values. If you read <code>fullname</code> in between the two updates, you will indeed see the same value as the glitch. This makes sense,
+<!----><!--]--><!--]--></code></pre><!----> <p><a href="https://svelte-5-preview.vercel.app/#H4sIAAAAAAAACm2RS2-DMBCE_8pqFclEccudPKT03GNvkIMDhloxNlobqgrx3yuHZ6QePTvf7GrcY6m0dJikPRpRS0zw2jTI0f824eE6qb1Ejs62lAfl5HJSjb9kJvOqbix56H9IeXHXkkMhSXWyGKAkWwMb8dh5S5IdMxOg3BrnoVTkfNgIZ5jxiH0IugsSbH9cnVr8Y_xU7mG7F1_Zaj35piuidNnCl5gbhyjdbQa7ZbKH8wX6kDhn7jahKwMHYMDgsKLHFbJavmtbRWw6YrkrGZH5uZ8Ykr4ls-pPeRinqwhxDNpWDjKcOoKxggxH46ZOdtXCsCdSaeXzb3ib2TB5BTftsq-WlKnYdtkTGPUAnOLp95FjbQtVKllg4qmVw234A3D_DmNMAgAA">REPL</a></p> <p>Signals are one reactivity system that can avoid glitches, depending on the implementation<sup class="font_mono"><a id="footnote_link_1" href="#footnote_1">[1]</a></sup><!---->. Svelte 5 and the proposed standard are glitch-free.</p> <aside>I think I'm mis-using the term glitch here. (please send feedback with better terminology) The
+			problem remains the same - without the implicit synchronous transactions that Svelte 5's
+			signals implementation gives us, updating values is error-prone.</aside> <p>One important detail here is that signals do allow reading intermediate values. If you read <code>fullname</code> in between the two updates, you will indeed see the same value as the glitch. This makes sense,
 			because it means it's consistent as described above with reactive statements. The key point is
 			that unlike derived stores, signals do not see or calculate intermediate values by default - they
 			can but it's under your control. Explicitly pulling an intermediate value is not a glitch.</p> <p>Also, reactive statements are incapable of observing intermediate values, a limitation that
@@ -172,7 +172,8 @@ $lastname <span class="token operator">=</span> <span class="token string">'Turi
 			with the pre-release of Svelte 5, I can confidently say the relief it brings is significant.
 			My code is easier to read and write, runes guide me to better decision making, and its
 			performance characteristics are pushing the state of the art. I'm looking forward to many more
-			years of using Svelte with solid productivity and good vibes.</p></section> <section><h2>Footnotes</h2> <div class="mb_xl5" id="footnote_1"><span class="font_mono float_left mr_sm"><a href="#footnote_link_1">[1]</a></span> <p>Not all signals implementations are glitch-free, as I understand the term. For example <a href="https://www.youtube.com/watch?v=IsJtmbvW2SI">my first video</a> describes glitchy values that are possible in the store-compatible <a href="https://github.com/preactjs/signals">Preact Signals</a> library (starting at <a href="https://youtu.be/IsJtmbvW2SI?si=V1HVyf_IGs02ZWP-&amp;t=164">this timestamp</a>). Preact
+			years of using Svelte with solid productivity and good vibes.</p></section> <section><h2>Footnotes</h2> <div class="mb_xl5" id="footnote_1"><span class="font_mono float_left mr_sm"><a href="#footnote_link_1">[1]</a></span> <p>Not all signals implementations are glitch-free, as I understand the term. (in hindsight I
+				think I'm misinterpreting the <a href="https://wikipedia.org/wiki/Reactive_programming#Glitches">Wikipedia glitch description</a>, confusing glitches with something related to transactions) For example <a href="https://www.youtube.com/watch?v=IsJtmbvW2SI">my first video</a> describes glitchy values that are possible in the store-compatible <a href="https://github.com/preactjs/signals">Preact Signals</a> library (starting at <a href="https://youtu.be/IsJtmbvW2SI?si=V1HVyf_IGs02ZWP-&amp;t=164">this timestamp</a>). Preact
 				Signals provides <code>batch</code> to create explicit transactions that do not glitch. Svelte 5 instead batches
 				automatically, with tradeoffs like effects being deferred instead of eager. I generally prefer
 				Svelte 5's tradeoffs.</p><!----></div><!----> <div class="mb_xl5" id="footnote_2"><span class="font_mono float_left mr_sm"><a href="#footnote_link_2">[2]</a></span> <p>The deferred effects of Svelte 5's signals have good ergonomics, but like reactive
@@ -183,7 +184,7 @@ $lastname <span class="token operator">=</span> <span class="token string">'Turi
 			
 			<script>
 				{
-					__sveltekit_4yn6ds = {
+					__sveltekit_1h3h35g = {
 						base: ""
 					};
 
@@ -192,8 +193,8 @@ $lastname <span class="token operator">=</span> <span class="token string">'Turi
 					const data = [null,null,null];
 
 					Promise.all([
-						import("/_app/immutable/entry/start.BpQ1tr5_.js"),
-						import("/_app/immutable/entry/app.B5pi86Tc.js")
+						import("/_app/immutable/entry/start.Cdtn_Yij.js"),
+						import("/_app/immutable/entry/app.Bwe9Se9c.js")
 					]).then(([kit, app]) => {
 						kit.start(app, element, {
 							node_ids: [0, 2, 8],
