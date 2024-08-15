@@ -37,6 +37,18 @@ export const feed: Blog_Feed = {
 			tags: ['webdevladder'],
 			comments: {type: 'mastodon', url: 'https://mastodon.social/@webdevladder/112963856513901706'},
 		},
+		{
+			id: 'https://www.webdevladder.net/blog/3',
+			url: 'https://www.webdevladder.net/blog/svelte-5-signals-fix-its-glitchy-and-inconsistent-reactivity',
+			blog_post_id: 3,
+			title: 'Svelte 5 signals fix its glitchy and inconsistent reactivity',
+			slug: 'svelte-5-signals-fix-its-glitchy-and-inconsistent-reactivity',
+			date_published: '2024-08-15T12:53:55.522Z',
+			date_modified: '2024-08-15T12:53:55.522Z',
+			summary:
+				'Svelte 5 adopted signals to replace its old reactivity system that had some subtle but important problems',
+			tags: ['svelte', 'signals'],
+		},
 	],
 };
 
