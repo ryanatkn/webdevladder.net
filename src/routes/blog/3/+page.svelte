@@ -260,11 +260,10 @@ lastname  = 'Liskov'
 			<a href={repl_link}>This REPL</a> compares Svelte 3 reactive statements, derived stores, and Svelte
 			5 signal-based runes. These three different reactive systems have subtle but important differences.
 		</p>
-		<!-- <aside>
-			For a video walkthrough of this code, which is probably easier to follow, see <a href="VIDEO"
-				>the video</a
-			>.
-		</aside> -->
+		<aside>
+			The <a href="https://www.youtube.com/watch?v=lcnimZTNOCA">video</a> walkthrough of this code is
+			probably easier to follow.
+		</aside>
 		<p>
 			Here are the key lines of code being compared, rewritten to remove the logging noise needed
 			for the demo:
@@ -378,7 +377,6 @@ lastname  = 'Liskov'
 			performance characteristics are pushing the state of the art. I'm looking forward to many more
 			years of using Svelte with solid productivity and good vibes.
 		</p>
-		<!-- <p>If you're wanting more, this post's video elaborates.</p> -->
 	</section>
 
 	<section>
