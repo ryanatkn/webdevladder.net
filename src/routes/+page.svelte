@@ -23,8 +23,9 @@
 			<blockquote class="shadow_inset_xs px_xl">climbing together 🪜</blockquote>
 		</header>
 	</section>
-	<section class="box">
+	<section class="box gap_lg">
 		<Card href="{base}/blog" icon="🖊️">blog</Card>
+		<Card href="{base}/tools" icon="🪄" align="right">tools</Card>
 	</section>
 	<section class="panel p_md shadow_outset_xs w_100">
 		<div class="panel shadow_inset_xs bg p_xl">
@@ -61,9 +62,6 @@
 		<div class="panel shadow_inset_xs bg p_xl">
 			<Videos {channels} />
 		</div>
-	</section>
-	<section>
-		<a class="chip mb_md size_xl" href="{base}/tools">tools</a>
 	</section>
 	<section class="mb_xl7">
 		<Library_Footer {pkg}>
