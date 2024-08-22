@@ -2,12 +2,12 @@ import type {Channel} from '$lib/channel.js';
 import type {Video} from '$lib/video.js';
 
 const webdevladder_videos: Video[] = [
-	{
-		title: 'Introducing webdevladder',
-		url: 'https://www.youtube.com/watch?v=FHJnRybXZNw',
-		duration: 493000,
-		playlists: [],
-	},
+	// {
+	// 	title: 'Introducing webdevladder',
+	// 	url: 'https://www.youtube.com/watch?v=FHJnRybXZNw',
+	// 	duration: 493000,
+	// 	playlists: [],
+	// },
 	{
 		title: 'Svelte 5 signals fix its glitchy and inconsistent reactivity',
 		url: 'https://www.youtube.com/watch?v=lcnimZTNOCA',
