@@ -19,7 +19,7 @@
 	<Webdevladder_Logo {size} />
 {:else if name === 'webdevladder_vods'}
 	<Webdevladder_Logo {size} fill="#6a3e1b" />
-{:else if name === 'moss'}
+{:else if name === 'Moss'}
 	<Moss_Logo {size} />
 {:else if name === 'fuz'}
 	<Fuz_Logo {size} />
