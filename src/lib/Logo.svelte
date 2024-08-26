@@ -26,7 +26,7 @@
 {:else if name === 'fuz_blog'}
 	<Fuz_Logo fill="#b19a25" {size} />
 {:else if name === 'fuz_mastodon'}
-	<Fuz_Logo fill="#6a40bf" {size} />
+	<Fuz_Logo fill="#8866cc" {size} />
 {:else if name === 'Earbetter'}
 	<Earbetter_Logo {size} />
 {:else}
