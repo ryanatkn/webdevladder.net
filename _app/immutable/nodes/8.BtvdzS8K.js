@@ -38,9 +38,10 @@ import{a as d,t as p,f as Q}from"../chunks/disclose-version.BsnlxLp3.js";import{
 			when the code updates variables sequentially:</p> <!> <p>Glitches can be a source of:</p> <ul><li>bugs: what happens if you make an API call with a nonsense value? or will your frontend code
 				error when encountering them? who knows! I hope your tests are thorough</li> <li>complexity: your code may have to deal with strange values that needn't exist</li> <li>waste: glitchy calculations are by definition immediately invalidated, so they're pure waste
 				- this can affect the UX with many updates or expensive calculations</li></ul> <p>Derived stores have glitches:</p> <!> <p><a href="https://svelte-5-preview.vercel.app/#H4sIAAAAAAAACm2RS2-DMBCE_8pqFclEccudPKT03GNvkIMDhloxNlobqgrx3yuHZ6QePTvf7GrcY6m0dJikPRpRS0zw2jTI0f824eE6qb1Ejs62lAfl5HJSjb9kJvOqbix56H9IeXHXkkMhSXWyGKAkWwMb8dh5S5IdMxOg3BrnoVTkfNgIZ5jxiH0IugsSbH9cnVr8Y_xU7mG7F1_Zaj35piuidNnCl5gbhyjdbQa7ZbKH8wX6kDhn7jahKwMHYMDgsKLHFbJavmtbRWw6YrkrGZH5uZ8Ykr4ls-pPeRinqwhxDNpWDjKcOoKxggxH46ZOdtXCsCdSaeXzb3ib2TB5BTftsq-WlKnYdtkTGPUAnOLp95FjbQtVKllg4qmVw234A3D_DmNMAgAA">REPL</a></p> <p>Signals are one reactivity system that can avoid glitches, depending on the implementation<!>. Svelte 5 and the proposed standard are glitch-free.</p> <aside>I think I'm mis-using the term glitch here. (please send feedback with better terminology -
-			I'm currently thinking "tearing" is better (<a href="https://github.com/sveltejs/svelte/pull/12943#issuecomment-2302204229">a</a>, <a href="https://github.com/reactwg/react-18/discussions/69">b</a>)) The problem remains
-			the same - without the implicit synchronous transactions that Svelte 5's signals
-			implementation gives us, updating values can be error-prone and wasteful.</aside> <p>One important detail here is that signals do allow reading intermediate values. If you read <code>fullname</code> in between the two updates, you will indeed see the same value as the glitch. This makes sense,
+			I'm currently thinking "tearing" is better, "nontransactional" doesn't quite seem to hit the
+			mark (<a href="https://github.com/sveltejs/svelte/pull/12943#issuecomment-2302204229">a</a>, <a href="https://github.com/reactwg/react-18/discussions/69">b</a>)) The problem remains the
+			same - without the implicit synchronous transactions that Svelte 5's signals implementation
+			gives us, updating values can be error-prone and wasteful.</aside> <p>One important detail here is that signals do allow reading intermediate values. If you read <code>fullname</code> in between the two updates, you will indeed see the same value as the glitch. This makes sense,
 			because it means it's consistent as described above with reactive statements. The key point is
 			that unlike derived stores, signals do not see or calculate intermediate values by default - they
 			can but it's under your control. Explicitly pulling an intermediate value is not a glitch.</p> <p>Also, reactive statements are incapable of observing intermediate values, a limitation that
@@ -97,7 +98,7 @@ setTimeout(() => {
 `});var _=e(S,6);i(_,{lang:"ts",content:`let a = 1;
 $: b = a * 2;
 console.log(b); // undefined ???
-`});var E=e(_,6);i(E,{lang:"ts",content:`let a = $state(1);
+`});var q=e(_,6);i(q,{lang:"ts",content:`let a = $state(1);
 const b = $derived(a * 2);
 console.log(b); // 2 :)
 setTimeout(() => {
@@ -120,7 +121,7 @@ const fullname = derived([firstname, lastname], ([$firstname, $lastname]) => {
 $fullname; // logs "Barbara Liskov"
 $firstname = 'Alan'; // glitch - logs "Alan Liskov"
 $lastname = 'Turing'; // logs "Alan Turing"
-`});var w=e(T,4),J=e(t(w));L(J,{number:1}),r(),a(w);var R=e(w,8),X=e(t(R),3);L(X,{number:2}),r(),a(R),r(2),a(y);var A=e(y,2),k=e(t(A),2),q=t(k);h(q,"href",s),r(),a(k);var G=e(k,8);i(G,{lang:"ts",content:"$: ab = a + ' ' + b;"});var j=e(G,4);i(j,{lang:"ts",content:"const ab = derived([a, b], ([$a, $b]) => $a + ' ' + $b);"});var P=e(j,4);i(P,{lang:"ts",content:"const ab = $derived(a + ' ' + b);"});var x=e(P,2),Z=t(x);te(Z,{summary:v=>{r();var c=Q(`Here are the same lines verbatim from the demo, including the added
+`});var w=e(T,4),E=e(t(w));L(E,{number:1}),r(),a(w);var R=e(w,8),J=e(t(R),3);L(J,{number:2}),r(),a(R),r(2),a(y);var k=e(y,2),A=e(t(k),2),X=t(A);h(X,"href",s),r(),a(A);var G=e(A,8);i(G,{lang:"ts",content:"$: ab = a + ' ' + b;"});var j=e(G,4);i(j,{lang:"ts",content:"const ab = derived([a, b], ([$a, $b]) => $a + ' ' + $b);"});var P=e(j,4);i(P,{lang:"ts",content:"const ab = $derived(a + ' ' + b);"});var x=e(P,2),Z=t(x);te(Z,{summary:v=>{r();var c=Q(`Here are the same lines verbatim from the demo, including the added
 					noise:`);d(v,c)},children:(v,c)=>{var M=oe(),O=e(H(M),2);i(O,{lang:"ts",content:"$: ab = log('deriving: ' + a + ' ' + b) || a + ' ' + b;"});var z=e(O,4);i(z,{lang:"ts",content:`const ab = derived([a, b], ([$a, $b]) => {
 	const $ab = $a + ' ' + $b;
 	log('deriving: ' + $ab);
@@ -128,4 +129,4 @@ $lastname = 'Turing'; // logs "Alan Turing"
 });`});var D=e(z,4);i(D,{lang:"ts",content:`const ab = $derived.by(() => {
 	log('deriving: ' + a + ' ' + b);
 	return a + ' ' + b;
-})`}),d(v,M)},$$slots:{default:!0}}),a(x);var V=e(x,2),C=e(t(V));h(C,"href",s),r(),a(V),r(6),a(A);var F=e(A,4),K=e(t(F),2);U(K,{number:1,children:(g,v)=>{var c=ne();d(g,c)},$$slots:{default:!0}});var Y=e(K,2);U(Y,{number:2,children:(g,v)=>{var c=re();d(g,c)},$$slots:{default:!0}}),a(F),d(o,l)},$$slots:{default:!0}})}export{be as component};
+})`}),d(v,M)},$$slots:{default:!0}}),a(x);var V=e(x,2),C=e(t(V));h(C,"href",s),r(),a(V),r(6),a(k);var F=e(k,4),K=e(t(F),2);U(K,{number:1,children:(g,v)=>{var c=ne();d(g,c)},$$slots:{default:!0}});var Y=e(K,2);U(Y,{number:2,children:(g,v)=>{var c=re();d(g,c)},$$slots:{default:!0}}),a(F),d(o,l)},$$slots:{default:!0}})}export{be as component};
