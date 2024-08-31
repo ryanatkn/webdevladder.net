@@ -247,9 +247,12 @@ $lastname = 'Turing'; // logs "Alan Turing"
 			/>. Svelte 5 and the proposed standard are glitch-free.
 		</p>
 		<aside>
-			I think I'm mis-using the term glitch here. (please send feedback with better terminology) The
-			problem remains the same - without the implicit synchronous transactions that Svelte 5's
-			signals implementation gives us, updating values can be error-prone and wasteful.
+			I think I'm mis-using the term glitch here. (please send feedback with better terminology -
+			I'm currently thinking "tearing" is better (<a
+				href="https://github.com/sveltejs/svelte/pull/12943#issuecomment-2302204229">a</a
+			>, <a href="https://github.com/reactwg/react-18/discussions/69">b</a>)) The problem remains
+			the same - without the implicit synchronous transactions that Svelte 5's signals
+			implementation gives us, updating values can be error-prone and wasteful.
 		</aside>
 		<p>
 			One important detail here is that signals do allow reading intermediate values. If you read <code
