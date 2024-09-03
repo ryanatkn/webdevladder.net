@@ -80,11 +80,12 @@
 			control is a relentless force.
 		</p>
 		<p>
-			I'm also not an influencer or video content creator. Making software, not videos, will remain
-			my priority. Being funded through YouTube ad revenue or sponsorships would create different
-			incentives compared to user funding, taking my focus away from building software. My current
-			stance is that I won't do any software-related sponsorships, which means the opinions you get
-			from me are entirely rooted in either my preferences or professional experience.
+			I'm also not an entertainer, influencer, or video content creator. Making software, not
+			videos, will remain my priority. Being funded through YouTube ad revenue or sponsorships would
+			create different incentives compared to user funding, taking my focus away from building
+			software. My current stance is that I won't do any software-related sponsorships, which means
+			the opinions you get from me are entirely rooted in either my preferences or professional
+			experience.
 		</p>
 		<p>
 			And finally, I'm not a comprehensive educator. I won't retread the same beginner content
