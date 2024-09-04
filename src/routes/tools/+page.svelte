@@ -9,9 +9,10 @@
 	const pkg = parse_package_meta(package_json, src_json);
 </script>
 
-<main class="width_md box mx_auto px_lg">
+<main class="width_md box mx_auto px_lg pt_xl5 pb_xl9">
 	<header>
-		<div class="mb_xl5">
+		<!-- TODO remove `--size=` API so utility classes work -->
+		<div class="mb_xl5" style:--size="var(--size_xl)">
 			<Breadcrumb>{package_json.glyph}</Breadcrumb>
 		</div>
 	</header>
