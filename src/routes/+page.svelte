@@ -31,25 +31,12 @@
 		<div class="panel shadow_inset_xs bg p_xl">
 			<h2 class="mt_md">welcome</h2>
 			<p>
-				Webdevladder is a blog and collection of YouTube channels for <a
-					href="https://www.ryanatkn.com/">my realworld webdev work</a
-				>. The blog will be created soon, and I'll post videos here about the process of making it.
+				Webdevladder is a blog and collection of YouTube channels for my open source webdev <a
+					href="https://www.ryanatkn.com/">work</a
+				>. I'm writing blog posts and making educational videos on the technical topics I find most
+				interesting, often advanced and very niche. Some topics have both a blog post and
+				accompanying video.
 			</p>
-			<ul>
-				<li>
-					<a href="https://www.youtube.com/@webdevladder">@webdevladder</a> - technical videos about
-					realworld topics in TypeScript and <a href="https://svelte.dev/">Svelte</a>
-				</li>
-				<li>
-					<a href="https://www.youtube.com/@webdevladder_vods">@webdevladder_vods</a> - raw realworld
-					programming in TypeScript and Svelte
-				</li>
-			</ul>
-			<p>
-				While working on free and open source software, I'm making these videos on the realworld
-				technical topics I find most interesting, often advanced and very niche.
-			</p>
-			<p>Some videos will have an accompanying blog post here - Atom feed coming soon.</p>
 			<aside>
 				<Community_Links />
 			</aside>
