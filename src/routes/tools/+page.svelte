@@ -11,7 +11,6 @@
 
 <main class="width_md box mx_auto px_lg">
 	<header>
-		<h1 class="my_xl3">Tools</h1>
 		<div class="mb_xl5">
 			<Breadcrumb>{package_json.glyph}</Breadcrumb>
 		</div>
