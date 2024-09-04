@@ -4,7 +4,7 @@
 	import {parse_package_meta} from '@ryanatkn/gro/package_meta.js';
 
 	import {package_json, src_json} from '$routes/package.js';
-	import Time_Converted from '$routes/tools/Time_Converter.svelte';
+	import Time_Converter from '$routes/tools/Time_Converter.svelte';
 
 	const pkg = parse_package_meta(package_json, src_json);
 </script>
@@ -17,7 +17,14 @@
 		</div>
 	</header>
 	<section>
-		<Time_Converted />
+		<div class="mb_lg">
+			<Time_Converter />
+		</div>
+		<p>
+			<a href="https://www.youtube.com/watch?v=tNoG-CLLWXc&list=PLio_5jgyVNVlYerzp8npCg8mUs2zKEavS"
+				>video</a
+			> of me making this
+		</p>
 	</section>
 	<section class="box">
 		<Library_Footer {pkg}>
