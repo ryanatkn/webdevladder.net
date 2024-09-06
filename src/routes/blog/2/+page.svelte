@@ -75,9 +75,10 @@
 		<p>
 			For one, I'm not a startup. I will never take investor funding for these projects. My goal is
 			to make the best software I can, and extracting profits is counterproductive. I believe you
-			can make good software with a company, even great software, but not the best, not for the kind
-			of software I'm building. Incentives always influence action, and the profit motive with group
-			control is a relentless force.
+			can make good software with a company, even great software, but not the best of the kind I'm
+			building. Incentives always influence action to some degree, and I prefer to keep
+			organizational profitability out of the equation for pure software projects that operate no
+			services.
 		</p>
 		<p>
 			I'm also not an entertainer, influencer, or video content creator. Making software, not
