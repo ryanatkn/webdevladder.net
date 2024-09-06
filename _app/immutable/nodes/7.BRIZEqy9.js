@@ -18,9 +18,10 @@ import{a,t as n}from"../chunks/disclose-version.BsnlxLp3.js";import{au as s}from
 			differences. The main point is that I'm devoting my time primarily to making software. All of
 			the other stuff, like this blog, is supplementary.</p> <p>For one, I'm not a startup. I will never take investor funding for these projects. My goal is
 			to make the best software I can, and extracting profits is counterproductive. I believe you
-			can make good software with a company, even great software, but not the best, not for the kind
-			of software I'm building. Incentives always influence action, and the profit motive with group
-			control is a relentless force.</p> <p>I'm also not an entertainer, influencer, or video content creator. Making software, not
+			can make good software with a company, even great software, but not the best of the kind I'm
+			building. Incentives always influence action to some degree, and I prefer to keep
+			organizational profitability out of the equation for pure software projects that operate no
+			services.</p> <p>I'm also not an entertainer, influencer, or video content creator. Making software, not
 			videos, will remain my priority. Being funded through YouTube ad revenue or sponsorships would
 			create different incentives compared to user funding, taking my focus away from building
 			software. My current stance is that I won't do any software-related sponsorships, which means
