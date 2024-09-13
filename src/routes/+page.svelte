@@ -27,7 +27,7 @@
 		<Card href="{base}/blog" icon="🖊️">blog</Card>
 		<Card href="{base}/tools" icon="🪄" align="right">tools</Card>
 	</section>
-	<section class="panel p_md shadow_outset_xs w_100">
+	<section class="panel p_md shadow_inset_bottom_xs w_100">
 		<div class="panel shadow_inset_xs bg p_xl">
 			<h2 class="mt_md">welcome</h2>
 			<p>
@@ -45,7 +45,7 @@
 			</nav>
 		</div>
 	</section>
-	<section class="panel p_md shadow_outset_xs w_100">
+	<section class="panel p_md shadow_inset_bottom_xs w_100">
 		<div class="panel shadow_inset_xs bg p_xl">
 			<Videos {channels} />
 		</div>
