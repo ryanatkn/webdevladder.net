@@ -20,6 +20,7 @@
 	const logos_by_name: Record<Channel_Name | Playlist_Name, Svg_Data | undefined> = {
 		webdevladder: webdevladder_logo,
 		'webdevladder.net': webdevladder_logo,
+		webdevladder_vods: webdevladder_logo,
 		Moss: moss_logo,
 		fuz: fuz_logo,
 		fuz_blog: fuz_blog_logo,
