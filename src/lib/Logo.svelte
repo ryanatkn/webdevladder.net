@@ -1,8 +1,13 @@
 <script lang="ts">
-	import Webdevladder_Logo from '@ryanatkn/fuz/Webdevladder_Logo.svelte';
-	import Fuz_Logo from '@ryanatkn/fuz/Fuz_Logo.svelte';
-	import Moss_Logo from '@ryanatkn/fuz/Moss_Logo.svelte';
-	import Earbetter_Logo from '@ryanatkn/fuz/Earbetter_Logo.svelte';
+	import Svg, {type Svg_Data} from '@ryanatkn/fuz/Svg.svelte';
+	import {
+		webdevladder_logo,
+		fuz_logo,
+		moss_logo,
+		earbetter_logo,
+		fuz_blog_logo,
+		fuz_mastodon_logo,
+	} from '@ryanatkn/fuz/logos.js';
 	import type {Channel_Name, Playlist_Name} from '$lib/channel.js';
 
 	interface Props {
@@ -12,23 +17,24 @@
 
 	const {name, size = 'var(--icon_size_lg)'}: Props = $props();
 
+	const logos_by_name: Record<Channel_Name | Playlist_Name, Svg_Data | undefined> = {
+		webdevladder: webdevladder_logo,
+		'webdevladder.net': webdevladder_logo,
+		Moss: moss_logo,
+		fuz: fuz_logo,
+		fuz_blog: fuz_blog_logo,
+		fuz_mastodon: fuz_mastodon_logo,
+		Earbetter: earbetter_logo,
+	};
+
 	// TODO make generic so we can extract to `fuz_video`
+	const data = $derived.by(() => {
+		const d = logos_by_name[name];
+		if (!d) throw Error('unknown logo: ' + name);
+		return d;
+	});
+
+	const fill = $derived(name === 'webdevladder_vods' ? '#6a3e1b' : undefined);
 </script>
 
-{#if name === 'webdevladder' || name === 'webdevladder.net'}
-	<Webdevladder_Logo {size} />
-{:else if name === 'webdevladder_vods'}
-	<Webdevladder_Logo {size} fill="#6a3e1b" />
-{:else if name === 'Moss'}
-	<Moss_Logo {size} />
-{:else if name === 'fuz'}
-	<Fuz_Logo {size} />
-{:else if name === 'fuz_blog'}
-	<Fuz_Logo fill="#b19a25" {size} />
-{:else if name === 'fuz_mastodon'}
-	<Fuz_Logo fill="#8866cc" {size} />
-{:else if name === 'Earbetter'}
-	<Earbetter_Logo {size} />
-{:else}
-	<p>unknown logo: {name}</p>
-{/if}
+<Svg {data} {size} {fill} />

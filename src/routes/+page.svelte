@@ -2,7 +2,8 @@
 	import {base} from '$app/paths';
 	import {parse_package_meta} from '@ryanatkn/gro/package_meta.js';
 	import Library_Footer from '@ryanatkn/fuz/Library_Footer.svelte';
-	import Webdevladder_Logo from '@ryanatkn/fuz/Webdevladder_Logo.svelte';
+	import Svg from '@ryanatkn/fuz/Svg.svelte';
+	import {webdevladder_logo} from '@ryanatkn/fuz/logos.js';
 	import Community_Links from '@ryanatkn/fuz/Community_Links.svelte';
 	import Card from '@ryanatkn/fuz/Card.svelte';
 
@@ -18,7 +19,7 @@
 <main class="width_md">
 	<section class="box">
 		<header class="box">
-			<Webdevladder_Logo size="var(--icon_size_xl2)" classes="mt_xl5" />
+			<Svg data={webdevladder_logo} size="var(--icon_size_xl2)" classes="mt_xl5" />
 			<h1 class="my_xl3">webdevladder</h1>
 			<blockquote class="shadow_inset_xs px_xl">climbing together 🪜</blockquote>
 		</header>

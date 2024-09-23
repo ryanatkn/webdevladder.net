@@ -1,7 +1,8 @@
 <script lang="ts">
 	import Breadcrumb from '@ryanatkn/fuz/Breadcrumb.svelte';
 	import type {Snippet} from 'svelte';
-	import Webdevladder_Logo from '@ryanatkn/fuz/Webdevladder_Logo.svelte';
+	import Svg from '@ryanatkn/fuz/Svg.svelte';
+	import {webdevladder_logo} from '@ryanatkn/fuz/logos.js';
 	import {DEV} from 'esm-env';
 	import {
 		Mastodon_Cache,
@@ -32,13 +33,13 @@
 </script>
 
 <div class="breadcrumbs mt_xl3">
-	<Breadcrumb><Webdevladder_Logo size="var(--icon_size_sm)" /></Breadcrumb>
+	<Breadcrumb><Svg data={webdevladder_logo} size="var(--icon_size_sm)" /></Breadcrumb>
 </div>
 <div class="wrapper">
 	{@render children()}
 </div>
 <div class="breadcrumbs mb_xl9 mt_xl7">
-	<Breadcrumb><Webdevladder_Logo size="var(--icon_size_sm)" /></Breadcrumb>
+	<Breadcrumb><Svg data={webdevladder_logo} size="var(--icon_size_sm)" /></Breadcrumb>
 </div>
 
 <!-- TODO 404, needs to work with prerendering -->
