@@ -8,7 +8,7 @@
 <!--<a href="https://www.spiderspace.org/"></a>--><!--<a href="https://www.webdevladder.net/"></a>--><a
 	class="project_link"
 	title="Zzz - social web app framework"
-	href="https://zzz.ryanatkn.com/"><Svg data={zzz_logo} {size} /><span class="name">Zzz</span></a
+	href="https://www.zzzbot.dev/"><Svg data={zzz_logo} {size} /><span class="name">Zzz</span></a
 >
 <a class="project_link" title="Moss - CSS framework" href="https://moss.ryanatkn.com/"
 	><Svg data={moss_logo} {size} /><span class="name">Moss</span></a

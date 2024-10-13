@@ -105,11 +105,11 @@
 			and the software itself.
 		</p>
 		<p>
-			<a href="https://zzz.ryanatkn.com/">Zzz</a> is the social app framework that I hope will
-			provide enough value to be funded through donations. It builds on SvelteKit to streamline the
-			creation of many kinds of social websites that are smaller-scale (think Postgres, not sqlite
-			or <a href="https://www.youtube.com/watch?v=b2F-DItXtZs">webscale</a>). Out of the box it'll
-			have chats, true forums, and other discussion formats and information management views using a
+			<a href="https://www.zzzbot.dev/">Zzz</a> is the social app framework that I hope will provide
+			enough value to be funded through donations. It builds on SvelteKit to streamline the creation
+			of many kinds of social websites that are smaller-scale (think Postgres, not sqlite or
+			<a href="https://www.youtube.com/watch?v=b2F-DItXtZs">webscale</a>). Out of the box it'll have
+			chats, true forums, and other discussion formats and information management views using a
 			shared data protocol. The idea is to take care of the bulk of the infrastructure needed to
 			experiment with novel ideas in social contexts.
 		</p>
