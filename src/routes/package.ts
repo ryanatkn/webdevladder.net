@@ -36,7 +36,7 @@ export const package_json = {
 		'@ryanatkn/fuz_blog': '^0.10.0',
 		'@ryanatkn/fuz_code': '^0.19.0',
 		'@ryanatkn/fuz_mastodon': '^0.27.1',
-		'@ryanatkn/gro': '^0.140.4',
+		'@ryanatkn/gro': '0.140.0',
 		'@ryanatkn/moss': '^0.18.2',
 		'@sveltejs/adapter-static': '^3.0.5',
 		'@sveltejs/kit': '^2.7.0',
