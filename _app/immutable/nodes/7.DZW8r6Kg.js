@@ -33,11 +33,10 @@ import{a,t as n}from"../chunks/disclose-version.DzKeUQ2o.js";import{n as s}from"
 			focused on my projects.</p></section> <section><h2>My plan</h2> <p>I'm lucky to have the resources to pursue my projects for a few more years, but I need funding
 			in order to continue beyond that. I hope to be funded directly by the people who value my
 			software, videos, and blog posts, so my incentives are as aligned as possible with both you
-			and the software itself.</p> <p><a href="https://zzz.ryanatkn.com/">Zzz</a> is the social app framework that I hope will
-			provide enough value to be funded through donations. It builds on SvelteKit to streamline the
-			creation of many kinds of social websites that are smaller-scale (think Postgres, not sqlite
-			or <a href="https://www.youtube.com/watch?v=b2F-DItXtZs">webscale</a>). Out of the box it'll
-			have chats, true forums, and other discussion formats and information management views using a
+			and the software itself.</p> <p><a href="https://www.zzzbot.dev/">Zzz</a> is the social app framework that I hope will provide
+			enough value to be funded through donations. It builds on SvelteKit to streamline the creation
+			of many kinds of social websites that are smaller-scale (think Postgres, not sqlite or <a href="https://www.youtube.com/watch?v=b2F-DItXtZs">webscale</a>). Out of the box it'll have
+			chats, true forums, and other discussion formats and information management views using a
 			shared data protocol. The idea is to take care of the bulk of the infrastructure needed to
 			experiment with novel ideas in social contexts.</p> <p>My <a href="https://www.ryanatkn.com/tree">other software projects</a> either support Zzz -
 			for example, my CSS framework <a href="https://moss.ryanatkn.com/">Moss</a> and Svelte UI
