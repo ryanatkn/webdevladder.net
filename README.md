@@ -12,5 +12,4 @@ While working on free and open source software,
 I'm making videos and blog posts on the realworld technical topics I find most interesting.
 
 - [webdevladder.net](https://www.webdevladder.net/)
-- join [the Discord](https://discord.gg/YU5tyeK72X) to follow along
 - [my homepage](https://www.ryanatkn.com/)

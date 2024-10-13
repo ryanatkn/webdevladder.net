@@ -92,11 +92,8 @@
 			And finally, I'm not a comprehensive educator. I won't retread the same beginner content
 			that's excellently covered elsewhere, and I won't sell courses or create content for media
 			companies. While webdevladder is educational content, it's tailored to what I find interesting
-			and generally more advanced and less accessible. There's mentorship happening in my Discord,
-			but it can't take me away from the software too much or I'll have to scale it back. I would
-			like to create a community of people who help each other learn, but there are educators who
-			make that their whole thing and do it much better, and my community focuses more on my
-			projects.
+			and generally more advanced and less accessible. I don't run a Discord community and I'm
+			focused on my projects.
 		</p>
 	</section>
 	<section>
