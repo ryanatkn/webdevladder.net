@@ -29,11 +29,8 @@ import{a,t as n}from"../chunks/disclose-version.DzKeUQ2o.js";import{n as s}from"
 			experience.</p> <p>And finally, I'm not a comprehensive educator. I won't retread the same beginner content
 			that's excellently covered elsewhere, and I won't sell courses or create content for media
 			companies. While webdevladder is educational content, it's tailored to what I find interesting
-			and generally more advanced and less accessible. There's mentorship happening in my Discord,
-			but it can't take me away from the software too much or I'll have to scale it back. I would
-			like to create a community of people who help each other learn, but there are educators who
-			make that their whole thing and do it much better, and my community focuses more on my
-			projects.</p></section> <section><h2>My plan</h2> <p>I'm lucky to have the resources to pursue my projects for a few more years, but I need funding
+			and generally more advanced and less accessible. I don't run a Discord community and I'm
+			focused on my projects.</p></section> <section><h2>My plan</h2> <p>I'm lucky to have the resources to pursue my projects for a few more years, but I need funding
 			in order to continue beyond that. I hope to be funded directly by the people who value my
 			software, videos, and blog posts, so my incentives are as aligned as possible with both you
 			and the software itself.</p> <p><a href="https://zzz.ryanatkn.com/">Zzz</a> is the social app framework that I hope will
@@ -59,4 +56,4 @@ import{a,t as n}from"../chunks/disclose-version.DzKeUQ2o.js";import{n as s}from"
 			Zzz with a nontechnical audience when it's ready. My other channel <a href="https://youtube.com/@webdevladder_vods">@webdevladder_vods</a> gives me even lower pressure
 			experience making videos related to my software and practices, including unfiltered programming
 			sessions for those interested in learning that particular way.</p> <p>For more about me, see my <a href="https://www.ryanatkn.com/">personal website</a>.</p> <p>If any of this sounds interesting, there's all kinds of links and buttons to click. See you
-			next time.</p></section>`,1);function m(e){r(e,{post:i,children:(t,h)=>{var o=l();s(4),a(t,o)},$$slots:{default:!0}})}export{m as component};
+			next time.</p></section>`,1);function m(e){r(e,{post:i,children:(t,d)=>{var o=l();s(4),a(t,o)},$$slots:{default:!0}})}export{m as component};
