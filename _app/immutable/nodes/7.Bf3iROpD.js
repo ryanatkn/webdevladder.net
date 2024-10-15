@@ -51,8 +51,7 @@ import{a,t as n}from"../chunks/disclose-version.DzKeUQ2o.js";import{n as s}from"
 			ideas with creative autonomy. This flexibility has led to some unexpected connections that a
 			business would not value like I do, and I can't wait to share the fruits of these
 			explorations.</p> <p><a href="https://youtube.com/@webdevladder">@webdevladder</a> is a channel where I get to
-			learn the ropes of video communication in a low pressure environment, and <a href="https://www.spiderspace.org/">Spiderspace</a> will be the channel I launch to share
-			Zzz with a nontechnical audience when it's ready. My other channel <a href="https://youtube.com/@webdevladder_vods">@webdevladder_vods</a> gives me even lower pressure
+			learn the ropes of video communication in a low pressure environment. My other channel <a href="https://youtube.com/@webdevladder_vods">@webdevladder_vods</a> gives me even lower pressure
 			experience making videos related to my software and practices, including unfiltered programming
 			sessions for those interested in learning that particular way.</p> <p>For more about me, see my <a href="https://www.ryanatkn.com/">personal website</a>.</p> <p>If any of this sounds interesting, there's all kinds of links and buttons to click. See you
 			next time.</p></section>`,1);function m(e){r(e,{post:i,children:(t,d)=>{var o=l();s(4),a(t,o)},$$slots:{default:!0}})}export{m as component};
