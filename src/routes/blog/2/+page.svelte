@@ -137,9 +137,7 @@
 		</p>
 		<p>
 			<a href="https://youtube.com/@webdevladder">@webdevladder</a> is a channel where I get to
-			learn the ropes of video communication in a low pressure environment, and
-			<a href="https://www.spiderspace.org/">Spiderspace</a> will be the channel I launch to share
-			Zzz with a nontechnical audience when it's ready. My other channel
+			learn the ropes of video communication in a low pressure environment. My other channel
 			<a href="https://youtube.com/@webdevladder_vods">@webdevladder_vods</a> gives me even lower pressure
 			experience making videos related to my software and practices, including unfiltered programming
 			sessions for those interested in learning that particular way.
