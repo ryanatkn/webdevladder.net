@@ -35,7 +35,7 @@ export const feed: Blog_Feed = {
 			summary:
 				'I describe the purpose of my YouTube channel and blog, webdevladder, and my plans for the future',
 			tags: ['webdevladder'],
-			comments: {type: 'mastodon', url: 'https://mastodon.social/@webdevladder/112963856513901706'},
+			comments: {type: 'mastodon', url: 'https://fosstodon.org/@webdevladder/113312132188029470'},
 		},
 		{
 			id: 'https://www.webdevladder.net/blog/3',

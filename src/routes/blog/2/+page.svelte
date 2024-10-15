@@ -11,7 +11,7 @@
 		tags: ['webdevladder'],
 		comments: {
 			type: 'mastodon',
-			url: 'https://mastodon.social/@webdevladder/112963856513901706',
+			url: 'https://fosstodon.org/@webdevladder/113312132188029470',
 		},
 	} satisfies Blog_Post_Data;
 </script>
