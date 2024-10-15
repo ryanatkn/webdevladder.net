@@ -48,7 +48,7 @@ export const feed: Blog_Feed = {
 			summary:
 				'Svelte 5 adopted signals to replace its old reactivity system that had some subtle but important problems',
 			tags: ['svelte', 'signals'],
-			comments: {type: 'mastodon', url: 'https://mastodon.social/@webdevladder/112966310136132406'},
+			comments: {type: 'mastodon', url: 'https://fosstodon.org/@webdevladder/113312123824800794'},
 		},
 	],
 };

@@ -11,7 +11,7 @@
 		tags: ['svelte', 'signals'],
 		comments: {
 			type: 'mastodon',
-			url: 'https://mastodon.social/@webdevladder/112966310136132406',
+			url: 'https://fosstodon.org/@webdevladder/113312123824800794',
 		},
 	} satisfies Blog_Post_Data;
 </script>
