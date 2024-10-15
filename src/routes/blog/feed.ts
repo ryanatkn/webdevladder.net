@@ -22,7 +22,7 @@ export const feed: Blog_Feed = {
 			date_modified: '2024-07-10T23:06:38.928Z',
 			summary: "creating webdevladder's blog",
 			tags: ['webdev', 'svelte', 'typescript', 'sveltekit', 'vite'],
-			comments: {type: 'mastodon', url: 'https://mastodon.social/@webdevladder/112764548975084845'},
+			comments: {type: 'mastodon', url: 'https://fosstodon.org/@webdevladder/113312147463274655'},
 		},
 		{
 			id: 'https://www.webdevladder.net/blog/2',

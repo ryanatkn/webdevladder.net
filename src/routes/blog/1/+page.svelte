@@ -11,7 +11,7 @@
 		tags: ['webdev', 'svelte', 'typescript', 'sveltekit', 'vite'],
 		comments: {
 			type: 'mastodon',
-			url: 'https://mastodon.social/@webdevladder/112764548975084845',
+			url: 'https://fosstodon.org/@webdevladder/113312147463274655',
 		},
 	} satisfies Blog_Post_Data;
 </script>

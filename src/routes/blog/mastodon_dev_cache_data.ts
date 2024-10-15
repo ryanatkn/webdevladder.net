@@ -27,7 +27,7 @@ export const mastodon_dev_cache_data: Array<[Url, Fetch_Value_Cache_Item]> = [
 				visibility: 'public',
 				language: 'en',
 				uri: 'https://mastodon.social/users/webdevladder/statuses/112764548975084845',
-				url: 'https://mastodon.social/@webdevladder/112764548975084845',
+				url: 'https://fosstodon.org/@webdevladder/113312147463274655',
 				replies_count: 0,
 				reblogs_count: 0,
 				favourites_count: 0,
