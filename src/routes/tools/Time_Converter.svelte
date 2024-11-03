@@ -1,6 +1,4 @@
 <script lang="ts">
-	// TODO @many why is this import needed? `Code` already imports it. Fails in dev with SSR enabled without it. Is there a Vite config option that would be better? I tried the combinations of `ssr.external/noExternal/external` with `@ryanatkn/fuz_code` and `prismjs`.
-	import 'prismjs';
 	import Code from '@ryanatkn/fuz_code/Code.svelte';
 	import Copy_To_Clipboard from '@ryanatkn/fuz/Copy_To_Clipboard.svelte';
 

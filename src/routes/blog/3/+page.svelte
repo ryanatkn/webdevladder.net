@@ -18,7 +18,6 @@
 
 <script lang="ts">
 	import Blog_Post from '@ryanatkn/fuz_blog/Blog_Post.svelte';
-	import 'prismjs'; // TODO @many why is this import needed? `Code` already imports it. Fails in dev with SSR enabled without it. Is there a Vite config option that would be better? I tried the combinations of `ssr.external/noExternal/external` with `@ryanatkn/fuz_code` and `prismjs`.
 	import Code from '@ryanatkn/fuz_code/Code.svelte';
 	import Details from '@ryanatkn/fuz/Details.svelte';
 
