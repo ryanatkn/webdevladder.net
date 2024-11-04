@@ -1,4 +1,5 @@
 <script lang="ts" module>
+	import {base} from '$app/paths';
 	import type {Blog_Post_Data} from '@ryanatkn/fuz_blog/blog.js';
 
 	export const post = {
@@ -58,7 +59,10 @@
 			>, and I have a <a href="https://youtube.com/@webdevladder_vods">second channel</a> with less polished
 			content like raw programming sessions and demos of my apps.
 		</p>
-		<p>But before you subscribe to the feed, here's some more context.</p>
+		<p>
+			But before you subscribe to <a href="{base}/blog/feed.xml">the feed</a>, here's some more
+			context.
+		</p>
 	</section>
 	<section>
 		<h2>What webdevladder is not</h2>
