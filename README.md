@@ -2,7 +2,7 @@
 
 [<img src="/static/logo.svg" alt="a spider web between two rungs of a ladder" align="right" width="192" height="192">](https://www.webdevladder.net/)
 
-> climbing together 🪜 [webdevladder.net](https://www.webdevladder.net/)
+> up ↗ 🪜 [webdevladder.net](https://www.webdevladder.net/)
 
 Webdevladder is [a YouTube channel](https://youtube.com/@webdevladder) and
 [blog](https://www.webdevladder.net/)

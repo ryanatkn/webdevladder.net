@@ -21,7 +21,6 @@
 		<header class="box">
 			<Svg data={webdevladder_logo} size="var(--icon_size_xl2)" classes="mt_xl5" />
 			<h1 class="my_xl3">webdevladder</h1>
-			<blockquote class="shadow_inset_xs px_xl">climbing together 🪜</blockquote>
 		</header>
 	</section>
 	<section class="box gap_lg">
