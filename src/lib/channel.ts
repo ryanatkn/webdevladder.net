@@ -9,8 +9,8 @@ export interface Channel {
 	name: Channel_Name;
 	url: Url;
 	summary: Channel_Summary; // TODO maybe accept a snippet
-	videos: Video[];
-	playlists: Playlist[];
+	videos: Array<Video>;
+	playlists: Array<Playlist>;
 }
 
 export type Channel_Name = Flavored<string, 'Channel_Name'>;

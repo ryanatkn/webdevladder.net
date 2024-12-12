@@ -12,8 +12,8 @@ export interface Video {
 	title: Video_Title;
 	url: Url;
 	duration: Milliseconds;
-	playlists: Playlist_Name[];
+	playlists: Array<Playlist_Name>;
 }
 
-export const filter_playlist_videos = (videos: Video[], playlist: Playlist): Video[] =>
+export const filter_playlist_videos = (videos: Array<Video>, playlist: Playlist): Array<Video> =>
 	videos.filter((v) => v.playlists.includes(playlist.name));

@@ -3,7 +3,7 @@
 	import type {Channel} from '$lib/channel.js';
 
 	interface Props {
-		channels: Channel[];
+		channels: Array<Channel>;
 	}
 
 	const {channels}: Props = $props();

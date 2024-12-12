@@ -6,9 +6,9 @@
 	import {webdevladder_logo} from '@ryanatkn/fuz/logos.js';
 	import Community_Links from '@ryanatkn/fuz/Community_Links.svelte';
 	import Card from '@ryanatkn/fuz/Card.svelte';
+	import Project_Links from '@ryanatkn/fuz/Project_Links.svelte';
 
 	import {package_json, src_json} from '$routes/package.js';
-	import Project_Links from '$routes/Project_Links.svelte';
 	import Videos from '$lib/Videos.svelte';
 	import {channels} from '$routes/channel_data.js';
 
