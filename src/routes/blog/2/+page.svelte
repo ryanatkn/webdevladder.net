@@ -6,7 +6,7 @@
 		title: 'Introducing webdevladder',
 		slug: 'introducing-webdevladder',
 		date_published: '2024-08-14T18:10:26.092Z',
-		date_modified: '2024-08-14T18:10:26.092Z',
+		date_modified: '2025-01-02T23:41:35.315Z',
 		summary:
 			'I describe the purpose of my YouTube channel and blog, webdevladder, and my plans for the future',
 		tags: ['webdevladder'],
@@ -87,10 +87,9 @@
 		<p>
 			I'm also not an entertainer, influencer, or video content creator. Making software, not
 			videos, will remain my priority. Being funded through YouTube ad revenue or sponsorships would
-			create different incentives compared to user funding, taking my focus away from building
-			software. My current stance is that I won't do any software-related sponsorships, which means
-			the opinions you get from me are entirely rooted in either my preferences or professional
-			experience.
+			misalign my incentives, taking my focus away from building software. My current stance is that
+			I won't do any software-related sponsorships, which means the opinions you get from me are
+			entirely rooted in either my preferences or professional experience.
 		</p>
 		<p>
 			And finally, I'm not a comprehensive educator. I won't retread the same beginner content
@@ -103,41 +102,11 @@
 	<section>
 		<h2>My plan</h2>
 		<p>
-			I'm lucky to have the resources to pursue my projects for a few more years, but I need funding
-			in order to continue beyond that. I hope to be funded directly by the people who value my
-			software, videos, and blog posts, so my incentives are as aligned as possible with both you
-			and the software itself.
-		</p>
-		<p>
-			<a href="https://www.zzzbot.dev/">Zzz</a> is the social app framework that I hope will provide
-			enough value to be funded through donations. It builds on SvelteKit to streamline the creation
-			of many kinds of social websites that are smaller-scale (think Postgres, not sqlite or
-			<a href="https://www.youtube.com/watch?v=b2F-DItXtZs">webscale</a>). Out of the box it'll have
-			chats, true forums, and other discussion formats and information management views using a
-			shared data protocol. The idea is to take care of the bulk of the infrastructure needed to
-			experiment with novel ideas in social contexts.
-		</p>
-		<p>
-			My <a href="https://www.ryanatkn.com/tree">other software projects</a> either support Zzz -
-			for example, my CSS framework <a href="https://moss.ryanatkn.com/">Moss</a> and Svelte UI
-			library
-			<a href="https://www.fuz.dev/">Fuz</a> - or they use Zzz (stay tuned for announcements), or they're
-			for my own amusement and curiosity. They all share a common software base that I've largely built
-			myself, which enables rapid and customizable development.
-		</p>
-		<p>
-			While Zzz is my only active project that's not yet publicly available, I hope to have the
-			first version released in late 2024. But it may be 2025. Definitely by the end of 2025, that's
-			one software estimate I'll stand by. When it's ready, I'll make a new blog post and video with
-			more of the story.
-		</p>
-		<p>
-			My plan B is looking for a job where I can work on open source at least some of the time, even
-			if it's not on my own projects. For longer than my 13 year career as a programmer, I've been
-			prototyping software like Zzz as a hobby, and I've taken multiple self-funded breaks to pursue
-			ideas with creative autonomy. This flexibility has led to some unexpected connections that a
-			business would not value like I do, and I can't wait to share the fruits of these
-			explorations.
+			I'm lucky to have the resources to pursue my <a href="https://www.ryanatkn.com/tree"
+				>projects</a
+			> for a few more years, and whether I continue on my own or find a job to collaborate with a team
+			(I miss this!), I'll continue working on my software without trying to monetize it directly. It's
+			possible I could reach a point where user funding could make sense, but it's not a goal right now.
 		</p>
 		<p>
 			<a href="https://youtube.com/@webdevladder">@webdevladder</a> is a channel where I get to
