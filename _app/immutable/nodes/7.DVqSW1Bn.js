@@ -1,4 +1,4 @@
-import{e as h,t as p}from"../chunks/disclose-version.Dn2LuS9l.js";import{J as m,K as a,L as n,Q as s,M as r}from"../chunks/runtime.WHH172tf.js";import{s as c}from"../chunks/attributes.QTCS8sk-.js";import{b as u}from"../chunks/paths.QEGOk4tA.js";import{B as f}from"../chunks/Blog_Post.DjTVoWMH.js";const w={title:"Introducing webdevladder",slug:"introducing-webdevladder",date_published:"2024-08-14T18:10:26.092Z",date_modified:"2024-08-14T18:10:26.092Z",summary:"I describe the purpose of my YouTube channel and blog, webdevladder, and my plans for the future",tags:["webdevladder"],comments:{type:"mastodon",url:"https://fosstodon.org/@webdevladder/113312132188029470"}};var y=p(`<section><p>Webdevladder is a <a href="https://youtube.com/@webdevladder">YouTube channel</a> and <a href="https://www.webdevladder.net/blog">blog</a> about the technical topics that interest
+import{e as p,t as h}from"../chunks/disclose-version.Dn2LuS9l.js";import{J as c,K as a,L as n,Q as r,M as s}from"../chunks/runtime.WHH172tf.js";import{s as m}from"../chunks/attributes.QTCS8sk-.js";import{b as u}from"../chunks/paths.CL6uSDtH.js";import{B as f}from"../chunks/Blog_Post.DjTVoWMH.js";const w={title:"Introducing webdevladder",slug:"introducing-webdevladder",date_published:"2024-08-14T18:10:26.092Z",date_modified:"2025-01-02T23:41:35.315Z",summary:"I describe the purpose of my YouTube channel and blog, webdevladder, and my plans for the future",tags:["webdevladder"],comments:{type:"mastodon",url:"https://fosstodon.org/@webdevladder/113312132188029470"}};var y=h(`<section><p>Webdevladder is a <a href="https://youtube.com/@webdevladder">YouTube channel</a> and <a href="https://www.webdevladder.net/blog">blog</a> about the technical topics that interest
 			me as I make open source software. I've been a professional web developer since 2011, and
 			since 2019 I've been working in public full-time, publishing most of my code to <a href="https://github.com/ryanatkn">GitHub</a> as I write it.</p> <p>The open web is humanity's shared, decentralized platform. I love the web for its wide reach
 			and gatekeeper optionality. For all its flaws, the web allows us to reach more people with
@@ -24,35 +24,16 @@ import{e as h,t as p}from"../chunks/disclose-version.Dn2LuS9l.js";import{J as m,
 			organizational profitability out of the equation for pure software projects that operate no
 			services.</p> <p>I'm also not an entertainer, influencer, or video content creator. Making software, not
 			videos, will remain my priority. Being funded through YouTube ad revenue or sponsorships would
-			create different incentives compared to user funding, taking my focus away from building
-			software. My current stance is that I won't do any software-related sponsorships, which means
-			the opinions you get from me are entirely rooted in either my preferences or professional
-			experience.</p> <p>And finally, I'm not a comprehensive educator. I won't retread the same beginner content
+			misalign my incentives, taking my focus away from building software. My current stance is that
+			I won't do any software-related sponsorships, which means the opinions you get from me are
+			entirely rooted in either my preferences or professional experience.</p> <p>And finally, I'm not a comprehensive educator. I won't retread the same beginner content
 			that's excellently covered elsewhere, and I won't sell courses or create content for media
 			companies. While webdevladder is educational content, it's tailored to what I find interesting
 			and generally more advanced and less accessible. I don't run a Discord community and I'm
-			focused on my projects.</p></section> <section><h2>My plan</h2> <p>I'm lucky to have the resources to pursue my projects for a few more years, but I need funding
-			in order to continue beyond that. I hope to be funded directly by the people who value my
-			software, videos, and blog posts, so my incentives are as aligned as possible with both you
-			and the software itself.</p> <p><a href="https://www.zzzbot.dev/">Zzz</a> is the social app framework that I hope will provide
-			enough value to be funded through donations. It builds on SvelteKit to streamline the creation
-			of many kinds of social websites that are smaller-scale (think Postgres, not sqlite or <a href="https://www.youtube.com/watch?v=b2F-DItXtZs">webscale</a>). Out of the box it'll have
-			chats, true forums, and other discussion formats and information management views using a
-			shared data protocol. The idea is to take care of the bulk of the infrastructure needed to
-			experiment with novel ideas in social contexts.</p> <p>My <a href="https://www.ryanatkn.com/tree">other software projects</a> either support Zzz -
-			for example, my CSS framework <a href="https://moss.ryanatkn.com/">Moss</a> and Svelte UI
-			library <a href="https://www.fuz.dev/">Fuz</a> - or they use Zzz (stay tuned for announcements), or they're
-			for my own amusement and curiosity. They all share a common software base that I've largely built
-			myself, which enables rapid and customizable development.</p> <p>While Zzz is my only active project that's not yet publicly available, I hope to have the
-			first version released in late 2024. But it may be 2025. Definitely by the end of 2025, that's
-			one software estimate I'll stand by. When it's ready, I'll make a new blog post and video with
-			more of the story.</p> <p>My plan B is looking for a job where I can work on open source at least some of the time, even
-			if it's not on my own projects. For longer than my 13 year career as a programmer, I've been
-			prototyping software like Zzz as a hobby, and I've taken multiple self-funded breaks to pursue
-			ideas with creative autonomy. This flexibility has led to some unexpected connections that a
-			business would not value like I do, and I can't wait to share the fruits of these
-			explorations.</p> <p><a href="https://youtube.com/@webdevladder">@webdevladder</a> is a channel where I get to
+			focused on my projects.</p></section> <section><h2>My plan</h2> <p>I'm lucky to have the resources to pursue my <a href="https://www.ryanatkn.com/tree">projects</a> for a few more years, and whether I continue on my own or find a job to collaborate with a team
+			(I miss this!), I'll continue working on my software without trying to monetize it directly. It's
+			possible I could reach a point where user funding could make sense, but it's not a goal right now.</p> <p><a href="https://youtube.com/@webdevladder">@webdevladder</a> is a channel where I get to
 			learn the ropes of video communication in a low pressure environment. My other channel <a href="https://youtube.com/@webdevladder_vods">@webdevladder_vods</a> gives me even lower pressure
 			experience making videos related to my software and practices, including unfiltered programming
 			sessions for those interested in learning that particular way.</p> <p>For more about me, see my <a href="https://www.ryanatkn.com/">personal website</a>.</p> <p>If any of this sounds interesting, there's all kinds of links and buttons to click. See you
-			next time.</p></section>`,1);function x(i){f(i,{post:w,children:(l,b)=>{var e=y(),t=m(e),o=a(n(t),8),d=a(n(o));c(d,"href",`${u??""}/blog/feed.xml`),s(),r(o),r(t),s(4),h(l,e)},$$slots:{default:!0}})}export{x as component};
+			next time.</p></section>`,1);function x(i){f(i,{post:w,children:(d,b)=>{var e=y(),t=c(e),o=a(n(t),8),l=a(n(o));m(l,"href",`${u??""}/blog/feed.xml`),r(),s(o),s(t),r(4),p(d,e)},$$slots:{default:!0}})}export{x as component};
