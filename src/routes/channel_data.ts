@@ -15,7 +15,7 @@ const webdevladder_videos: Array<Video> = [
 		playlists: [],
 	},
 	{
-		title: 'How Svelte runes syntax is better than plain JavaScript with signals',
+		title: 'How Svelte runes syntax is better than plain JS with signals',
 		url: 'https://www.youtube.com/watch?v=IsJtmbvW2SI',
 		duration: 1389000,
 		playlists: [],
