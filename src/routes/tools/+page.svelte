@@ -1,5 +1,5 @@
 <script lang="ts">
-	import Library_Footer from '@ryanatkn/fuz/Library_Footer.svelte';
+	import Docs_Footer from '@ryanatkn/fuz/Docs_Footer.svelte';
 	import Breadcrumb from '@ryanatkn/fuz/Breadcrumb.svelte';
 	import {parse_package_meta} from '@ryanatkn/gro/package_meta.js';
 
@@ -27,10 +27,10 @@
 		</p>
 	</section>
 	<section class="box">
-		<Library_Footer {pkg}>
+		<Docs_Footer {pkg}>
 			<div class="mb_xl">
 				<Breadcrumb>{package_json.glyph}</Breadcrumb>
 			</div>
-		</Library_Footer>
+		</Docs_Footer>
 	</section>
 </main>
