@@ -41,7 +41,7 @@
 			<aside>
 				<Community_Links />
 			</aside>
-			<nav class="size_xl5 box row flex_wrap">
+			<nav class="font_size_xl5 box row flex_wrap">
 				<Project_Links />
 			</nav>
 		</div>

@@ -11,8 +11,7 @@
 
 <main class="width_md box mx_auto px_lg pt_xl5 pb_xl9">
 	<header>
-		<!-- TODO remove `--size=` API so utility classes work -->
-		<div class="mb_xl5" style:--size="var(--size_xl)">
+		<div class="mb_xl5" style:--font_size="var(--font_size_xl)">
 			<Breadcrumb>{package_json.glyph}</Breadcrumb>
 		</div>
 	</header>

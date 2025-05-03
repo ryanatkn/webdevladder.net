@@ -28,7 +28,7 @@
 
 /* A panel is a box embedded into the page, useful for visually isolating content. */
 .panel {
-	border-radius: var(--radius_xs);
+	border-radius: var(--border_radius_xs);
 	background-color: var(--panel_bg, var(--fg_1));
 }
 
@@ -62,20 +62,22 @@
 	padding-left: var(--space_xs);
 	padding-right: var(--space_xs);
 	background-color: var(--fg_1);
-	border-radius: var(--radius_xs);
+	border-radius: var(--border_radius_xs);
 }
 a.chip {
 	font-weight: 700;
 }
 
 .pre {
-	font-family: var(--font_mono);
+	font-family: var(--font_family_mono);
 	color: var(--text_color, var(--text_color_3));
 	overflow: auto;
 	max-width: 100%;
 }
 .pre > code {
-	font-size: var(--size_sm); /* TODO @many use a var? maybe computed from generic `--size`? */
+	font-size: var(
+		--font_size_sm
+	); /* TODO @many use a var? maybe computed from generic `--font_size`? */
 	font-weight: 500;
 }
 .pre:not(.inline) > code {
@@ -85,17 +87,21 @@ a.chip {
 .relative {
 	position: relative;
 }
-.inline {
-	display: inline;
-}
-.inline_flex {
-	display: inline-flex;
-}
-.block {
+/** Same as `display: block flow`. */
+.display_block {
 	display: block;
 }
-.flex {
+/** Same as `display: inline flow-root`. */
+.display_inline_block {
+	display: inline-block;
+}
+/** Same as `display: block flex`. */
+.display_flex {
 	display: flex;
+}
+/** Same as `display: inline flex`. */
+.display_inline_flex {
+	display: inline-flex;
 }
 .flex_1 {
 	flex: 1;
@@ -109,16 +115,16 @@ a.chip {
 .float_left {
 	float: left;
 }
-.font_mono {
-	font-family: var(--font_mono);
+.font_family_mono {
+	font-family: var(--font_family_mono);
 }
-.size_xl {
-	font-size: var(--size_xl);
-	--size: var(--size_xl);
+.font_size_xl {
+	font-size: var(--font_size_xl);
+	--font_size: var(--font_size_xl);
 }
-.size_xl5 {
-	font-size: var(--size_xl5);
-	--size: var(--size_xl5);
+.font_size_xl5 {
+	font-size: var(--font_size_xl5);
+	--font_size: var(--font_size_xl5);
 }
 .text_color_3 {
 	color: var(--text_color_3);

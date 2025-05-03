@@ -21,10 +21,10 @@
 	<p>Paste or type in a time like <code>1:23:45.999</code>.</p>
 </label>
 <div class="panel p_sm my_sm relative pr_xl7">
-	<div class="size_xl">
+	<div class="font_size_xl">
 		{#if ms != null}{ms}{:else}null{/if}
 	</div>
-	<small class="block text_color_3">milliseconds </small>
+	<small class="display_block text_color_3">milliseconds </small>
 	<div class="copy">
 		<Copy_To_Clipboard text={ms + ''} />
 	</div>
