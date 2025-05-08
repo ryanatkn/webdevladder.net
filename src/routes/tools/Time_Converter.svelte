@@ -20,7 +20,7 @@
 	<input bind:value={str} />
 	<p>Paste or type in a time like <code>1:23:45.999</code>.</p>
 </label>
-<div class="panel p_sm my_sm relative pr_xl7">
+<div class="panel p_sm my_sm position_relative pr_xl7">
 	<div class="font_size_xl">
 		{#if ms != null}{ms}{:else}null{/if}
 	</div>

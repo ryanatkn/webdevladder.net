@@ -84,7 +84,7 @@ a.chip {
 	display: block;
 }
 
-.relative {
+.position_relative {
 	position: relative;
 }
 /** Same as `display: block flow`. */
@@ -103,6 +103,9 @@ a.chip {
 .display_inline_flex {
 	display: inline-flex;
 }
+.float_left {
+	float: left;
+}
 .flex_1 {
 	flex: 1;
 }
@@ -111,9 +114,6 @@ a.chip {
 }
 .align_items_center {
 	align-items: center;
-}
-.float_left {
-	float: left;
 }
 .font_family_mono {
 	font-family: var(--font_family_mono);
