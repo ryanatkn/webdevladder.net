@@ -14,7 +14,11 @@ export default {
 		alias: {$routes: 'src/routes'},
 		csp: {
 			directives: create_csp_directives({
-				trusted_sources: csp_trusted_sources_of_ryanatkn,
+				trusted_sources: csp_trusted_sources_of_ryanatkn.concat([
+					// These enable Mastodon comments for my account at https://fosstodon.org/@webdevladder
+					{source: 'https://fosstodon.org/', trust: 'low', directives: ['connect-src']},
+					{source: 'https://*.fosstodon.org/', trust: 'low'},
+				]),
 			}),
 		},
 	},
