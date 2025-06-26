@@ -6,7 +6,7 @@
 		title: 'Introducing webdevladder',
 		slug: 'introducing-webdevladder',
 		date_published: '2024-08-14T18:10:26.092Z',
-		date_modified: '2025-01-02T23:41:35.315Z',
+		date_modified: '2025-06-26T13:00:41.983Z',
 		summary:
 			'I describe the purpose of my YouTube channel and blog, webdevladder, and my plans for the future',
 		tags: ['webdevladder'],
@@ -69,7 +69,9 @@
 		<p>
 			I'm seeking to be an independent open source developer funded directly by my users, which is
 			an uncommon situation in 2024. I hope that the few user-funded developers of today will be
-			joined by many more in the future, and I want to be among them.
+			joined by many more in the future, and I want to be among them. I like the idea of having many
+			smaller donors versus one or a few large ones, permitting me more freedom from undue
+			influence.
 		</p>
 		<p>
 			I share some similarities with a few contemporary archetypes, but there are important
@@ -80,7 +82,7 @@
 			For one, I'm not a startup. I will never take investor funding for these projects. My goal is
 			to make the best software I can, and extracting profits is counterproductive. I believe you
 			can make good software with a company, even great software, but not the best of the kind I'm
-			building. Incentives always influence action to some degree, and I prefer to keep
+			building. Incentives typically influence action to some degree, and I prefer to keep
 			organizational profitability out of the equation for pure software projects that operate no
 			services.
 		</p>
@@ -89,14 +91,17 @@
 			videos, will remain my priority. Being funded through YouTube ad revenue or sponsorships would
 			misalign my incentives, taking my focus away from building software. My current stance is that
 			I won't do any software-related sponsorships, which means the opinions you get from me are
-			entirely rooted in either my preferences or professional experience.
+			entirely rooted in either my preferences or professional experience. I'm open to sponsorship
+			in the form of a job where I can work on Zzz and its dependencies at least part-time (if I'm
+			going to shill, I'll shill one company at a time), but at the moment that's wishful thinking.
 		</p>
 		<p>
 			And finally, I'm not a comprehensive educator. I won't retread the same beginner content
-			that's excellently covered elsewhere, and I won't sell courses or create content for media
-			companies. While webdevladder is educational content, it's tailored to what I find interesting
-			and generally more advanced and less accessible. I don't run a Discord community and I'm
-			focused on my projects.
+			that's excellently covered elsewhere, and I won't sell courses or do any time-consuming
+			content creation for media companies. While webdevladder is educational content, it's tailored
+			to what I find interesting and generally more advanced and less accessible. I don't run a
+			Discord community and I'm focused on my projects, but I would like to, so to speak, prop up a
+			ladder that anyone could climb.
 		</p>
 	</section>
 	<section>
@@ -105,8 +110,11 @@
 			I'm lucky to have the resources to pursue my <a href="https://www.ryanatkn.com/tree"
 				>projects</a
 			> for a few more years, and whether I continue on my own or find a job to collaborate with a team
-			(I miss this!), I'll continue working on my software without trying to monetize it directly. It's
-			possible I could reach a point where user funding could make sense, but it's not a goal right now.
+			(ideally related to Zzz but idk if that'll work out), I'll continue working on my software without
+			trying to monetize it directly. Anyone including me can create commercial projects using the software,
+			it's all permissively licensed. It's possible I could reach a point where user funding could make
+			sense, but it's not a concrete goal right now, first I need to hit a milestone where Zzz can manage
+			websites like a CMS.
 		</p>
 		<p>
 			<a href="https://youtube.com/@webdevladder">@webdevladder</a> is a channel where I get to
