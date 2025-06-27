@@ -120,8 +120,9 @@
 			I'm lucky to have the resources to pursue my <a href="https://www.ryanatkn.com/tree"
 				>projects</a
 			> for a few more years, and regardless of my personal situation I plan to continue working on this
-			software without trying to monetize it directly. It's all permissively licensed so anyone can create
-			commercial projects using it, and I may do this for a company to sustain development.
+			software and monetize it without possibly-enshittifying patterns. It's all permissively licensed
+			so anyone can create commercial projects using it, and I may do this for a company to sustain development,
+			but I'm a stickler for boundaries when it comes to what goes into the repos.
 		</p>
 		<p>
 			<a href="https://youtube.com/@webdevladder">@webdevladder</a> is a channel where I get to
