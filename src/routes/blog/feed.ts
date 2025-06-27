@@ -31,7 +31,7 @@ export const feed: Blog_Feed = {
 			title: 'Introducing webdevladder',
 			slug: 'introducing-webdevladder',
 			date_published: '2024-08-14T18:10:26.092Z',
-			date_modified: '2025-06-27T13:19:07.440Z',
+			date_modified: '2025-06-27T14:22:22.080Z',
 			summary:
 				'I describe the purpose of my YouTube channel and blog, webdevladder, and my plans for the future',
 			tags: ['webdevladder'],

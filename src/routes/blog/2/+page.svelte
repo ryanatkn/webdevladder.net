@@ -6,7 +6,7 @@
 		title: 'Introducing webdevladder',
 		slug: 'introducing-webdevladder',
 		date_published: '2024-08-14T18:10:26.092Z',
-		date_modified: '2025-06-27T13:19:07.440Z',
+		date_modified: '2025-06-27T14:22:22.080Z',
 		summary:
 			'I describe the purpose of my YouTube channel and blog, webdevladder, and my plans for the future',
 		tags: ['webdevladder'],
@@ -33,7 +33,10 @@
 			<a href="https://www.webdevladder.net/blog">blog</a> about the technical topics that interest
 			me as I make open source software. I've been a professional web developer since 2011, and
 			since 2019 I've been working in public full-time, publishing most of my code to
-			<a href="https://github.com/ryanatkn">GitHub</a> as I write it.
+			<a href="https://github.com/ryanatkn">GitHub</a> as I write it. Webdevladder is a public alias
+			that feels comfortably decoupled from my personal life (being on GitHub since 2012 with my real
+			name is weird in some respects, the professional environment strongnudged me to do it; in 2024
+			I created this alias and site to gain some distance).
 		</p>
 		<p>
 			The open web is humanity's shared, decentralized platform. I love it for its wide reach and
@@ -44,22 +47,20 @@
 			software that people value enough to sustain its development.
 		</p>
 		<p>
-			With webdevladder, I'm producing videos and blog posts about the technology I use in my work,
+			With Webdevladder, I'm producing videos and blog posts about the technology I use in my work,
 			with an emphasis on <a href="https://svelte.dev/">Svelte</a> and
-			<a href="https://www.typescriptlang.org/">TypeScript</a>, using a public alias that feels
-			comfortably decoupled from my personal life (being on GitHub since 2011 with my real name is
-			weird, the professional environment strongnudged me to do it). My projects span the whole
-			stack, from a CSS framework to a Svelte UI library to a fullstack dev-and-end-user tool. I
-			also make websites that use the stack and tools to streamline the process. The fullstack tool
-			is <a href="https://www.zzz.software/">Zzz</a>, and it's my focus for funding because its
-			target audience is both nontechnical and dev users, and it's the main thing my other software
-			has been designed for.
+			<a href="https://www.typescriptlang.org/">TypeScript</a>. My projects span the whole stack,
+			from a CSS framework to a Svelte UI library to a fullstack dev-and-end-user tool. I also make
+			websites that use the stack and tools to streamline the process. The fullstack tool is
+			<a href="https://www.zzz.software/">Zzz</a>, and it's my focus for funding because its target
+			audience is both nontechnical and dev users, and it's the main thing my other software has
+			been designed for.
 		</p>
 		<p>
-			My goal with webdevladder is to deepen my knowledge of web technology and improve my
-			communication skills through blogging and videos. You're reading the blog now, and I'm
-			producing educational videos on my <a href="https://youtube.com/@webdevladder">main channel</a
-			>, and less polished content like raw programming sessions and demos of my apps on a
+			My goal here is to deepen my knowledge of web technology and improve my communication skills
+			through blogging and videos. You're reading the blog now, and I'm producing educational videos
+			on my <a href="https://youtube.com/@webdevladder">main channel</a>, and less polished content
+			like raw programming sessions and demos of my apps on a
 			<a href="https://youtube.com/@webdevladder_vods">second channel</a>.
 		</p>
 		<p>
@@ -68,7 +69,7 @@
 		</p>
 	</section>
 	<section>
-		<h2>What webdevladder is not</h2>
+		<h2>What Webdevladder is not</h2>
 		<p>
 			I'm seeking to be an independent open source developer funded directly by my users, which is
 			an uncommon situation in 2024. I hope that the few user-funded developers of today will be
@@ -108,7 +109,7 @@
 		<p>
 			And finally, I'm not a comprehensive educator. I won't retread the same beginner content
 			that's excellently covered elsewhere, and I won't sell courses or do any time-consuming
-			content creation for media companies. While webdevladder is educational content, it's tailored
+			content creation for media companies. While Webdevladder is educational content, it's tailored
 			to what I find interesting and generally more advanced and less accessible. I don't run a
 			Discord community and I'm focused on my projects, but I would like to, so to speak, prop up a
 			ladder that anyone could climb.
