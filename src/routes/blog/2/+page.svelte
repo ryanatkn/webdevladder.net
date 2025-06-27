@@ -6,7 +6,7 @@
 		title: 'Introducing webdevladder',
 		slug: 'introducing-webdevladder',
 		date_published: '2024-08-14T18:10:26.092Z',
-		date_modified: '2025-06-27T14:22:22.080Z',
+		date_modified: '2025-06-27T15:24:37.363Z',
 		summary:
 			'I describe the purpose of my YouTube channel and blog, webdevladder, and my plans for the future',
 		tags: ['webdevladder'],
@@ -57,10 +57,11 @@
 			been designed for.
 		</p>
 		<p>
-			My goal here is to deepen my knowledge of web technology and improve my communication skills
-			through blogging and videos. You're reading the blog now, and I'm producing educational videos
-			on my <a href="https://youtube.com/@webdevladder">main channel</a>, and less polished content
-			like raw programming sessions and demos of my apps on a
+			My stated goal here is to deepen my knowledge of web technology and improve my communication
+			skills through blogging and videos, and an ulterior motive is to market my work for
+			sustainability and egoic self interest. You're reading the blog now, and I'm producing
+			educational videos on my <a href="https://youtube.com/@webdevladder">main channel</a>, and
+			less polished content like raw programming sessions and demos of my apps on a
 			<a href="https://youtube.com/@webdevladder_vods">second channel</a>.
 		</p>
 		<p>
@@ -111,7 +112,7 @@
 			that's excellently covered elsewhere, and I won't sell courses or do any time-consuming
 			content creation for media companies. While Webdevladder is educational content, it's tailored
 			to what I find interesting and generally more advanced and less accessible. I don't run a
-			Discord community and I'm focused on my projects, but I would like to, so to speak, prop up a
+			Discord community and I'm focused on my projects, but I would like, so to speak, to prop up a
 			ladder that anyone could climb.
 		</p>
 	</section>
