@@ -6,7 +6,7 @@
 		title: 'Introducing webdevladder',
 		slug: 'introducing-webdevladder',
 		date_published: '2024-08-14T18:10:26.092Z',
-		date_modified: '2025-06-26T13:00:41.983Z',
+		date_modified: '2025-06-27T13:19:07.440Z',
 		summary:
 			'I describe the purpose of my YouTube channel and blog, webdevladder, and my plans for the future',
 		tags: ['webdevladder'],
@@ -36,28 +36,31 @@
 			<a href="https://github.com/ryanatkn">GitHub</a> as I write it.
 		</p>
 		<p>
-			The open web is humanity's shared, decentralized platform. I love the web for its wide reach
-			and gatekeeper optionality. For all its flaws, the web allows us to reach more people with
-			less friction than any other platform. My goal is to work in this space on the things I find
-			meaningful. I've been lucky to have the resources to work independently for the past 5 years
-			as I pursue a career in open source. Over the next few years I hope to continue making
+			The open web is humanity's shared, decentralized platform. I love it for its wide reach and
+			gatekeeper optionality. For all its flaws, the web allows us to reach more people with less
+			friction than any other platform. My goal is to work on open source web software that I find
+			meaningful. I've been lucky to have the resources to work independently for the past 6+ years
+			as I pursue a career in open source, and over the next few years I hope to continue making
 			software that people value enough to sustain its development.
 		</p>
 		<p>
 			With webdevladder, I'm producing videos and blog posts about the technology I use in my work,
 			with an emphasis on <a href="https://svelte.dev/">Svelte</a> and
-			<a href="https://www.typescriptlang.org/">TypeScript</a>. My projects span the whole stack,
-			from a CSS framework to a Svelte UI library to a fullstack social app framework. I also make
-			websites that use the stack and tools to streamline the process. The social app framework is
-			my only project that's not yet released, and I think it's the one that's most likely to gather
-			a community that wants to fund it.
+			<a href="https://www.typescriptlang.org/">TypeScript</a>, using a public alias that feels
+			comfortably decoupled from my personal life (being on GitHub since 2011 with my real name is
+			weird, the professional environment strongnudged me to do it). My projects span the whole
+			stack, from a CSS framework to a Svelte UI library to a fullstack dev-and-end-user tool. I
+			also make websites that use the stack and tools to streamline the process. The fullstack tool
+			is <a href="https://www.zzz.software/">Zzz</a>, and it's my focus for funding because its
+			target audience is both nontechnical and dev users, and it's the main thing my other software
+			has been designed for.
 		</p>
 		<p>
 			My goal with webdevladder is to deepen my knowledge of web technology and improve my
-			communication skills through blogging and videos. I'm producing educational videos on my <a
-				href="https://youtube.com/@webdevladder">main channel</a
-			>, and I have a <a href="https://youtube.com/@webdevladder_vods">second channel</a> with less polished
-			content like raw programming sessions and demos of my apps.
+			communication skills through blogging and videos. You're reading the blog now, and I'm
+			producing educational videos on my <a href="https://youtube.com/@webdevladder">main channel</a
+			>, and less polished content like raw programming sessions and demos of my apps on a
+			<a href="https://youtube.com/@webdevladder_vods">second channel</a>.
 		</p>
 		<p>
 			But before you subscribe to <a href="{base}/blog/feed.xml">the feed</a>, here's some more
@@ -70,8 +73,10 @@
 			I'm seeking to be an independent open source developer funded directly by my users, which is
 			an uncommon situation in 2024. I hope that the few user-funded developers of today will be
 			joined by many more in the future, and I want to be among them. I like the idea of having many
-			smaller donors versus one or a few large ones, permitting me more freedom from undue
-			influence.
+			smaller supporters versus one or a few large ones, permitting me more freedom from unhelpful
+			influence. I don't need huge resources to sustain my work, and I may do some marginal hustling
+			like selling merch. Thinking wishfully I'd like to hire a small team or be sponsored by a
+			company while keeping independence on my open source projects.
 		</p>
 		<p>
 			I share some similarities with a few contemporary archetypes, but there are important
@@ -79,21 +84,26 @@
 			the other stuff, like this blog, is supplementary.
 		</p>
 		<p>
-			For one, I'm not a startup. I will never take investor funding for these projects. My goal is
-			to make the best software I can, and extracting profits is counterproductive. I believe you
-			can make good software with a company, even great software, but not the best of the kind I'm
-			building. Incentives typically influence action to some degree, and I prefer to keep
-			organizational profitability out of the equation for pure software projects that operate no
-			services.
+			For one, I'm not a startup. I will never take investor funding for these projects or sell
+			control over the core repos Zzz, Fuz, Moss, Gro, etc - excluding any products I build using
+			the stack. I'm trying to make the social contract transparent and respectful for any community
+			that forms. My goal is to make the best software I can, and profit-mindedness is
+			counterproductive. I believe profit-incentivized companies can make geat software, but not the
+			best of the kind I want in the long-term. I prefer to keep organizational profitability out of
+			the equation for pure software projects that operate no services (a neat productivity trick:
+			keep your FOSS dev unburdened by IRL service operations) If parts of my stack are successful,
+			they'll be owned by a nonprofit or equivalent.
 		</p>
 		<p>
 			I'm also not an entertainer, influencer, or video content creator. Making software, not
 			videos, will remain my priority. Being funded through YouTube ad revenue or sponsorships would
 			misalign my incentives, taking my focus away from building software. My current stance is that
-			I won't do any software-related sponsorships, which means the opinions you get from me are
+			I won't do any software-related sponsorships, which means the dev opinions you get from me are
 			entirely rooted in either my preferences or professional experience. I'm open to sponsorship
 			in the form of a job where I can work on Zzz and its dependencies at least part-time (if I'm
-			going to shill, I'll shill one company at a time), but at the moment that's wishful thinking.
+			going to shill, I'll shill one company at a time, and I'll really mean it, mostly), and I may
+			use the content creator playbook, minus dev-related sponsorships, to build a financially
+			supportive audience.
 		</p>
 		<p>
 			And finally, I'm not a comprehensive educator. I won't retread the same beginner content
@@ -109,12 +119,9 @@
 		<p>
 			I'm lucky to have the resources to pursue my <a href="https://www.ryanatkn.com/tree"
 				>projects</a
-			> for a few more years, and whether I continue on my own or find a job to collaborate with a team
-			(ideally related to Zzz but idk if that'll work out), I'll continue working on my software without
-			trying to monetize it directly. Anyone including me can create commercial projects using the software,
-			it's all permissively licensed. It's possible I could reach a point where user funding could make
-			sense, but it's not a concrete goal right now, first I need to hit a milestone where Zzz can manage
-			websites like a CMS.
+			> for a few more years, and regardless of my personal situation I plan to continue working on this
+			software without trying to monetize it directly. It's all permissively licensed so anyone can create
+			commercial projects using it, and I may do this for a company to sustain development.
 		</p>
 		<p>
 			<a href="https://youtube.com/@webdevladder">@webdevladder</a> is a channel where I get to
