@@ -3,12 +3,12 @@
 	import type {Blog_Post_Data} from '@ryanatkn/fuz_blog/blog.js';
 
 	export const post = {
-		title: 'Introducing webdevladder',
+		title: 'Introducing Webdevladder',
 		slug: 'introducing-webdevladder',
 		date_published: '2024-08-14T18:10:26.092Z',
-		date_modified: '2025-06-27T15:24:37.363Z',
+		date_modified: '2025-06-28T23:31:20.100Z',
 		summary:
-			'I describe the purpose of my YouTube channel and blog, webdevladder, and my plans for the future',
+			'I describe the purpose of my YouTube channel and blog, Webdevladder, and my plans for the future',
 		tags: ['webdevladder'],
 		comments: {
 			type: 'mastodon',
