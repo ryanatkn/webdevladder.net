@@ -48,7 +48,8 @@
 				href="https://2023.stateofjs.com/en-US/libraries/front-end-frameworks/#front_end_frameworks_experience"
 				>well-liked</a
 			>
-			by its users. But 5 years later, Svelte 5 is again rethinking its reactivity, this time with
+			by its users. But 5 years later, Svelte is again rethinking its reactivity with version 5, this
+			time with
 			<a href="https://svelte.dev/blog/runes">signals and runes syntax</a> - why? I thought we loved
 			it?
 		</p>
