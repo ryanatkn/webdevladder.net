@@ -76,8 +76,9 @@
 		</p>
 		<p>
 			This post describes two specific problems with Svelte 3's reactivity and how they're fixed in
-			Svelte 5 with signals, the primitive behind its runes. Svelte 5 fixes many other reactivity
-			issues, and also improves its composability and other aspects, but we'll focus on two things:
+			Svelte 5 with signals, the primitive behind its reactive runes. Svelte 5 fixes many other
+			reactivity issues, and also improves its composability and other aspects, but we'll focus on
+			two things:
 		</p>
 		<ol>
 			<li>reactive statement inconsistency</li>
