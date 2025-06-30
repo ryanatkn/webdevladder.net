@@ -9,7 +9,8 @@ import{t as p,a as d,f as Q}from"../chunks/FM2UfGgQ.js";import{t as B,c as t,r a
 				I'd love to learn more about this if you have resources to share.</p>`),re=p(`<section><aside>This blog post is also a <a href="https://www.youtube.com/watch?v=lcnimZTNOCA">video</a>.</aside> <p><a href="https://svelte.dev/">Svelte</a> is a frontend JS framework that's known in part for
 			its terse and ergonomic reactivity. Reactivity is how changes to data synchronize with the UI
 			and other downstream data. In 2019 Svelte 3 <a href="https://svelte.dev/blog/svelte-3-rethinking-reactivity">introduced a reactivity design</a> that caught a lot of attention for its ease and apparent simplicity. Svelte rapidly rose to prominence
-			in its crowded space, and in surveys it has consistently been <a href="https://2023.stateofjs.com/en-US/libraries/front-end-frameworks/#front_end_frameworks_experience">well-liked</a> by its users. But 5 years later, Svelte 5 is again rethinking its reactivity, this time with <a href="https://svelte.dev/blog/runes">signals and runes syntax</a> - why? I thought we loved
+			in its crowded space, and in surveys it has consistently been <a href="https://2023.stateofjs.com/en-US/libraries/front-end-frameworks/#front_end_frameworks_experience">well-liked</a> by its users. But 5 years later, Svelte is again rethinking its reactivity with version 5, this
+			time with <a href="https://svelte.dev/blog/runes">signals and runes syntax</a> - why? I thought we loved
 			it?</p> <p>To many, Svelte 3 was a fresh and attractive answer to the hard problem of building reactive
 			UIs. It chose plain HTML as its starting point, and added some of the simplest possible syntax
 			to make its semantics reactive. Few frameworks look better in trivial examples:</p> <!> <p>This terse and fairly efficient reactivity was one of the main reasons I switched to Svelte
