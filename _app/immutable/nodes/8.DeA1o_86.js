@@ -16,8 +16,9 @@ import{t as p,a as d,f as Q}from"../chunks/FM2UfGgQ.js";import{t as B,c as t,r a
 			to make its semantics reactive. Few frameworks look better in trivial examples:</p> <!> <p>This terse and fairly efficient reactivity was one of the main reasons I switched to Svelte
 			full-time in 2019 after 5 years of React. But while its reactivity looks simple on the
 			surface, problems appear in nontrivial cases. There be dragons beyond this inviting facade.</p> <p>This post describes two specific problems with Svelte 3's reactivity and how they're fixed in
-			Svelte 5 with signals, the primitive behind its runes. Svelte 5 fixes many other reactivity
-			issues, and also improves its composability and other aspects, but we'll focus on two things:</p> <ol><li>reactive statement inconsistency</li> <li>derived store glitches</li></ol> <aside>When I refer to Svelte 3 it also applies to Svelte 4. I say 3 because that's the version that
+			Svelte 5 with signals, the primitive behind its reactive runes. Svelte 5 fixes many other
+			reactivity issues, and also improves its composability and other aspects, but we'll focus on
+			two things:</p> <ol><li>reactive statement inconsistency</li> <li>derived store glitches</li></ol> <aside>When I refer to Svelte 3 it also applies to Svelte 4. I say 3 because that's the version that
 			introduced the lauded and fraught reactivity. Version 4 was a small and recent release that
 			mostly just eases the path to 5.</aside> <p>Svelte 5, largely inspired by <a href="https://www.solidjs.com/">Solid</a>, uses signals to
 			improve its reactivity and fix these two problems, among others. In 2024 signals are being
