@@ -1,5 +1,5 @@
 import type {Flavored} from '@ryanatkn/belt/types.js';
-import type {Url} from '@ryanatkn/gro/package_json.js';
+import type {Url} from '@ryanatkn/belt/url.js';
 
 import type {Video} from '$lib/video.js';
 
