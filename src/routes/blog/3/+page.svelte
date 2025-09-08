@@ -295,6 +295,7 @@ $lastname = 'Turing'; // logs "Alan Turing"
 	<section>
 		<h2>A complete example</h2>
 		<p>
+			<!-- eslint-disable-next-line svelte/no-navigation-without-resolve -->
 			<a href={repl_link}>This REPL</a> compares Svelte 3 reactive statements, derived stores, and Svelte
 			5 signal-based runes. These three different reactive systems have subtle but important differences.
 		</p>
@@ -338,7 +339,11 @@ $lastname = 'Turing'; // logs "Alan Turing"
 			</Details>
 		</aside>
 		<!-- <aside>This may be easier to follow in the video.</aside> -->
-		<p>Things to notice in <a href={repl_link}>the REPL</a>:</p>
+		<p>
+			Things to notice in
+			<!-- eslint-disable-next-line svelte/no-navigation-without-resolve -->
+			<a href={repl_link}>the REPL</a>:
+		</p>
 		<ul>
 			<li>
 				the final rendered output in the DOM is what we expect, leading many people to be unaware of
