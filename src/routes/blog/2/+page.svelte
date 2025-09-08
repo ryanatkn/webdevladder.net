@@ -1,5 +1,5 @@
 <script lang="ts" module>
-	import {base} from '$app/paths';
+	import {asset} from '$app/paths';
 	import type {Blog_Post_Data} from '@ryanatkn/fuz_blog/blog.js';
 
 	export const post = {
@@ -65,8 +65,9 @@
 			<a href="https://youtube.com/@webdevladder_vods">second channel</a>.
 		</p>
 		<p>
-			But before you subscribe to <a href="{base}/blog/feed.xml">the feed</a>, here's some more
-			context.
+			But before you subscribe to
+			<!-- eslint-disable-next-line svelte/no-navigation-without-resolve -->
+			<a href={asset('/blog/feed.xml')}>the feed</a>, here's some more context.
 		</p>
 	</section>
 	<section>

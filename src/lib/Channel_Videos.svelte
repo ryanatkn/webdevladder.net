@@ -23,6 +23,7 @@
 		<div class="header_icon"><Logo name={channel.name} size="var(--icon_size_xl)" /></div>
 		<div class="header_content">
 			<h3>
+				<!-- eslint-disable-next-line svelte/no-navigation-without-resolve -->
 				<a href={channel.url}>@{channel.name}</a>
 			</h3>
 			<blockquote>
@@ -38,6 +39,7 @@
 				<div class="header_icon"><Logo name={playlist.name} /></div>
 				<div class="header_content">
 					<h4>
+						<!-- eslint-disable-next-line svelte/no-navigation-without-resolve -->
 						<a href={playlist.url}>{playlist.name}</a>
 					</h4>
 					<blockquote>

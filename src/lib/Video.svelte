@@ -12,6 +12,7 @@
 </script>
 
 <div class="panel p_md mb_lg">
+	<!-- eslint-disable-next-line svelte/no-navigation-without-resolve -->
 	<a href={video.url}>{video.title}</a>
 	<div>
 		<Duration duration={video.duration} />

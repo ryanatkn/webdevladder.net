@@ -1,5 +1,5 @@
 <script lang="ts">
-	import {base} from '$app/paths';
+	import {resolve} from '$app/paths';
 	import {parse_pkg} from '@ryanatkn/belt/pkg.js';
 	import Docs_Footer from '@ryanatkn/fuz/Docs_Footer.svelte';
 	import Svg from '@ryanatkn/fuz/Svg.svelte';
@@ -25,8 +25,8 @@
 		</header>
 	</section>
 	<section class="box gap_lg">
-		<Card href="{base}/blog" icon="🖊️">blog</Card>
-		<Card href="{base}/tools" icon="🪄" align="right">tools</Card>
+		<Card href={resolve('/blog')} icon="🖊️">blog</Card>
+		<Card href={resolve('/tools')} icon="🪄" align="right">tools</Card>
 	</section>
 	<section class="panel p_md shadow_inset_bottom_xs w_100">
 		<div class="panel shadow_inset_xs bg p_xl">
@@ -54,7 +54,7 @@
 	<section class="mb_xl7">
 		<Docs_Footer {pkg}>
 			{#snippet logo_header()}
-				<a class="mb_md" href="{base}/about">about</a>
+				<a class="mb_md" href={resolve('/about')}>about</a>
 			{/snippet}
 		</Docs_Footer>
 	</section>
