@@ -9,7 +9,7 @@
 	const pkg = parse_pkg(package_json, src_json);
 </script>
 
-<main class="width_md box mx_auto px_lg pt_xl5 pb_xl9">
+<main class="width_upto_md box mx_auto px_lg pt_xl5 pb_xl9">
 	<header>
 		<div class="mb_xl5" style:--font_size="var(--font_size_xl)">
 			<Breadcrumb>{package_json.glyph}</Breadcrumb>

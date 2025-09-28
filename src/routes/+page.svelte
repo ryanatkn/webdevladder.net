@@ -16,7 +16,7 @@
 	const pkg = parse_pkg(package_json, src_json);
 </script>
 
-<main class="width_md">
+<main class="width_upto_md">
 	<section class="box">
 		<header class="box">
 			<Svg data={webdevladder_logo} size="var(--icon_size_xl2)" attrs={{class: 'mt_xl5'}} />
@@ -28,7 +28,7 @@
 		<Card href={resolve('/blog')} icon="🖊️">blog</Card>
 		<Card href={resolve('/tools')} icon="🪄" align="right">tools</Card>
 	</section>
-	<section class="panel p_md shadow_inset_bottom_xs w_100">
+	<section class="panel p_md shadow_inset_bottom_xs width_100">
 		<div class="panel shadow_inset_xs bg p_xl">
 			<h2 class="mt_md">welcome</h2>
 			<p>
@@ -41,12 +41,12 @@
 			<aside>
 				<Community_Links />
 			</aside>
-			<nav class="font_size_xl5 box row flex_wrap">
+			<nav class="font_size_xl5 box row flex_wrap_wrap">
 				<Project_Links />
 			</nav>
 		</div>
 	</section>
-	<section class="panel p_md shadow_inset_bottom_xs w_100">
+	<section class="panel p_md shadow_inset_bottom_xs width_100">
 		<div class="panel shadow_inset_xs bg p_xl">
 			<Videos {channels} />
 		</div>
