@@ -50,6 +50,17 @@ export const feed: Blog_Feed = {
 			tags: ['svelte', 'signals'],
 			comments: {type: 'mastodon', url: 'https://fosstodon.org/@webdevladder/113312123824800794'},
 		},
+		{
+			id: 'https://www.webdevladder.net/blog/4',
+			url: 'https://www.webdevladder.net/blog/building-a-secure-web-server-with-deno-for-fuz_app',
+			blog_post_id: 4,
+			title: 'Building a secure web server with Deno for fuz_app',
+			slug: 'building-a-secure-web-server-with-deno-for-fuz_app',
+			date_published: '2025-11-21T12:52:52.287Z',
+			date_modified: '2025-11-21T12:52:52.287Z',
+			summary: 'todo',
+			tags: ['todo'],
+		},
 	],
 };
 

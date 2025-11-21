@@ -7,7 +7,7 @@
   <subtitle>blog of a web developer building free and open source tools and toys</subtitle>
   <link href="https://www.webdevladder.net/" />
   <link href="https://www.webdevladder.net/blog/feed.xml" rel="self" type="application/atom+xml" />
-	<updated>2025-06-28T23:31:20.100Z</updated>
+	<updated>2025-11-21T12:52:52.287Z</updated>
   <icon>https://www.webdevladder.net/favicon.png</icon>
   <author>
     <name>Ryan Atkinson</name>
@@ -15,6 +15,16 @@
     <uri>https://www.ryanatkn.com/</uri>
   </author>
   
+  <entry>
+    <id>https://www.webdevladder.net/blog/4</id>
+    <title>Building a secure web server with Deno for fuz_app</title>
+    <link rel="alternate" href="https://www.webdevladder.net/blog/building-a-secure-web-server-with-deno-for-fuz_app" />
+    <published>2025-11-21T12:52:52.287Z</published>
+    <updated>2025-11-21T12:52:52.287Z</updated>
+    <summary>todo</summary>
+    <category term="todo" />
+  </entry>
+
   <entry>
     <id>https://www.webdevladder.net/blog/3</id>
     <title>Svelte 5 signals fix its glitchy and inconsistent reactivity</title>
