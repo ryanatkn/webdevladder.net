@@ -1,6 +1,6 @@
 <script lang="ts">
-	import Channel_Videos from '$lib/Channel_Videos.svelte';
-	import type {Channel} from '$lib/channel.js';
+	import Channel_Videos from './Channel_Videos.svelte';
+	import type {Channel} from './channel.js';
 
 	interface Props {
 		channels: Array<Channel>;

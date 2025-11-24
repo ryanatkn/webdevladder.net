@@ -1,14 +1,14 @@
 <script lang="ts">
-	import Video from '$lib/Video.svelte';
-	import type {Channel} from '$lib/channel.js';
-	import {filter_playlist_videos} from '$lib/video.js';
-	import Logo from '$lib/Logo.svelte';
+	import Video from './Video.svelte';
+	import type {Channel} from './channel.js';
+	import {filter_playlist_videos} from './video.js';
+	import Logo from './Logo.svelte';
 
-	interface Props {
+	const {
+		channel,
+	}: {
 		channel: Channel;
-	}
-
-	const {channel}: Props = $props();
+	} = $props();
 
 	// TODO @many probably extract, maybe to `fuz_video`
 
