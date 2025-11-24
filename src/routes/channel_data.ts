@@ -1,7 +1,7 @@
 import type {Channel} from '$lib/channel.js';
-import type {Video} from '$lib/video.js';
+import type {Video_Json} from '$lib/video.js';
 
-const webdevladder_videos: Array<Video> = [
+const webdevladder_videos: Array<Video_Json> = [
 	// {
 	// 	title: 'Introducing webdevladder',
 	// 	url: 'https://www.youtube.com/watch?v=FHJnRybXZNw',
@@ -22,7 +22,7 @@ const webdevladder_videos: Array<Video> = [
 	},
 ];
 
-const webdevladder_vods_videos: Array<Video> = [
+const webdevladder_vods_videos: Array<Video_Json> = [
 	{
 		title: 'Svelte 5 refactoring to reactive SvelteSet in my ear trainer Earbetter',
 		url: 'https://www.youtube.com/watch?v=bE-BYtepFr8',

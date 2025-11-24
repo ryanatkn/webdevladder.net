@@ -68,22 +68,6 @@ a.chip {
 	font-weight: 600;
 }
 
-.pre {
-	font-family: var(--font_family_mono);
-	color: var(--text_color, var(--text_color_3));
-	overflow: auto;
-	max-width: 100%;
-}
-.pre > code {
-	font-size: var(
-		--font_size_sm
-	); /* TODO @many use a var? maybe computed from generic `--font_size`? */
-	font-weight: 500;
-}
-.pre:not(.inline) > code {
-	display: block;
-}
-
 .position_relative {
 	position: relative;
 }
@@ -139,9 +123,6 @@ a.chip {
 .width_100 {
 	width: 100%;
 }
-.height_100 {
-	height: 100%;
-}
 .p_sm {
 	padding: var(--space_sm);
 }
@@ -184,9 +165,6 @@ a.chip {
 }
 .mt_xl7 {
 	margin-top: var(--space_xl7);
-}
-.mr_xs {
-	margin-right: var(--space_xs);
 }
 .mr_sm {
 	margin-right: var(--space_sm);

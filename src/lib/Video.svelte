@@ -1,9 +1,9 @@
 <script lang="ts">
-	import type {Video} from '$lib/video.js';
-	import Duration from '$routes/Duration.svelte';
+	import type {Video_Json} from './video.js';
+	import Duration from './Duration.svelte';
 
 	interface Props {
-		video: Video;
+		video: Video_Json;
 	}
 
 	const {video}: Props = $props();

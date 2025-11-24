@@ -1,12 +1,12 @@
 <script lang="ts">
 	import Docs_Footer from '@ryanatkn/fuz/Docs_Footer.svelte';
 	import Breadcrumb from '@ryanatkn/fuz/Breadcrumb.svelte';
-	import {parse_pkg} from '@ryanatkn/belt/pkg.js';
+	import {Pkg} from '@ryanatkn/fuz/pkg.svelte.js';
 
 	import {package_json, src_json} from '$routes/package.js';
 	import Time_Converter from '$routes/tools/Time_Converter.svelte';
 
-	const pkg = parse_pkg(package_json, src_json);
+	const pkg = new Pkg(package_json, src_json);
 </script>
 
 <main class="width_upto_md box mx_auto px_lg pt_xl5 pb_xl9">

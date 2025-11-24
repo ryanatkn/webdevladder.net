@@ -1,7 +1,7 @@
 import type {Flavored} from '@ryanatkn/belt/types.js';
 import type {Url} from '@ryanatkn/belt/url.js';
 
-import type {Video} from '$lib/video.js';
+import type {Video_Json} from './video.js';
 
 // TODO @many probably extract, maybe to `fuz_video`
 
@@ -9,7 +9,7 @@ export interface Channel {
 	name: Channel_Name;
 	url: Url;
 	summary: Channel_Summary; // TODO maybe accept a snippet
-	videos: Array<Video>;
+	videos: Array<Video_Json>;
 	playlists: Array<Playlist>;
 }
 

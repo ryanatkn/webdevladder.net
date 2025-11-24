@@ -8,14 +8,16 @@
 		fuz_blog_logo,
 		fuz_mastodon_logo,
 	} from '@ryanatkn/fuz/logos.js';
-	import type {Channel_Name, Playlist_Name} from '$lib/channel.js';
 
-	interface Props {
+	import type {Channel_Name, Playlist_Name} from './channel.js';
+
+	const {
+		name,
+		size = 'var(--icon_size_lg)',
+	}: {
 		name: Channel_Name | Playlist_Name;
 		size?: string;
-	}
-
-	const {name, size = 'var(--icon_size_lg)'}: Props = $props();
+	} = $props();
 
 	const logos_by_name: Record<Channel_Name | Playlist_Name, Svg_Data | undefined> = {
 		webdevladder: webdevladder_logo,

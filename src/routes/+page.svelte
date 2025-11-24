@@ -1,10 +1,10 @@
 <script lang="ts">
 	import {resolve} from '$app/paths';
-	import {parse_pkg} from '@ryanatkn/belt/pkg.js';
+	import {Pkg} from '@ryanatkn/fuz/pkg.svelte.js';
 	import Docs_Footer from '@ryanatkn/fuz/Docs_Footer.svelte';
 	import Svg from '@ryanatkn/fuz/Svg.svelte';
 	import {webdevladder_logo} from '@ryanatkn/fuz/logos.js';
-	import Community_Links from '@ryanatkn/fuz/Community_Links.svelte';
+	import Ecosystem_Links from '@ryanatkn/fuz/Ecosystem_Links.svelte';
 	import Card from '@ryanatkn/fuz/Card.svelte';
 	import Project_Links from '@ryanatkn/fuz/Project_Links.svelte';
 
@@ -13,7 +13,7 @@
 	import {channels} from '$routes/channel_data.js';
 
 	// TODO put in context?
-	const pkg = parse_pkg(package_json, src_json);
+	const pkg = new Pkg(package_json, src_json);
 </script>
 
 <main class="width_upto_md">
@@ -39,7 +39,7 @@
 				accompanying video.
 			</p>
 			<aside>
-				<Community_Links />
+				<Ecosystem_Links />
 			</aside>
 			<nav class="font_size_xl5 box row flex_wrap_wrap">
 				<Project_Links />
