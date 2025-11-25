@@ -1,6 +1,6 @@
 <script lang="ts">
 	import Code from '@ryanatkn/fuz_code/Code.svelte';
-	import Copy_To_Clipboard from '@ryanatkn/fuz/Copy_To_Clipboard.svelte';
+	import CopyToClipboard from '@ryanatkn/fuz/CopyToClipboard.svelte';
 
 	import {parse_time, time_to_ms} from '$lib/time.js';
 
@@ -26,7 +26,7 @@
 	</div>
 	<small class="display_block text_color_3">milliseconds </small>
 	<div class="copy">
-		<Copy_To_Clipboard text={ms + ''} />
+		<CopyToClipboard text={ms + ''} />
 	</div>
 </div>
 <Code content={`const time = ${JSON.stringify(parsed_time, null, '\t')}`} lang="ts" />

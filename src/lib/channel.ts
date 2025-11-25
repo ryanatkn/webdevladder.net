@@ -1,26 +1,26 @@
 import type {Flavored} from '@ryanatkn/belt/types.js';
 import type {Url} from '@ryanatkn/belt/url.js';
 
-import type {Video_Json} from './video.js';
+import type {VideoJson} from './video.js';
 
 // TODO @many probably extract, maybe to `fuz_video`
 
 export interface Channel {
-	name: Channel_Name;
+	name: ChannelName;
 	url: Url;
-	summary: Channel_Summary; // TODO maybe accept a snippet
-	videos: Array<Video_Json>;
+	summary: ChannelSummary; // TODO maybe accept a snippet
+	videos: Array<VideoJson>;
 	playlists: Array<Playlist>;
 }
 
-export type Channel_Name = Flavored<string, 'Channel_Name'>;
-export type Channel_Summary = Flavored<string, 'Channel_Summary'>;
+export type ChannelName = Flavored<string, 'ChannelName'>;
+export type ChannelSummary = Flavored<string, 'ChannelSummary'>;
 
 export interface Playlist {
-	name: Playlist_Name;
+	name: PlaylistName;
 	url: Url;
-	summary: Playlist_Summary; // TODO maybe accept a snippet
+	summary: PlaylistSummary; // TODO maybe accept a snippet
 }
 
-export type Playlist_Name = Flavored<string, 'Playlist'>; // TODO maybe refactor to an object with `Playlist_Name`?
-export type Playlist_Summary = Flavored<string, 'Playlist_Summary'>;
+export type PlaylistName = Flavored<string, 'Playlist'>; // TODO maybe refactor to an object with `PlaylistName`?
+export type PlaylistSummary = Flavored<string, 'PlaylistSummary'>;

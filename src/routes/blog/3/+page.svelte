@@ -1,5 +1,5 @@
 <script lang="ts" module>
-	import type {Blog_Post_Data} from '@ryanatkn/fuz_blog/blog.js';
+	import type {BlogPostData} from '@ryanatkn/fuz_blog/blog.js';
 
 	export const post = {
 		title: 'Svelte 5 signals fix its glitchy and inconsistent reactivity',
@@ -13,16 +13,16 @@
 			type: 'mastodon',
 			url: 'https://fosstodon.org/@webdevladder/113312123824800794',
 		},
-	} satisfies Blog_Post_Data;
+	} satisfies BlogPostData;
 </script>
 
 <script lang="ts">
-	import Blog_Post from '@ryanatkn/fuz_blog/Blog_Post.svelte';
+	import BlogPost from '@ryanatkn/fuz_blog/BlogPost.svelte';
 	import Code from '@ryanatkn/fuz_code/Code.svelte';
 	import Details from '@ryanatkn/fuz/Details.svelte';
 
 	import Footnote from '$routes/Footnote.svelte';
-	import Footnote_Content from '$routes/Footnote_Content.svelte';
+	import FootnoteContent from '$routes/FootnoteContent.svelte';
 
 	const repl_link =
 		'https://svelte-5-preview.vercel.app/#H4sIAAAAAAAAA-1YzY7bNhB-lakrQHJiS2mLoIBXdlA0vRVokaSn9SKgpLHFhhYFcWSv4fhWtLee2zfp8-QF-goFSf3a8mZTZFGgyGG9Jufv45D8ZujDaMUFqtHs-jDK2AZHs9E3eT6ajGif64HaoiAcTUZKlkWsZ0IVFzynxTJbEt_ksiB4gSwmvsWXxAg3mJGCVSE34PrBuci3Lt2rjoPnWPAtJi9JFtja9maHzF6UWUfdjLpq2ZKCR_pT_71KuYIX3_34PSS4kZmighEq4FksM8UVYRbvgWUJrAWnOOXZGvJCRgI3SpvvOKXw0viGr1wFhV0Xpz1QyqgWPQUlxRYVGP1CI5oY85THKZQKQfF1xoSCMkuwAEoRUikT38KNhFxDLhXNICXK1SwIdrudv8Mowa1gSYKFnyEFWi-wK50-nVYupyt-O-WkpnYF-ynLkmlnfTRtQddZeRTYwAKpXhK-Vs1evcZbtskFwhwcM-uNr2r1xO7Oa2W25y5Nk4YLCpWKkGvVSg7HWqbBGynMwTNJnIDgGY5hvoCDWQUppFd8g7Ikz-vOL8nTbq-N2Q08ezaH65uxn5cq9YyPK6tng9GxF7LME0YabM_lHSnyrYVXex1Oz6lWLzV9YR9PgQrpFE6VtcOxMQiD9nZmocKYuMzMVQ2jkkhmILNY8PjN_GCDHRdqx3Io8xyLmCk0V0DInR2FgbUa9mAwHRfmX0czDDpxT0AQiwQuLPqQUmTJot6skIrmuxEuqrSEAaUnkhUvFGm6GpAJdlG0KoU4E4VBE1jPt5BCimSyb_XOqaz1HvEsmVHKlc7KxTNybA2EXM8PXnOUhVx7bm0JraVbHffGMmjx9OhxEMrwGXwPisoIrNFdAAzhDuege6zfE8-pAxqji_HCoN2OMKjP0fBZg1gwpebLkb4gy5GxOXyOLE7hh-hnjMl_g3tl2GEMTIFhiCpimPBtYx9LUW6yyoOR6vOBxeJgTcKgGtfyKkqXd5gyK-pkIcwXBzMVBnlrGWjLGkSQ8K2FXU-frpT21UWq11xxQs6ShGfrGXzhPy1wA08sN1guobRWI7ylKRN8nc1A4IoaLaLUVKzZWsiICY-S8ZnrJ_6XBW66jn1DRZVewlUu2H4GK4G3rWObqlppJTOa7pCvU5rB109amOTbrNeKG1aseTYtrGYvMOV9pRpZu-gwqBM1mow2MuErjsloRkWJx0nT8Zzf7Ps2QHhrGpGqhFWMXU3eVUg06Xqulbl9vte-GMzBZW5TQSM9juqmxpkB0zPtdTW74sJjYPAYXPMtGsPbt91xr5wY0jclFbOTiuK57377xSpoO6NRVSu-shbw2VzjwZUsEAwX6-YhcccW0rtf__j7r9-hkmtPFbio64jBfG5WOW4Ltl4380n-pMvRt0y1hXJJQQD3jD-dQlIWuoMbir0knbtoMMoRUCg8x_O9LogPjuc8yvED8_6nzjtbERYDoeoDZs_egJf6AFa1SN913_er42lmW-2e68apDT3g81KP1sSqUJNVOgE-PutsqpIdUrI4r5phQEkjPrBjfxydjFkzUXUCdzFFr-Z-4CvpsCu4qVuTunc-Vm8Xax6Yiuv2SeRjMos102e6RuLp63fVyqKeLHL7bbghnQq6d80mEN1MwLt22ASc6KYLwuo7xsBpOciJrjrb3mcup70RBVJZZHqm3X5z3543Lzd9mVK5A1VGOtERFgoUYvV428OWiRLVrLJjkd8oep6O1GANArBwpUD_vP-pA-S6xJ4ADQJo3im9jflPyNXps6szRK96EpyHIViny2iO2fj7cWwL6uOz7AVQD0S0zgMyrfOwVOvcj2t7d6NPo84pzzqnROt8ENOax8V9Gdbeu4OQ66Pe47yQufIG7-a_bseqnyYawqzbsnq-JcsggA5f1s8br9uadSi3p-RH-4FNu9zi9QnzpNmjk19RPvV8n3q-_0nP1_vN4KO3ezfHfwC8rN4sFhcAAA==';
@@ -30,7 +30,7 @@
 
 <!-- eslint-disable svelte/no-useless-mustaches -->
 
-<Blog_Post {post}>
+<BlogPost {post}>
 	<section>
 		<aside>
 			This blog post is also a <a href="https://www.youtube.com/watch?v=lcnimZTNOCA">video</a>.
@@ -431,7 +431,7 @@ $lastname = 'Turing'; // logs "Alan Turing"
 
 	<section>
 		<h2>Footnotes</h2>
-		<Footnote_Content number={1}>
+		<FootnoteContent number={1}>
 			<p>
 				Not all signals implementations are glitch-free, as I understand the term. (in hindsight I
 				think I'm misinterpreting the <a
@@ -448,8 +448,8 @@ $lastname = 'Turing'; // logs "Alan Turing"
 				automatically, with tradeoffs like effects being deferred instead of eager. I generally prefer
 				Svelte 5's tradeoffs.
 			</p>
-		</Footnote_Content>
-		<Footnote_Content number={2}>
+		</FootnoteContent>
+		<FootnoteContent number={2}>
 			<p>
 				The deferred effects of Svelte 5's signals have good ergonomics, but like reactive
 				statements, they cannot observe intermediate values. This makes Svelte 5's control less
@@ -459,6 +459,6 @@ $lastname = 'Turing'; // logs "Alan Turing"
 				> has no opinion on effects because it's unclear what's best - and maybe there's no perfect answer.
 				I'd love to learn more about this if you have resources to share.
 			</p>
-		</Footnote_Content>
+		</FootnoteContent>
 	</section>
-</Blog_Post>
+</BlogPost>

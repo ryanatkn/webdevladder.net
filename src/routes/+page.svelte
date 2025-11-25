@@ -1,12 +1,12 @@
 <script lang="ts">
 	import {resolve} from '$app/paths';
 	import {Pkg} from '@ryanatkn/fuz/pkg.svelte.js';
-	import Docs_Footer from '@ryanatkn/fuz/Docs_Footer.svelte';
+	import DocsFooter from '@ryanatkn/fuz/DocsFooter.svelte';
 	import Svg from '@ryanatkn/fuz/Svg.svelte';
 	import {webdevladder_logo} from '@ryanatkn/fuz/logos.js';
-	import Ecosystem_Links from '@ryanatkn/fuz/Ecosystem_Links.svelte';
+	import EcosystemLinks from '@ryanatkn/fuz/EcosystemLinks.svelte';
 	import Card from '@ryanatkn/fuz/Card.svelte';
-	import Project_Links from '@ryanatkn/fuz/Project_Links.svelte';
+	import ProjectLinks from '@ryanatkn/fuz/ProjectLinks.svelte';
 
 	import {package_json, src_json} from '$routes/package.js';
 	import Videos from '$lib/Videos.svelte';
@@ -39,10 +39,10 @@
 				accompanying video.
 			</p>
 			<aside>
-				<Ecosystem_Links />
+				<EcosystemLinks />
 			</aside>
 			<nav class="font_size_xl5 box row flex_wrap_wrap">
-				<Project_Links />
+				<ProjectLinks />
 			</nav>
 		</div>
 	</section>
@@ -52,11 +52,11 @@
 		</div>
 	</section>
 	<section class="mb_xl7">
-		<Docs_Footer {pkg}>
+		<DocsFooter {pkg}>
 			{#snippet logo_header()}
 				<a class="mb_md" href={resolve('/about')}>about</a>
 			{/snippet}
-		</Docs_Footer>
+		</DocsFooter>
 	</section>
 </main>
 

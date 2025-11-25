@@ -1,6 +1,6 @@
 <script lang="ts" module>
-	import type {Blog_Post_Data} from '@ryanatkn/fuz_blog/blog.js';
-	import Blog_Post from '@ryanatkn/fuz_blog/Blog_Post.svelte';
+	import type {BlogPostData} from '@ryanatkn/fuz_blog/blog.js';
+	import BlogPost from '@ryanatkn/fuz_blog/BlogPost.svelte';
 
 	export const post = {
 		title: 'Hello webdevladder blog',
@@ -13,14 +13,14 @@
 			type: 'mastodon',
 			url: 'https://fosstodon.org/@webdevladder/113312147463274655',
 		},
-	} satisfies Blog_Post_Data;
+	} satisfies BlogPostData;
 </script>
 
 <script lang="ts">
 	//
 </script>
 
-<Blog_Post {post}>
+<BlogPost {post}>
 	<section>
 		<p>
 			This blog was created with <code>fuz_blog</code>, a SvelteKit library for making blogs for
@@ -51,4 +51,4 @@
 		</ol>
 		<p>Stay tuned for more.</p>
 	</section>
-</Blog_Post>
+</BlogPost>

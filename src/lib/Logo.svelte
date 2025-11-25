@@ -1,5 +1,5 @@
 <script lang="ts">
-	import Svg, {type Svg_Data} from '@ryanatkn/fuz/Svg.svelte';
+	import Svg, {type SvgData} from '@ryanatkn/fuz/Svg.svelte';
 	import {
 		webdevladder_logo,
 		fuz_logo,
@@ -9,17 +9,17 @@
 		fuz_mastodon_logo,
 	} from '@ryanatkn/fuz/logos.js';
 
-	import type {Channel_Name, Playlist_Name} from './channel.js';
+	import type {ChannelName, PlaylistName} from './channel.js';
 
 	const {
 		name,
 		size = 'var(--icon_size_lg)',
 	}: {
-		name: Channel_Name | Playlist_Name;
+		name: ChannelName | PlaylistName;
 		size?: string;
 	} = $props();
 
-	const logos_by_name: Record<Channel_Name | Playlist_Name, Svg_Data | undefined> = {
+	const logos_by_name: Record<ChannelName | PlaylistName, SvgData | undefined> = {
 		webdevladder: webdevladder_logo,
 		'webdevladder.net': webdevladder_logo,
 		webdevladder_vods: webdevladder_logo,

@@ -1,9 +1,9 @@
 <script lang="ts">
 	// TODO docs?
-	// import Package_Detail from '@ryanatkn/fuz/Package_Detail.svelte';
+	// import PackageDetail from '@ryanatkn/fuz/PackageDetail.svelte';
 	import {Pkg} from '@ryanatkn/fuz/pkg.svelte.js';
-	import Ecosystem_Links_Panel from '@ryanatkn/fuz/Ecosystem_Links_Panel.svelte';
-	import Docs_Footer from '@ryanatkn/fuz/Docs_Footer.svelte';
+	import EcosystemLinksPanel from '@ryanatkn/fuz/EcosystemLinksPanel.svelte';
+	import DocsFooter from '@ryanatkn/fuz/DocsFooter.svelte';
 	import Breadcrumb from '@ryanatkn/fuz/Breadcrumb.svelte';
 
 	import {package_json, src_json} from '$routes/package.js';
@@ -20,18 +20,18 @@
 		</header>
 		<Breadcrumb>{package_json.glyph}</Breadcrumb>
 	</section>
-	<Ecosystem_Links_Panel />
+	<EcosystemLinksPanel />
 	<!-- <section class="box width_100 mb_lg">
 		<div class="panel p_md width_upto_md">
-			<Package_Detail {pkg} />
+			<PackageDetail {pkg} />
 		</div>
 	</section> -->
 	<section class="box">
-		<Docs_Footer {pkg}>
+		<DocsFooter {pkg}>
 			<div class="mb_xl">
 				<Breadcrumb>{package_json.glyph}</Breadcrumb>
 			</div>
-		</Docs_Footer>
+		</DocsFooter>
 	</section>
 </main>
 

@@ -1,6 +1,6 @@
 <script lang="ts" module>
 	import {asset} from '$app/paths';
-	import type {Blog_Post_Data} from '@ryanatkn/fuz_blog/blog.js';
+	import type {BlogPostData} from '@ryanatkn/fuz_blog/blog.js';
 
 	export const post = {
 		title: 'Introducing Webdevladder',
@@ -14,14 +14,14 @@
 			type: 'mastodon',
 			url: 'https://fosstodon.org/@webdevladder/113312132188029470',
 		},
-	} satisfies Blog_Post_Data;
+	} satisfies BlogPostData;
 </script>
 
 <script lang="ts">
-	import Blog_Post from '@ryanatkn/fuz_blog/Blog_Post.svelte';
+	import BlogPost from '@ryanatkn/fuz_blog/BlogPost.svelte';
 </script>
 
-<Blog_Post {post}>
+<BlogPost {post}>
 	<section>
 		<!-- <aside>
 			Prefer to watch? This blog post is also a <a
@@ -140,4 +140,4 @@
 			next time.
 		</p>
 	</section>
-</Blog_Post>
+</BlogPost>

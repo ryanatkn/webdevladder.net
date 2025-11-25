@@ -1,5 +1,5 @@
 <script lang="ts">
-	import Channel_Videos from './Channel_Videos.svelte';
+	import ChannelVideos from './ChannelVideos.svelte';
 	import type {Channel} from './channel.js';
 
 	interface Props {
@@ -15,5 +15,5 @@
 
 <h2 class="mt_md">videos</h2>
 {#each channels as channel (channel.name)}
-	<Channel_Videos {channel} />
+	<ChannelVideos {channel} />
 {/each}

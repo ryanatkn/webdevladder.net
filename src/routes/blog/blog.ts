@@ -1,7 +1,7 @@
-import type {Blog_Feed_Data} from '@ryanatkn/fuz_blog/blog.js';
+import type {BlogFeedData} from '@ryanatkn/fuz_blog/blog.js';
 
 // TODO extract to fuz.config.ts?
-export const blog: Blog_Feed_Data = {
+export const blog: BlogFeedData = {
 	title: 'webdevladder.net blog',
 	id: 'https://www.webdevladder.net/',
 	home_page_url: 'https://www.webdevladder.net/',
