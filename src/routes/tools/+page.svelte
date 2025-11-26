@@ -1,18 +1,18 @@
 <script lang="ts">
 	import DocsFooter from '@ryanatkn/fuz/DocsFooter.svelte';
 	import Breadcrumb from '@ryanatkn/fuz/Breadcrumb.svelte';
-	import {Pkg} from '@ryanatkn/fuz/pkg.svelte.js';
+	import {Library} from '@ryanatkn/fuz/library.svelte.js';
 
-	import {package_json, src_json} from '$routes/package.js';
+	import {library_json} from '$routes/library.js';
 	import TimeConverter from '$routes/tools/TimeConverter.svelte';
 
-	const pkg = new Pkg(package_json, src_json);
+	const library = new Library(library_json);
 </script>
 
 <main class="width_upto_md box mx_auto px_lg pt_xl5 pb_xl9">
 	<header>
 		<div class="mb_xl5" style:--font_size="var(--font_size_xl)">
-			<Breadcrumb>{package_json.glyph}</Breadcrumb>
+			<Breadcrumb>{library_json.package_json.glyph}</Breadcrumb>
 		</div>
 	</header>
 	<section>
@@ -26,9 +26,9 @@
 		</p>
 	</section>
 	<section class="box">
-		<DocsFooter {pkg}>
+		<DocsFooter {library}>
 			<div class="mb_xl">
-				<Breadcrumb>{package_json.glyph}</Breadcrumb>
+				<Breadcrumb>{library_json.package_json.glyph}</Breadcrumb>
 			</div>
 		</DocsFooter>
 	</section>

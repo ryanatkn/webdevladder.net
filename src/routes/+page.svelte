@@ -1,6 +1,6 @@
 <script lang="ts">
 	import {resolve} from '$app/paths';
-	import {Pkg} from '@ryanatkn/fuz/pkg.svelte.js';
+	import {Library} from '@ryanatkn/fuz/library.svelte.js';
 	import DocsFooter from '@ryanatkn/fuz/DocsFooter.svelte';
 	import Svg from '@ryanatkn/fuz/Svg.svelte';
 	import {webdevladder_logo} from '@ryanatkn/fuz/logos.js';
@@ -8,12 +8,12 @@
 	import Card from '@ryanatkn/fuz/Card.svelte';
 	import ProjectLinks from '@ryanatkn/fuz/ProjectLinks.svelte';
 
-	import {package_json, src_json} from '$routes/package.js';
+	import {library_json} from '$routes/library.js';
 	import Videos from '$lib/Videos.svelte';
 	import {channels} from '$routes/channel_data.js';
 
 	// TODO put in context?
-	const pkg = new Pkg(package_json, src_json);
+	const library = new Library(library_json);
 </script>
 
 <main class="width_upto_md">
@@ -52,7 +52,7 @@
 		</div>
 	</section>
 	<section class="mb_xl7">
-		<DocsFooter {pkg}>
+		<DocsFooter {library}>
 			{#snippet logo_header()}
 				<a class="mb_md" href={resolve('/about')}>about</a>
 			{/snippet}
