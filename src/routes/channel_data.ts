@@ -93,13 +93,13 @@ const webdevladder_vods_videos: Array<VideoJson> = [
 		title: 'CSS framework programming - adding two new colors to Fuz CSS',
 		url: 'https://www.youtube.com/watch?v=w91nWStWyaw',
 		duration: 4050000,
-		playlists: ['Fuz CSS'],
+		playlists: ['fuz_css'],
 	},
 	{
 		title: 'Raw CSS programming - better button color variants in my CSS framework',
 		url: 'https://www.youtube.com/watch?v=eYZVB8LdTV8',
 		duration: 4827000,
-		playlists: ['Fuz CSS'],
+		playlists: ['fuz_css'],
 	},
 	// {
 	// 	title: '',
@@ -130,7 +130,7 @@ export const webdevladder_vods_channel: Channel = {
 			summary: "coding my channel's website",
 		},
 		{
-			name: 'Fuz CSS',
+			name: 'fuz_css',
 			url: 'https://www.youtube.com/playlist?list=PLio_5jgyVNVnMuJCJ6g6A9nSfS6xUfaWR',
 			summary: 'CSS framework programming',
 		},
