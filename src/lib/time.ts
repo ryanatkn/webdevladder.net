@@ -1,4 +1,4 @@
-import type {Flavored} from '@ryanatkn/belt/types.js';
+import type {Flavored} from '@fuzdev/fuz_util/types.js';
 
 // TODO @many probably extract, maybe to `fuz_video` or `belt`?
 

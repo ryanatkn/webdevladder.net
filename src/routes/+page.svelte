@@ -1,12 +1,12 @@
 <script lang="ts">
 	import {resolve} from '$app/paths';
-	import {Library} from '@ryanatkn/fuz/library.svelte.js';
-	import DocsFooter from '@ryanatkn/fuz/DocsFooter.svelte';
-	import Svg from '@ryanatkn/fuz/Svg.svelte';
-	import {webdevladder_logo} from '@ryanatkn/fuz/logos.js';
-	import EcosystemLinks from '@ryanatkn/fuz/EcosystemLinks.svelte';
-	import Card from '@ryanatkn/fuz/Card.svelte';
-	import ProjectLinks from '@ryanatkn/fuz/ProjectLinks.svelte';
+	import {Library} from '@fuzdev/fuz_ui/library.svelte.js';
+	import DocsFooter from '@fuzdev/fuz_ui/DocsFooter.svelte';
+	import Svg from '@fuzdev/fuz_ui/Svg.svelte';
+	import {webdevladder_logo} from '@fuzdev/fuz_ui/logos.js';
+	import EcosystemLinks from '@fuzdev/fuz_ui/EcosystemLinks.svelte';
+	import Card from '@fuzdev/fuz_ui/Card.svelte';
+	import ProjectLinks from '@fuzdev/fuz_ui/ProjectLinks.svelte';
 
 	import {library_json} from '$routes/library.js';
 	import Videos from '$lib/Videos.svelte';

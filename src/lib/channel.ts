@@ -1,5 +1,5 @@
-import type {Flavored} from '@ryanatkn/belt/types.js';
-import type {Url} from '@ryanatkn/belt/url.js';
+import type {Flavored} from '@fuzdev/fuz_util/types.js';
+import type {Url} from '@fuzdev/fuz_util/url.js';
 
 import type {VideoJson} from './video.js';
 

@@ -1,6 +1,6 @@
 <script lang="ts" module>
 	import {asset} from '$app/paths';
-	import type {BlogPostData} from '@ryanatkn/fuz_blog/blog.js';
+	import type {BlogPostData} from '@fuzdev/fuz_blog/blog.js';
 
 	export const post = {
 		title: 'Introducing Webdevladder',
@@ -18,7 +18,7 @@
 </script>
 
 <script lang="ts">
-	import BlogPost from '@ryanatkn/fuz_blog/BlogPost.svelte';
+	import BlogPost from '@fuzdev/fuz_blog/BlogPost.svelte';
 </script>
 
 <BlogPost {post}>

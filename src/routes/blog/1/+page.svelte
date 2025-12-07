@@ -1,6 +1,6 @@
 <script lang="ts" module>
-	import type {BlogPostData} from '@ryanatkn/fuz_blog/blog.js';
-	import BlogPost from '@ryanatkn/fuz_blog/BlogPost.svelte';
+	import type {BlogPostData} from '@fuzdev/fuz_blog/blog.js';
+	import BlogPost from '@fuzdev/fuz_blog/BlogPost.svelte';
 
 	export const post = {
 		title: 'Hello webdevladder blog',
@@ -25,7 +25,7 @@
 		<p>
 			This blog was created with <code>fuz_blog</code>, a SvelteKit library for making blogs for
 			developers. (<a href="https://blog.fuz.dev">blog.fuz.dev</a>,
-			<a href="https://github.com/ryanatkn/fuz_blog">source code</a>)
+			<a href="https://github.com/fuzdev/fuz_blog">source code</a>)
 		</p>
 		<p>
 			Here's the video where I added the blog and this post with Mastodon comments: <a
