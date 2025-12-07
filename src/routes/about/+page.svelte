@@ -1,10 +1,10 @@
 <script lang="ts">
 	// TODO docs?
-	// import LibraryDetail from '@ryanatkn/fuz/LibraryDetail.svelte';
-	import {Library} from '@ryanatkn/fuz/library.svelte.js';
-	import EcosystemLinksPanel from '@ryanatkn/fuz/EcosystemLinksPanel.svelte';
-	import DocsFooter from '@ryanatkn/fuz/DocsFooter.svelte';
-	import Breadcrumb from '@ryanatkn/fuz/Breadcrumb.svelte';
+	// import LibraryDetail from '@fuzdev/fuz_ui/LibraryDetail.svelte';
+	import {Library} from '@fuzdev/fuz_ui/library.svelte.js';
+	import EcosystemLinksPanel from '@fuzdev/fuz_ui/EcosystemLinksPanel.svelte';
+	import DocsFooter from '@fuzdev/fuz_ui/DocsFooter.svelte';
+	import Breadcrumb from '@fuzdev/fuz_ui/Breadcrumb.svelte';
 
 	import {library_json} from '$routes/library.js';
 

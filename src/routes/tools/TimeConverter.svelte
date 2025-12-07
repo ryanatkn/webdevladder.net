@@ -1,6 +1,6 @@
 <script lang="ts">
-	import Code from '@ryanatkn/fuz_code/Code.svelte';
-	import CopyToClipboard from '@ryanatkn/fuz/CopyToClipboard.svelte';
+	import Code from '@fuzdev/fuz_code/Code.svelte';
+	import CopyToClipboard from '@fuzdev/fuz_ui/CopyToClipboard.svelte';
 
 	import {parse_time, time_to_ms} from '$lib/time.js';
 

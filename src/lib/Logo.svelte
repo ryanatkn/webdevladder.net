@@ -1,5 +1,5 @@
 <script lang="ts">
-	import Svg, {type SvgData} from '@ryanatkn/fuz/Svg.svelte';
+	import Svg, {type SvgData} from '@fuzdev/fuz_ui/Svg.svelte';
 	import {
 		webdevladder_logo,
 		fuz_logo,
@@ -7,7 +7,7 @@
 		earbetter_logo,
 		fuz_blog_logo,
 		fuz_mastodon_logo,
-	} from '@ryanatkn/fuz/logos.js';
+	} from '@fuzdev/fuz_ui/logos.js';
 
 	import type {ChannelName, PlaylistName} from './channel.js';
 

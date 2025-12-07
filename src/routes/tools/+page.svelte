@@ -1,7 +1,7 @@
 <script lang="ts">
-	import DocsFooter from '@ryanatkn/fuz/DocsFooter.svelte';
-	import Breadcrumb from '@ryanatkn/fuz/Breadcrumb.svelte';
-	import {Library} from '@ryanatkn/fuz/library.svelte.js';
+	import DocsFooter from '@fuzdev/fuz_ui/DocsFooter.svelte';
+	import Breadcrumb from '@fuzdev/fuz_ui/Breadcrumb.svelte';
+	import {Library} from '@fuzdev/fuz_ui/library.svelte.js';
 
 	import {library_json} from '$routes/library.js';
 	import TimeConverter from '$routes/tools/TimeConverter.svelte';

@@ -1,5 +1,5 @@
 <script lang="ts" module>
-	import type {BlogPostData} from '@ryanatkn/fuz_blog/blog.js';
+	import type {BlogPostData} from '@fuzdev/fuz_blog/blog.js';
 
 	export const post = {
 		title: 'Svelte 5 signals fix its glitchy and inconsistent reactivity',
@@ -17,9 +17,9 @@
 </script>
 
 <script lang="ts">
-	import BlogPost from '@ryanatkn/fuz_blog/BlogPost.svelte';
-	import Code from '@ryanatkn/fuz_code/Code.svelte';
-	import Details from '@ryanatkn/fuz/Details.svelte';
+	import BlogPost from '@fuzdev/fuz_blog/BlogPost.svelte';
+	import Code from '@fuzdev/fuz_code/Code.svelte';
+	import Details from '@fuzdev/fuz_ui/Details.svelte';
 
 	import Footnote from '$routes/Footnote.svelte';
 	import FootnoteContent from '$routes/FootnoteContent.svelte';
