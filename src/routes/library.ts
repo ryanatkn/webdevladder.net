@@ -36,27 +36,27 @@ export const library_json: LibraryJson = {
 			node: '>=22.15',
 		},
 		devDependencies: {
-			'@fuzdev/fuz_util': '^0.40.0',
+			'@fuzdev/fuz_blog': '^0.20.0',
+			'@fuzdev/fuz_code': '^0.38.0',
+			'@fuzdev/fuz_css': '^0.41.0',
+			'@fuzdev/fuz_mastodon': '^0.37.0',
+			'@fuzdev/fuz_ui': '^0.170.0',
+			'@fuzdev/fuz_util': '^0.42.0',
 			'@ryanatkn/eslint-config': '^0.9.0',
-			'@fuzdev/fuz_ui': '^0.165.0',
-			'@fuzdev/fuz_blog': '^0.18.0',
-			'@fuzdev/fuz_code': '^0.36.0',
-			'@fuzdev/fuz_mastodon': '^0.36.0',
-			'@ryanatkn/gro': '^0.179.0',
-			'@fuzdev/fuz_css': '^0.39.0',
+			'@ryanatkn/gro': '^0.181.0',
 			'@sveltejs/adapter-static': '^3.0.10',
-			'@sveltejs/kit': '^2.49.0',
+			'@sveltejs/kit': '^2.49.1',
 			'@sveltejs/vite-plugin-svelte': '^6.2.1',
 			eslint: '^9.39.1',
-			'eslint-plugin-svelte': '^3.13.0',
+			'eslint-plugin-svelte': '^3.13.1',
 			prettier: '^3.6.2',
 			'prettier-plugin-svelte': '^3.4.0',
-			svelte: '^5.44.1',
+			svelte: '^5.45.6',
 			'svelte-check': '^4.3.4',
 			tslib: '^2.8.1',
 			typescript: '^5.9.3',
-			'typescript-eslint': '^8.48.0',
-			vitest: '^4.0.14',
+			'typescript-eslint': '^8.48.1',
+			vitest: '^4.0.15',
 		},
 		prettier: {
 			plugins: ['prettier-plugin-svelte'],
@@ -179,7 +179,6 @@ export const library_json: LibraryJson = {
 							{
 								name: 'channel',
 								type: 'Channel',
-								optional: false,
 							},
 						],
 						source_line: 1,
@@ -198,7 +197,6 @@ export const library_json: LibraryJson = {
 							{
 								name: 'duration',
 								type: 'number',
-								optional: false,
 								description: 'Time in milliseconds.',
 							},
 						],
@@ -217,7 +215,6 @@ export const library_json: LibraryJson = {
 							{
 								name: 'name',
 								type: 'ChannelName | PlaylistName',
-								optional: false,
 							},
 							{
 								name: 'size',
@@ -299,7 +296,6 @@ export const library_json: LibraryJson = {
 							{
 								name: 'str',
 								type: 'string',
-								optional: false,
 							},
 						],
 					},
@@ -313,7 +309,6 @@ export const library_json: LibraryJson = {
 							{
 								name: '__0',
 								type: 'Time',
-								optional: false,
 							},
 						],
 					},
@@ -333,7 +328,6 @@ export const library_json: LibraryJson = {
 							{
 								name: 'video',
 								type: 'VideoJson',
-								optional: false,
 							},
 						],
 						source_line: 1,
@@ -389,12 +383,10 @@ export const library_json: LibraryJson = {
 							{
 								name: 'videos',
 								type: 'VideoJson[]',
-								optional: false,
 							},
 							{
 								name: 'playlist',
 								type: 'Playlist',
-								optional: false,
 							},
 						],
 					},
@@ -411,7 +403,6 @@ export const library_json: LibraryJson = {
 							{
 								name: 'channels',
 								type: 'Array<Channel>',
-								optional: false,
 							},
 						],
 						source_line: 1,
