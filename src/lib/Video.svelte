@@ -2,11 +2,11 @@
 	import type {VideoJson} from './video.js';
 	import Duration from './Duration.svelte';
 
-	interface Props {
+	const {
+		video,
+	}: {
 		video: VideoJson;
-	}
-
-	const {video}: Props = $props();
+	} = $props();
 
 	// TODO @many probably extract, maybe to `fuz_video`
 </script>

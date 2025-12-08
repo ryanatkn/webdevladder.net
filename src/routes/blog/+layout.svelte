@@ -2,18 +2,19 @@
 	import Breadcrumb from '@fuzdev/fuz_ui/Breadcrumb.svelte';
 	import type {Snippet} from 'svelte';
 	import Svg from '@fuzdev/fuz_ui/Svg.svelte';
-	import {webdevladder_logo} from '@fuzdev/fuz_ui/logos.js';
 	import {DEV} from 'esm-env';
 	import {
 		MastodonCache,
 		mastodon_cache_context,
 	} from '@fuzdev/fuz_mastodon/mastodon_cache.svelte.js';
 
-	interface Props {
-		children: Snippet;
-	}
+	import {logo_webdevladder} from '$lib/logos.js';
 
-	const {children}: Props = $props();
+	const {
+		children,
+	}: {
+		children: Snippet;
+	} = $props();
 
 	if (DEV) {
 		mastodon_cache_context.set(
@@ -33,13 +34,13 @@
 </script>
 
 <div class="breadcrumbs mt_xl3">
-	<Breadcrumb><Svg data={webdevladder_logo} size="var(--icon_size_sm)" /></Breadcrumb>
+	<Breadcrumb><Svg data={logo_webdevladder} size="var(--icon_size_sm)" /></Breadcrumb>
 </div>
 <div class="wrapper">
 	{@render children()}
 </div>
 <div class="breadcrumbs mb_xl9 mt_xl7">
-	<Breadcrumb><Svg data={webdevladder_logo} size="var(--icon_size_sm)" /></Breadcrumb>
+	<Breadcrumb><Svg data={logo_webdevladder} size="var(--icon_size_sm)" /></Breadcrumb>
 </div>
 
 <!-- TODO 404, needs to work with prerendering -->

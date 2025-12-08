@@ -11,11 +11,11 @@
 
 	import {feed} from '$routes/blog/feed.js';
 
-	interface Props {
+	const {
+		children,
+	}: {
 		children: Snippet;
-	}
-
-	const {children}: Props = $props();
+	} = $props();
 
 	blog_feed_context.set(feed);
 </script>

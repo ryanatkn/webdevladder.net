@@ -3,11 +3,11 @@
 	import {Library} from '@fuzdev/fuz_ui/library.svelte.js';
 	import DocsFooter from '@fuzdev/fuz_ui/DocsFooter.svelte';
 	import Svg from '@fuzdev/fuz_ui/Svg.svelte';
-	import {webdevladder_logo} from '@fuzdev/fuz_ui/logos.js';
-	import EcosystemLinks from '@fuzdev/fuz_ui/EcosystemLinks.svelte';
 	import Card from '@fuzdev/fuz_ui/Card.svelte';
-	import ProjectLinks from '@fuzdev/fuz_ui/ProjectLinks.svelte';
 
+	import PersonalEcosystemLinks from '$routes/PersonalEcosystemLinks.svelte';
+	import PersonalProjectLinks from '$routes/PersonalProjectLinks.svelte';
+	import {logo_webdevladder} from '$lib/logos.js';
 	import {library_json} from '$routes/library.js';
 	import Videos from '$lib/Videos.svelte';
 	import {channels} from '$routes/channel_data.js';
@@ -19,7 +19,7 @@
 <main class="width_upto_md">
 	<section class="box">
 		<header class="box">
-			<Svg data={webdevladder_logo} size="var(--icon_size_xl2)" attrs={{class: 'mt_xl5'}} />
+			<Svg data={logo_webdevladder} size="var(--icon_size_xl2)" attrs={{class: 'mt_xl5'}} />
 			<h1 class="my_xl3">webdevladder</h1>
 			<blockquote>up ↗ 🪜</blockquote>
 		</header>
@@ -39,10 +39,10 @@
 				accompanying video.
 			</p>
 			<aside>
-				<EcosystemLinks />
+				<PersonalEcosystemLinks />
 			</aside>
 			<nav class="font_size_xl5 box row flex_wrap_wrap">
-				<ProjectLinks />
+				<PersonalProjectLinks />
 			</nav>
 		</div>
 	</section>

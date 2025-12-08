@@ -2,11 +2,11 @@
 	import ChannelVideos from './ChannelVideos.svelte';
 	import type {Channel} from './channel.js';
 
-	interface Props {
+	const {
+		channels,
+	}: {
 		channels: Array<Channel>;
-	}
-
-	const {channels}: Props = $props();
+	} = $props();
 
 	// TODO @many probably extract, maybe to `fuz_video`
 

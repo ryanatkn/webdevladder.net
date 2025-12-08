@@ -1,14 +1,14 @@
 <script lang="ts">
 	import {SvelteDate} from 'svelte/reactivity';
 
-	interface Props {
+	const {
+		duration,
+	}: {
 		/**
 		 * Time in milliseconds.
 		 */
 		duration: number;
-	}
-
-	const {duration}: Props = $props();
+	} = $props();
 
 	const date = new SvelteDate(duration);
 	// TODO is this ill advised? is there a better way to sync the prop to the reactive object?

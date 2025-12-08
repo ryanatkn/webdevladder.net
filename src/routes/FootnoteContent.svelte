@@ -1,12 +1,13 @@
 <script lang="ts">
 	import type {Snippet} from 'svelte';
 
-	interface Props {
+	const {
+		number,
+		children,
+	}: {
 		number: number; // TODO name?
 		children: Snippet;
-	}
-
-	const {number, children}: Props = $props();
+	} = $props();
 </script>
 
 <div class="mb_xl5" id="footnote_{number}">

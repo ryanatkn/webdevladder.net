@@ -1,15 +1,9 @@
 <script lang="ts">
 	import Svg, {type SvgData} from '@fuzdev/fuz_ui/Svg.svelte';
-	import {
-		webdevladder_logo,
-		fuz_logo,
-		fuz_css_logo,
-		earbetter_logo,
-		fuz_blog_logo,
-		fuz_mastodon_logo,
-	} from '@fuzdev/fuz_ui/logos.js';
+	import {logo_fuz, logo_fuz_css, logo_fuz_blog, logo_fuz_mastodon} from '@fuzdev/fuz_ui/logos.js';
 
 	import type {ChannelName, PlaylistName} from './channel.js';
+	import {logo_webdevladder, logo_earbetter} from './logos.js';
 
 	const {
 		name,
@@ -20,14 +14,14 @@
 	} = $props();
 
 	const logos_by_name: Record<ChannelName | PlaylistName, SvgData | undefined> = {
-		webdevladder: webdevladder_logo,
-		'webdevladder.net': webdevladder_logo,
-		webdevladder_vods: webdevladder_logo,
-		fuz: fuz_logo,
-		fuz_css: fuz_css_logo,
-		fuz_blog: fuz_blog_logo,
-		fuz_mastodon: fuz_mastodon_logo,
-		Earbetter: earbetter_logo,
+		webdevladder: logo_webdevladder,
+		'webdevladder.net': logo_webdevladder,
+		webdevladder_vods: logo_webdevladder,
+		fuz: logo_fuz,
+		fuz_css: logo_fuz_css,
+		fuz_blog: logo_fuz_blog,
+		fuz_mastodon: logo_fuz_mastodon,
+		Earbetter: logo_earbetter,
 	};
 
 	// TODO make generic so we can extract to `fuz_video`

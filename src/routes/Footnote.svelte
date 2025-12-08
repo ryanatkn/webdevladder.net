@@ -1,9 +1,9 @@
 <script lang="ts">
-	interface Props {
+	const {
+		number,
+	}: {
 		number: number; // TODO name?
-	}
-
-	const {number}: Props = $props();
+	} = $props();
 
 	// TODO redesign, probably putting footnote content in the margins to the side when there's available space
 </script>

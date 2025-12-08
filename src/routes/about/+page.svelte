@@ -2,10 +2,10 @@
 	// TODO docs?
 	// import LibraryDetail from '@fuzdev/fuz_ui/LibraryDetail.svelte';
 	import {Library} from '@fuzdev/fuz_ui/library.svelte.js';
-	import EcosystemLinksPanel from '@fuzdev/fuz_ui/EcosystemLinksPanel.svelte';
 	import DocsFooter from '@fuzdev/fuz_ui/DocsFooter.svelte';
 	import Breadcrumb from '@fuzdev/fuz_ui/Breadcrumb.svelte';
 
+	import PersonalEcosystemLinksPanel from '$routes/PersonalEcosystemLinksPanel.svelte';
 	import {library_json} from '$routes/library.js';
 
 	const library = new Library(library_json);
@@ -20,7 +20,7 @@
 		</header>
 		<Breadcrumb>{library_json.package_json.glyph}</Breadcrumb>
 	</section>
-	<EcosystemLinksPanel />
+	<PersonalEcosystemLinksPanel />
 	<!-- <section class="box width_100 mb_lg">
 		<div class="panel p_md width_upto_md">
 			<LibraryDetail {library} />

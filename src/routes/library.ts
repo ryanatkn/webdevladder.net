@@ -38,9 +38,9 @@ export const library_json: LibraryJson = {
 		devDependencies: {
 			'@fuzdev/fuz_blog': '^0.20.0',
 			'@fuzdev/fuz_code': '^0.38.0',
-			'@fuzdev/fuz_css': '^0.42.0',
+			'@fuzdev/fuz_css': '^0.42.1',
 			'@fuzdev/fuz_mastodon': '^0.37.0',
-			'@fuzdev/fuz_ui': '^0.171.0',
+			'@fuzdev/fuz_ui': '^0.172.0',
 			'@fuzdev/fuz_util': '^0.42.0',
 			'@ryanatkn/eslint-config': '^0.9.0',
 			'@ryanatkn/gro': '^0.181.0',
@@ -225,7 +225,26 @@ export const library_json: LibraryJson = {
 						source_line: 1,
 					},
 				],
+				dependencies: ['logos.ts'],
 				dependents: ['ChannelVideos.svelte'],
+			},
+			{
+				path: 'logos.ts',
+				declarations: [
+					{
+						name: 'logo_webdevladder',
+						kind: 'variable',
+						source_line: 3,
+						type_signature: '{ label: string; fill: string; paths: { d: string; }[]; }',
+					},
+					{
+						name: 'logo_earbetter',
+						kind: 'variable',
+						source_line: 19,
+						type_signature: '{ label: string; fill: string; paths: { d: string; }[]; }',
+					},
+				],
+				dependents: ['Logo.svelte'],
 			},
 			{
 				path: 'post.task.ts',
