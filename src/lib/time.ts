@@ -1,6 +1,6 @@
 import type {Flavored} from '@fuzdev/fuz_util/types.js';
 
-// TODO @many probably extract, maybe to `fuz_video` or `belt`?
+// TODO @many probably extract, maybe to `fuz_video` or `fuz_util`?
 
 export type Hours = Flavored<number, 'Hours'>;
 export type Minutes = Flavored<number, 'Minutes'>;
