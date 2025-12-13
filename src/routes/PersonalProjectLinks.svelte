@@ -22,10 +22,8 @@
 	title="Gro - task runner and toolkit extending SvelteKit"
 	href="https://gro.ryanatkn.com/"><Svg data={logo_gro} {size} /><span class="name">Gro</span></a
 >
-<a
-	class="project_link"
-	title="Fuz - zippy stack and forge for the commons"
-	href="https://www.fuz.dev/"><Svg data={logo_fuz} {size} /><span class="name">Fuz</span></a
+<a class="project_link" title="Fuz - zippy stack for the commons" href="https://www.fuz.dev/"
+	><Svg data={logo_fuz} {size} /><span class="name">Fuz</span></a
 >
 <a class="project_link" title="Fuz UI - Svelte UI library" href="https://ui.fuz.dev/"
 	><Svg data={logo_fuz_ui} {size} /><span class="name">Fuz UI</span></a
