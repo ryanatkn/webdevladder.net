@@ -43,7 +43,7 @@ export const library_json: LibraryJson = {
 			'@fuzdev/fuz_ui': '^0.172.0',
 			'@fuzdev/fuz_util': '^0.43.0',
 			'@ryanatkn/eslint-config': '^0.9.0',
-			'@ryanatkn/gro': '^0.181.0',
+			'@ryanatkn/gro': '^0.182.0',
 			'@sveltejs/adapter-static': '^3.0.10',
 			'@sveltejs/kit': '^2.49.1',
 			'@sveltejs/vite-plugin-svelte': '^6.2.1',
