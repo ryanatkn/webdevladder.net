@@ -14,7 +14,7 @@
 
 	// TODO @many maybe render a tab with all videos for this channel, or even all channels in one list
 
-	const videos_without_playlists = channel.videos.filter((v) => v.playlists.length === 0);
+	const videos_without_playlists = $derived(channel.videos.filter((v) => v.playlists.length === 0));
 </script>
 
 <section class="channel_videos">

@@ -19,7 +19,7 @@
 <main class="width_upto_md">
 	<section class="box">
 		<header class="box">
-			<Svg data={logo_webdevladder} size="var(--icon_size_xl2)" attrs={{class: 'mt_xl5'}} />
+			<Svg data={logo_webdevladder} size="var(--icon_size_xl2)" class="mt_xl5" />
 			<h1 class="my_xl3">webdevladder</h1>
 			<blockquote>up ↗ 🪜</blockquote>
 		</header>

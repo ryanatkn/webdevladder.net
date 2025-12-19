@@ -1,0 +1,439 @@
+{
+	"package_json": {
+		"name": "webdevladder.net",
+		"version": "0.0.1",
+		"description": "a YouTube channel and blog for realworld webdev with TypeScript and Svelte",
+		"motto": "up ↗",
+		"glyph": "🪜",
+		"logo": "logo.svg",
+		"logo_alt": "a spider web between two rungs of a ladder",
+		"license": "MIT",
+		"homepage": "https://www.webdevladder.net/",
+		"repository": "https://github.com/ryanatkn/webdevladder.net",
+		"author": {
+			"name": "Ryan Atkinson",
+			"email": "mail@ryanatkn.com",
+			"url": "https://www.ryanatkn.com/"
+		},
+		"bugs": "https://github.com/ryanatkn/webdevladder.net/issues",
+		"funding": "https://www.ryanatkn.com/funding",
+		"scripts": {
+			"start": "gro dev",
+			"dev": "gro dev",
+			"build": "gro build",
+			"check": "gro check",
+			"test": "gro test",
+			"preview": "vite preview",
+			"deploy": "gro deploy"
+		},
+		"type": "module",
+		"engines": {
+			"node": ">=22.15"
+		},
+		"devDependencies": {
+			"@fuzdev/fuz_blog": "^0.21.0",
+			"@fuzdev/fuz_code": "^0.38.0",
+			"@fuzdev/fuz_css": "^0.42.1",
+			"@fuzdev/fuz_mastodon": "^0.37.0",
+			"@fuzdev/fuz_ui": "^0.174.0",
+			"@fuzdev/fuz_util": "^0.45.0",
+			"@ryanatkn/eslint-config": "^0.9.0",
+			"@ryanatkn/gro": "^0.184.0",
+			"@sveltejs/adapter-static": "^3.0.10",
+			"@sveltejs/kit": "^2.49.1",
+			"@sveltejs/vite-plugin-svelte": "^6.2.1",
+			"eslint": "^9.39.1",
+			"eslint-plugin-svelte": "^3.13.1",
+			"prettier": "^3.6.2",
+			"prettier-plugin-svelte": "^3.4.0",
+			"svelte": "^5.45.6",
+			"svelte-check": "^4.3.4",
+			"tslib": "^2.8.1",
+			"typescript": "^5.9.3",
+			"typescript-eslint": "^8.48.1",
+			"vitest": "^4.0.15"
+		},
+		"prettier": {
+			"plugins": ["prettier-plugin-svelte"],
+			"useTabs": true,
+			"printWidth": 100,
+			"singleQuote": true,
+			"bracketSpacing": false,
+			"overrides": [
+				{
+					"files": "package.json",
+					"options": {
+						"useTabs": false
+					}
+				}
+			]
+		},
+		"sideEffects": ["**/*.css"],
+		"files": ["dist"]
+	},
+	"source_json": {
+		"name": "webdevladder.net",
+		"version": "0.0.1",
+		"modules": [
+			{
+				"path": "blog.gen.ts",
+				"declarations": []
+			},
+			{
+				"path": "channel.ts",
+				"declarations": [
+					{
+						"name": "Channel",
+						"kind": "type",
+						"source_line": 8,
+						"type_signature": "Channel",
+						"properties": [
+							{
+								"name": "name",
+								"kind": "variable",
+								"type_signature": "ChannelName"
+							},
+							{
+								"name": "url",
+								"kind": "variable",
+								"type_signature": "Url"
+							},
+							{
+								"name": "summary",
+								"kind": "variable",
+								"type_signature": "ChannelSummary"
+							},
+							{
+								"name": "videos",
+								"kind": "variable",
+								"type_signature": "Array<VideoJson>"
+							},
+							{
+								"name": "playlists",
+								"kind": "variable",
+								"type_signature": "Array<Playlist>"
+							}
+						]
+					},
+					{
+						"name": "ChannelName",
+						"kind": "type",
+						"source_line": 16,
+						"type_signature": "ChannelName"
+					},
+					{
+						"name": "ChannelSummary",
+						"kind": "type",
+						"source_line": 17,
+						"type_signature": "ChannelSummary"
+					},
+					{
+						"name": "Playlist",
+						"kind": "type",
+						"source_line": 19,
+						"type_signature": "Playlist",
+						"properties": [
+							{
+								"name": "name",
+								"kind": "variable",
+								"type_signature": "PlaylistName"
+							},
+							{
+								"name": "url",
+								"kind": "variable",
+								"type_signature": "Url"
+							},
+							{
+								"name": "summary",
+								"kind": "variable",
+								"type_signature": "PlaylistSummary"
+							}
+						]
+					},
+					{
+						"name": "PlaylistName",
+						"kind": "type",
+						"source_line": 25,
+						"type_signature": "PlaylistName"
+					},
+					{
+						"name": "PlaylistSummary",
+						"kind": "type",
+						"source_line": 26,
+						"type_signature": "PlaylistSummary"
+					}
+				]
+			},
+			{
+				"path": "ChannelVideos.svelte",
+				"declarations": [
+					{
+						"name": "ChannelVideos",
+						"kind": "component",
+						"props": [
+							{
+								"name": "channel",
+								"type": "Channel"
+							}
+						],
+						"source_line": 1
+					}
+				],
+				"dependencies": ["Logo.svelte", "Video.svelte", "video.ts"],
+				"dependents": ["Videos.svelte"]
+			},
+			{
+				"path": "Duration.svelte",
+				"declarations": [
+					{
+						"name": "Duration",
+						"kind": "component",
+						"props": [
+							{
+								"name": "duration",
+								"type": "number",
+								"description": "Time in milliseconds."
+							}
+						],
+						"source_line": 1
+					}
+				],
+				"dependents": ["Video.svelte"]
+			},
+			{
+				"path": "Logo.svelte",
+				"declarations": [
+					{
+						"name": "Logo",
+						"kind": "component",
+						"props": [
+							{
+								"name": "name",
+								"type": "ChannelName | PlaylistName"
+							},
+							{
+								"name": "size",
+								"type": "string",
+								"optional": true
+							}
+						],
+						"source_line": 1
+					}
+				],
+				"dependencies": ["logos.ts"],
+				"dependents": ["ChannelVideos.svelte"]
+			},
+			{
+				"path": "logos.ts",
+				"declarations": [
+					{
+						"name": "logo_webdevladder",
+						"kind": "variable",
+						"source_line": 3,
+						"type_signature": "{ label: string; fill: string; paths: { d: string; }[]; }"
+					},
+					{
+						"name": "logo_earbetter",
+						"kind": "variable",
+						"source_line": 19,
+						"type_signature": "{ label: string; fill: string; paths: { d: string; }[]; }"
+					}
+				],
+				"dependents": ["Logo.svelte"]
+			},
+			{
+				"path": "post.task.ts",
+				"declarations": []
+			},
+			{
+				"path": "time.ts",
+				"declarations": [
+					{
+						"name": "Hours",
+						"kind": "type",
+						"source_line": 5,
+						"type_signature": "Hours"
+					},
+					{
+						"name": "Minutes",
+						"kind": "type",
+						"source_line": 6,
+						"type_signature": "Minutes"
+					},
+					{
+						"name": "Seconds",
+						"kind": "type",
+						"source_line": 7,
+						"type_signature": "Seconds"
+					},
+					{
+						"name": "Milliseconds",
+						"kind": "type",
+						"source_line": 8,
+						"type_signature": "Milliseconds"
+					},
+					{
+						"name": "Time",
+						"kind": "type",
+						"source_line": 10,
+						"type_signature": "Time",
+						"properties": [
+							{
+								"name": "hours",
+								"kind": "variable",
+								"type_signature": "Hours"
+							},
+							{
+								"name": "minutes",
+								"kind": "variable",
+								"type_signature": "Minutes"
+							},
+							{
+								"name": "seconds",
+								"kind": "variable",
+								"type_signature": "Seconds"
+							},
+							{
+								"name": "ms",
+								"kind": "variable",
+								"type_signature": "Milliseconds"
+							}
+						]
+					},
+					{
+						"name": "parse_time",
+						"kind": "function",
+						"source_line": 17,
+						"type_signature": "(str: string): Time | null",
+						"return_type": "Time | null",
+						"parameters": [
+							{
+								"name": "str",
+								"type": "string"
+							}
+						]
+					},
+					{
+						"name": "time_to_ms",
+						"kind": "function",
+						"source_line": 39,
+						"type_signature": "({ hours, minutes, seconds, ms }: Time): number",
+						"return_type": "number",
+						"parameters": [
+							{
+								"name": "__0",
+								"type": "Time"
+							}
+						]
+					}
+				]
+			},
+			{
+				"path": "update_post.task.ts",
+				"declarations": []
+			},
+			{
+				"path": "Video.svelte",
+				"declarations": [
+					{
+						"name": "Video",
+						"kind": "component",
+						"props": [
+							{
+								"name": "video",
+								"type": "VideoJson"
+							}
+						],
+						"source_line": 1
+					}
+				],
+				"dependencies": ["Duration.svelte"],
+				"dependents": ["ChannelVideos.svelte"]
+			},
+			{
+				"path": "video.ts",
+				"declarations": [
+					{
+						"name": "VideoTitle",
+						"kind": "type",
+						"source_line": 9,
+						"type_signature": "VideoTitle"
+					},
+					{
+						"name": "VideoJson",
+						"kind": "type",
+						"source_line": 11,
+						"type_signature": "VideoJson",
+						"properties": [
+							{
+								"name": "title",
+								"kind": "variable",
+								"type_signature": "VideoTitle"
+							},
+							{
+								"name": "url",
+								"kind": "variable",
+								"type_signature": "Url"
+							},
+							{
+								"name": "duration",
+								"kind": "variable",
+								"type_signature": "Milliseconds"
+							},
+							{
+								"name": "playlists",
+								"kind": "variable",
+								"type_signature": "Array<PlaylistName>"
+							}
+						]
+					},
+					{
+						"name": "filter_playlist_videos",
+						"kind": "function",
+						"source_line": 18,
+						"type_signature": "(videos: VideoJson[], playlist: Playlist): VideoJson[]",
+						"return_type": "VideoJson[]",
+						"parameters": [
+							{
+								"name": "videos",
+								"type": "VideoJson[]"
+							},
+							{
+								"name": "playlist",
+								"type": "Playlist"
+							}
+						]
+					}
+				],
+				"dependents": ["ChannelVideos.svelte"]
+			},
+			{
+				"path": "Videos.svelte",
+				"declarations": [
+					{
+						"name": "Videos",
+						"kind": "component",
+						"props": [
+							{
+								"name": "channels",
+								"type": "Array<Channel>"
+							}
+						],
+						"source_line": 1
+					}
+				],
+				"dependencies": ["ChannelVideos.svelte"]
+			}
+		]
+	},
+	"name": "webdevladder.net",
+	"repo_name": "webdevladder.net",
+	"repo_url": "https://github.com/ryanatkn/webdevladder.net",
+	"owner_name": "ryanatkn",
+	"homepage_url": "https://www.webdevladder.net/",
+	"logo_url": "https://www.webdevladder.net/logo.svg",
+	"logo_alt": "a spider web between two rungs of a ladder",
+	"npm_url": null,
+	"changelog_url": null,
+	"published": false
+}
