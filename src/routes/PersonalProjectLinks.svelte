@@ -28,8 +28,10 @@
 <a class="project_link" title="Fuz UI - Svelte UI library" href="https://ui.fuz.dev/"
 	><Svg data={logo_fuz_ui} {size} /><span class="name">Fuz UI</span></a
 >
-<a class="project_link" title="Fuz CSS - CSS framework" href="https://css.fuz.dev/"
-	><Svg data={logo_fuz_css} {size} /><span class="name">Fuz CSS</span></a
+<a
+	class="project_link"
+	title="Fuz CSS - CSS framework and design system"
+	href="https://css.fuz.dev/"><Svg data={logo_fuz_css} {size} /><span class="name">Fuz CSS</span></a
 >
 <a
 	class="project_link"

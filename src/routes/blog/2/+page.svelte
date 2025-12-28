@@ -50,8 +50,9 @@
 			With Webdevladder, I'm producing videos and blog posts about the technology I use in my work,
 			with an emphasis on <a href="https://svelte.dev/">Svelte</a> and
 			<a href="https://www.typescriptlang.org/">TypeScript</a>. My projects span the whole stack,
-			from a CSS framework to a Svelte UI library to a fullstack dev-and-end-user tool. I also make
-			websites that use the stack and tools to streamline the process. The fullstack tool is
+			from a CSS framework and design system to a Svelte UI library to a fullstack dev-and-end-user
+			tool. I also make websites that use the stack and tools to streamline the process. The
+			fullstack tool is
 			<a href="https://www.zzz.software/">Zzz</a>, and it's my focus for funding because its target
 			audience is both nontechnical and dev users, and it's the main thing my other software has
 			been designed for.
