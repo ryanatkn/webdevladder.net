@@ -33,10 +33,10 @@
 			<a href="https://www.webdevladder.net/blog">blog</a> about the technical topics that interest
 			me as I make open source software. I've been a professional web developer since 2011, and
 			since 2019 I've been working in public full-time, publishing most of my code to
-			<a href="https://github.com/ryanatkn">GitHub</a> as I write it. Webdevladder is a public alias
-			that feels comfortably decoupled from my personal life (being on GitHub since 2012 with my real
-			name is weird in some respects, the professional environment strongnudged me to do it; in 2024
-			I created this alias and site to gain some distance).
+			<a href="https://github.com/ryanatkn">GitHub</a> as I write it. Webdevladder is a public alias that
+			feels comfortably decoupled from my personal life (being on GitHub since 2012 with my real name
+			is weird in some respects, the professional environment strongnudged me to do it; in 2024 I created
+			this alias and site to gain some distance).
 		</p>
 		<p>
 			The open web is humanity's shared, decentralized platform. I love it for its wide reach and

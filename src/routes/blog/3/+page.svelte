@@ -50,8 +50,7 @@
 			>
 			by its users. But 5 years later, Svelte is again rethinking its reactivity with version 5, this
 			time with
-			<a href="https://svelte.dev/blog/runes">signals and runes syntax</a> - why? I thought we loved
-			it?
+			<a href="https://svelte.dev/blog/runes">signals and runes syntax</a> - why? I thought we loved it?
 		</p>
 		<p>
 			To many, Svelte 3 was a fresh and attractive answer to the hard problem of building reactive
@@ -110,9 +109,9 @@
 			Inconsistency is a term I'm borrowing from Ryan Carniato (see <a
 				href="https://www.youtube.com/live/kz-p_017Usc?si=FeF63XruPUEJXH-w&t=16161">this video</a
 			>
-			for example) that describes the situation where you update the dependencies of a derived value
-			(in this case, derived via a reactive statement), and then synchronously read the derived value,
-			but you get the old value. For example:
+			for example) that describes the situation where you update the dependencies of a derived value (in
+			this case, derived via a reactive statement), and then synchronously read the derived value, but
+			you get the old value. For example:
 		</p>
 		<Code
 			lang="ts"
@@ -261,9 +260,9 @@ $lastname = 'Turing'; // logs "Alan Turing"
 			One important detail here is that signals do allow reading intermediate values. If you read <code
 				>fullname</code
 			> in between the two updates, you will indeed see the same value as the glitch. This makes sense,
-			because it means it's consistent as described above with reactive statements. The key point is
-			that unlike derived stores, signals do not see or calculate intermediate values by default - they
-			can but it's under your control. Explicitly pulling an intermediate value is not a glitch.
+			because it means it's consistent as described above with reactive statements. The key point is that
+			unlike derived stores, signals do not see or calculate intermediate values by default - they can
+			but it's under your control. Explicitly pulling an intermediate value is not a glitch.
 		</p>
 		<p>
 			Also, reactive statements are incapable of observing intermediate values, a limitation that
@@ -286,9 +285,9 @@ $lastname = 'Turing'; // logs "Alan Turing"
 			>
 			for more. This may sound complex, and internally I consider it so, but it's how we get these simple
 			guarantees externally as users. This behavior means you sometimes need to pay close attention to
-			<em>when</em> you read values - for example pulling an intermediate value is not a glitch, but
-			it may be an error in your logic. Sometimes you need to structure your code accordingly, but in
-			my experience, it's a good and coherent set of tradeoffs.
+			<em>when</em> you read values - for example pulling an intermediate value is not a glitch, but it
+			may be an error in your logic. Sometimes you need to structure your code accordingly, but in my
+			experience, it's a good and coherent set of tradeoffs.
 		</aside>
 	</section>
 
