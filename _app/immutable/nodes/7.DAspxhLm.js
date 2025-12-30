@@ -1,4 +1,4 @@
-import{f as c,a as h}from"../chunks/BBNAYVYb.js";import{a as u}from"../chunks/bx4AhIC5.js";import{p as f,a as y,f as w,s as a,c as n,t as b,y as s,r}from"../chunks/DtMTm29t.js";import{s as g}from"../chunks/DLteZvsA.js";import{B as v}from"../chunks/uIxPIeXQ.js";const I={title:"Introducing Webdevladder",slug:"introducing-webdevladder",date_published:"2024-08-14T18:10:26.092Z",date_modified:"2025-06-28T23:31:20.100Z",summary:"I describe the purpose of my YouTube channel and blog, Webdevladder, and my plans for the future",tags:["webdevladder"],comments:{type:"mastodon",url:"https://fosstodon.org/@webdevladder/113312132188029470"}};var k=c(`<section><p>Webdevladder is a <a href="https://youtube.com/@webdevladder">YouTube channel</a> and <a href="https://www.webdevladder.net/blog">blog</a> about the technical topics that interest
+import{f as c,a as h}from"../chunks/BBNAYVYb.js";import{a as u}from"../chunks/Ce_GM8QU.js";import{p as f,a as y,f as w,s as a,c as n,t as b,y as s,r}from"../chunks/DtMTm29t.js";import{s as g}from"../chunks/DLteZvsA.js";import{B as v}from"../chunks/uIxPIeXQ.js";const I={title:"Introducing Webdevladder",slug:"introducing-webdevladder",date_published:"2024-08-14T18:10:26.092Z",date_modified:"2025-06-28T23:31:20.100Z",summary:"I describe the purpose of my YouTube channel and blog, Webdevladder, and my plans for the future",tags:["webdevladder"],comments:{type:"mastodon",url:"https://fosstodon.org/@webdevladder/113312132188029470"}};var k=c(`<section><p>Webdevladder is a <a href="https://youtube.com/@webdevladder">YouTube channel</a> and <a href="https://www.webdevladder.net/blog">blog</a> about the technical topics that interest
 			me as I make open source software. I've been a professional web developer since 2011, and
 			since 2019 I've been working in public full-time, publishing most of my code to <a href="https://github.com/ryanatkn">GitHub</a> as I write it. Webdevladder is a public alias
 			that feels comfortably decoupled from my personal life (being on GitHub since 2012 with my real
@@ -10,8 +10,9 @@ import{f as c,a as h}from"../chunks/BBNAYVYb.js";import{a as u}from"../chunks/bx
 			as I pursue a career in open source, and over the next few years I hope to continue making
 			software that people value enough to sustain its development.</p> <p>With Webdevladder, I'm producing videos and blog posts about the technology I use in my work,
 			with an emphasis on <a href="https://svelte.dev/">Svelte</a> and <a href="https://www.typescriptlang.org/">TypeScript</a>. My projects span the whole stack,
-			from a CSS framework to a Svelte UI library to a fullstack dev-and-end-user tool. I also make
-			websites that use the stack and tools to streamline the process. The fullstack tool is <a href="https://www.zzz.software/">Zzz</a>, and it's my focus for funding because its target
+			from a CSS framework and design system to a Svelte UI library to a fullstack dev-and-end-user
+			tool. I also make websites that use the stack and tools to streamline the process. The
+			fullstack tool is <a href="https://www.zzz.software/">Zzz</a>, and it's my focus for funding because its target
 			audience is both nontechnical and dev users, and it's the main thing my other software has
 			been designed for.</p> <p>My stated goal here is to deepen my knowledge of web technology and improve my communication
 			skills through blogging and videos, and an ulterior motive is to market my work for
