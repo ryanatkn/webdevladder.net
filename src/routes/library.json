@@ -1,4 +1,14 @@
 {
+	"name": "webdevladder.net",
+	"repo_name": "webdevladder.net",
+	"repo_url": "https://github.com/ryanatkn/webdevladder.net",
+	"owner_name": "ryanatkn",
+	"homepage_url": "https://www.webdevladder.net/",
+	"logo_url": "https://www.webdevladder.net/logo.svg",
+	"logo_alt": "a spider web between two rungs of a ladder",
+	"npm_url": null,
+	"changelog_url": null,
+	"published": false,
 	"package_json": {
 		"name": "webdevladder.net",
 		"version": "0.0.1",
@@ -33,10 +43,10 @@
 		"devDependencies": {
 			"@fuzdev/fuz_blog": "^0.21.0",
 			"@fuzdev/fuz_code": "^0.38.0",
-			"@fuzdev/fuz_css": "^0.42.1",
+			"@fuzdev/fuz_css": "^0.43.0",
 			"@fuzdev/fuz_mastodon": "^0.37.0",
-			"@fuzdev/fuz_ui": "^0.174.0",
-			"@fuzdev/fuz_util": "^0.45.0",
+			"@fuzdev/fuz_ui": "^0.175.0",
+			"@fuzdev/fuz_util": "^0.45.1",
 			"@ryanatkn/eslint-config": "^0.9.0",
 			"@ryanatkn/gro": "^0.184.0",
 			"@sveltejs/adapter-static": "^3.0.10",
@@ -425,15 +435,5 @@
 				"dependencies": ["ChannelVideos.svelte"]
 			}
 		]
-	},
-	"name": "webdevladder.net",
-	"repo_name": "webdevladder.net",
-	"repo_url": "https://github.com/ryanatkn/webdevladder.net",
-	"owner_name": "ryanatkn",
-	"homepage_url": "https://www.webdevladder.net/",
-	"logo_url": "https://www.webdevladder.net/logo.svg",
-	"logo_alt": "a spider web between two rungs of a ladder",
-	"npm_url": null,
-	"changelog_url": null,
-	"published": false
+	}
 }
