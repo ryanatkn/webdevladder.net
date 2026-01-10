@@ -41,7 +41,7 @@
 			<aside>
 				<PersonalEcosystemLinks />
 			</aside>
-			<nav class="font_size_xl5 box row flex_wrap_wrap">
+			<nav class="font_size_xl5 box row flex-wrap:wrap">
 				<PersonalProjectLinks />
 			</nav>
 		</div>
