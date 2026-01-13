@@ -90,7 +90,7 @@ const webdevladder_vods_videos: Array<VideoJson> = [
 		playlists: ['Earbetter'],
 	},
 	{
-		title: 'CSS framework and design system programming - adding two new colors to Fuz CSS',
+		title: 'CSS framework and design system programming - adding two new colors to fuz_css',
 		url: 'https://www.youtube.com/watch?v=w91nWStWyaw',
 		duration: 4050000,
 		playlists: ['fuz_css'],

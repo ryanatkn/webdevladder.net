@@ -89,7 +89,7 @@
 		</p>
 		<p>
 			For one, I'm not a startup. I will never take investor funding for these projects or sell
-			control over the core repos Zzz, Fuz, Fuz CSS, Gro, etc - excluding any products I build using
+			control over the core repos Zzz, Fuz, fuz_css, Gro, etc - excluding any products I build using
 			the stack. I'm trying to make the social contract transparent and respectful for any community
 			that forms. My goal is to make the best software I can, and profit-mindedness is
 			counterproductive. I believe profit-incentivized companies can make geat software, but not the
