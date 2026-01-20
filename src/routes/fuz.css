@@ -21,7 +21,7 @@
 	text-overflow: ellipsis;
 }
 
-.width_upto_md {
+.width_atmost_md {
 	width: 100%;
 	max-width: var(--distance_md);
 }

@@ -16,7 +16,7 @@
 	const library = new Library(library_json);
 </script>
 
-<main class="width_upto_md">
+<main class="width_atmost_md">
 	<section class="box">
 		<header class="box">
 			<Svg data={logo_webdevladder} size="var(--icon_size_xl2)" class="mt_xl5" />

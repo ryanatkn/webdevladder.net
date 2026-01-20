@@ -13,7 +13,7 @@
 	// TODO standardize
 </script>
 
-<main class="width_upto_md">
+<main class="width_atmost_md">
 	<section class="box">
 		<header class="box">
 			<h1 class="my_xl3">webdevladder</h1>
@@ -22,7 +22,7 @@
 	</section>
 	<PersonalEcosystemLinksPanel />
 	<!-- <section class="box width:100% mb_lg">
-		<div class="panel p_md width_upto_md">
+		<div class="panel p_md width_atmost_md">
 			<LibraryDetail {library} />
 		</div>
 	</section> -->

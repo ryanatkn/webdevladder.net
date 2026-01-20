@@ -9,7 +9,7 @@
 	const library = new Library(library_json);
 </script>
 
-<main class="width_upto_md box mx_auto px_lg pt_xl5 pb_xl9">
+<main class="width_atmost_md box mx_auto px_lg pt_xl5 pb_xl9">
 	<header>
 		<div class="mb_xl5" style:--font_size="var(--font_size_xl)">
 			<Breadcrumb>{library_json.package_json.glyph}</Breadcrumb>
