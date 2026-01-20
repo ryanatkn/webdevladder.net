@@ -20,11 +20,11 @@
 	<input bind:value={str} />
 	<p>Paste or type in a time like <code>1:23:45.999</code>.</p>
 </label>
-<div class="panel p_sm my_sm position_relative pr_xl7">
+<div class="panel p_sm my_sm position:relative pr_xl7">
 	<div class="font_size_xl">
 		{#if ms != null}{ms}{:else}null{/if}
 	</div>
-	<small class="display_block text_color_3">milliseconds </small>
+	<small class="display:block text_color_3">milliseconds </small>
 	<div class="copy">
 		<CopyToClipboard text={ms + ''} />
 	</div>

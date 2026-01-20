@@ -16,7 +16,7 @@
 	const library = new Library(library_json);
 </script>
 
-<main class="width_upto_md">
+<main class="width_atmost_md">
 	<section class="box">
 		<header class="box">
 			<Svg data={logo_webdevladder} size="var(--icon_size_xl2)" class="mt_xl5" />
@@ -28,7 +28,7 @@
 		<Card href={resolve('/blog')} icon="🖊️">blog</Card>
 		<Card href={resolve('/tools')} icon="🪄" align="right">tools</Card>
 	</section>
-	<section class="panel p_md shadow_inset_bottom_xs width_100">
+	<section class="panel p_md shadow_inset_bottom_xs width:100%">
 		<div class="panel shadow_inset_xs bg p_xl">
 			<h2 class="mt_md">welcome</h2>
 			<p>
@@ -41,12 +41,12 @@
 			<aside>
 				<PersonalEcosystemLinks />
 			</aside>
-			<nav class="font_size_xl5 box row flex_wrap_wrap">
+			<nav class="font_size_xl5 box row flex-wrap:wrap">
 				<PersonalProjectLinks />
 			</nav>
 		</div>
 	</section>
-	<section class="panel p_md shadow_inset_bottom_xs width_100">
+	<section class="panel p_md shadow_inset_bottom_xs width:100%">
 		<div class="panel shadow_inset_xs bg p_xl">
 			<Videos {channels} />
 		</div>
