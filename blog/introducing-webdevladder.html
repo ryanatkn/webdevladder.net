@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="/favicon.png" />
+		<link rel="icon" href="/logo.svg" sizes="any" type="image/svg+xml" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+		<script>
+			document.documentElement.classList.add(
+				((c) =>
+					c === 'dark' || (c !== 'light' && matchMedia('(prefers-color-scheme:dark)').matches)
+						? 'dark'
+						: 'light')(localStorage.getItem('fuz:color-scheme')),
+			);
+		</script>
+
+		<meta http-equiv="content-security-policy" content="child-src 'none'; default-src 'none'; frame-src 'self'; worker-src 'self' blob:; connect-src 'self' https://fosstodon.org/; font-src 'self' data: https://*.ryanatkn.com/ https://*.spiderspace.org/ https://*.webdevladder.net/ https://*.dealt.dev/ https://*.fuz.dev/ https://*.ztack.net/ https://*.zzz.software/ https://*.cosmicplayground.org/ https://ryanatkn.github.io/ https://fosstodon.org/ https://*.fosstodon.org/; img-src 'self' data: blob: filesystem: https://*.ryanatkn.com/ https://*.spiderspace.org/ https://*.webdevladder.net/ https://*.dealt.dev/ https://*.fuz.dev/ https://*.ztack.net/ https://*.zzz.software/ https://*.cosmicplayground.org/ https://ryanatkn.github.io/ https://fosstodon.org/ https://*.fosstodon.org/; manifest-src 'self'; media-src 'self' data: blob: mediastream: filesystem: https://*.ryanatkn.com/ https://*.spiderspace.org/ https://*.webdevladder.net/ https://*.dealt.dev/ https://*.fuz.dev/ https://*.ztack.net/ https://*.zzz.software/ https://*.cosmicplayground.org/ https://ryanatkn.github.io/ https://fosstodon.org/ https://*.fosstodon.org/; object-src 'none'; script-src 'self' 'sha256-QOxqn7EUzb3ydF9SALJoJGWSvywW9R0AfTDSenB83Z8=' 'sha256-BJA7MsPC+ipBmu9SI2UNjI+G/ykO3HjWphGU9K9AcCE='; script-src-elem 'self' 'sha256-QOxqn7EUzb3ydF9SALJoJGWSvywW9R0AfTDSenB83Z8=' 'sha256-BJA7MsPC+ipBmu9SI2UNjI+G/ykO3HjWphGU9K9AcCE='; script-src-attr 'none'; style-src 'self' 'unsafe-inline'; style-src-elem 'self' 'unsafe-inline'; style-src-attr 'unsafe-inline'; base-uri 'none'; form-action 'self'; upgrade-insecure-requests">
+		<link href="/_app/immutable/assets/0.JaCvRM4d.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/Breadcrumb.WXbxZC1L.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/Svg.C_lYjQf_.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/2.CAeZZ0cM.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/BlogPost.C-rAtUUS.css" rel="stylesheet">
+		<link rel="modulepreload" href="/_app/immutable/entry/start._5qyMMYW.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/563ru4zH.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/Co2zTQq5.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/OiEb0rWZ.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/CpcpjCag.js">
+		<link rel="modulepreload" href="/_app/immutable/entry/app.BGGPMfqL.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/BJtA28AY.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/BqAm1iNm.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/AGS3eIJW.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/CGtrT4ZO.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/DzfHKU7j.js">
+		<link rel="modulepreload" href="/_app/immutable/nodes/0.CVFlY4BM.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/DN_Uok3D.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/BAC37Hmk.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/pQ1Oz6oM.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/CENrSccT.js">
+		<link rel="modulepreload" href="/_app/immutable/nodes/2.BKVocUEb.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/Fh5vwXEG.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/BlgJE614.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/-muqLcql.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/5OPlVZyY.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/BKZEpUg4.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/CgoLqlyk.js">
+		<link rel="modulepreload" href="/_app/immutable/nodes/10.CLnv8EvS.js">
+		<link rel="modulepreload" href="/_app/immutable/nodes/7.CvqfyGQy.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/nC0S6BCx.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/BXAhI_qb.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/BKZzK8vH.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/CX4qiz0U.js"><!--12qhfyh--><link rel="alternate" type="application/atom+xml" title="Atom" href="https://www.webdevladder.net/blog/feed.xml"/><!----><!--17coqft--><!--[!--><!--]--><!----><!--n1wqo0--><!----><title>Introducing Webdevladder</title>
+	</head>
+	<body data-sveltekit-preload-data="hover">
+		<div style="display: contents"><!--[--><!--[--><!----><!--[--><!----><div class="breadcrumbs mt_xl3 svelte-17j22sm"><div class="breadcrumb  svelte-1k0skcb"><a href="/" class="svelte-1k0skcb"><!--[--><svg viewBox="0 0 100 100" aria-label="a spider web between two rungs of a ladder" class="  svelte-1b36jzq" style="width: var(--icon_size_sm); height: var(--icon_size_sm); flex-shrink: 1;"><!--[!--><!--]--><!--[--><!--[--><path fill="#3db33d" d="M 37.174163,0.4792687 21.634926,39.631201 0.16786597,97.97918 16.575416,99.521374 19.352058,91.559689 68.736056,94.77021 70.61636,84.176728 21.745713,80.516425 33.323161,43.781709 44.12821,16.308249 84.47938,15.069186 86.44336,5.5860536 47.872897,6.9685586 49.611104,1.8736809 M 86.061057,1.9243199 74.915756,51.346436 65.559591,99.975909 82.510118,98.660645 89.82178,48.868054 99.675222,0.2061973" class="svelte-1b36jzq"></path><path fill="#3db33d" d="M 82.541527,24.61445 53.862329,44.979685 26.077601,62.33992 25.099707,65.937651 55.229899,47.076762 81.507935,28.318661 M 66.33555,87.233139 54.738379,48.989886 44.170835,12.54806 42.725942,15.71185 52.060344,49.856839 63.493965,86.901562 M 67.524475,13.659828 52.81301,43.245382 35.985883,84.117296 38.703349,84.412401 55.158864,44.100695 70.474719,13.501929 m 5.1603,41.982295 -23.74376,-10.305007 -17.603166,-9.426434 -0.972181,2.878616 17.876898,8.612725 23.958503,10.964992" class="svelte-1b36jzq"></path><path fill="#3db33d" d="m 50.5769,48.285601 0.966122,3.361133 2.456436,-0.09293 2.944734,-2.586661 -0.487976,-4.866721 -1.365959,-1.908962 -3.545067,0.04669 -2.781093,2.644178 -1.139247,5.065325 1.443893,5.999034 5.886709,0.356695 5.877825,-5.767341 0.765816,-9.526984 -4.632806,-4.416277 -7.978619,-0.418274 -5.522701,6.340293 -1.318243,11.151446 3.639737,9.979651 L 57.644364,63.06574 65.560214,52.529221 68.781299,35.897047 60.700698,29.322838 46.760117,27.037036 36.988493,39.207818 33.631767,58.700914 41.28115,74.499356 60.724825,72.962824 71.958187,55.382886 77.273782,30.412258 65.694639,19.60012 44.511786,14.731021 44.715509,16.675374 64.52349,21.522567 74.843098,31.738084 69.730823,54.159963 59.634025,70.76874 42.717921,72.097706 35.95196,57.551866 l 2.738009,-17.179374 8.834853,-11.13111 12.095799,2.019068 6.862581,6.161296 -3.066403,14.068912 -6.523733,9.299082 -9.939247,0.591529 -2.829727,-8.963835 1.086548,-8.709392 4.596194,-5.524272 6.319767,0.309359 3.579728,3.550699 -0.928078,7.718816 -4.331029,4.154252 -4.574097,-0.220971" class="svelte-1b36jzq"></path><!--]--><!--]--></svg><!----><!--]--></a><!--[--><!--[!--><span class="separator svelte-1k0skcb"><!--[!-->/<!--]--></span><!--]--><!--[--><a href="/blog" class="svelte-1k0skcb">blog</a><!--]--><!--[!--><span class="separator svelte-1k0skcb"><!--[!-->/<!--]--></span><!--]--><!--[--><a href="/blog/introducing-webdevladder" class="svelte-1k0skcb selected">introducing-webdevladder</a><!--]--><!--]--></div><!----></div> <div class="wrapper svelte-17j22sm"><!----><div class="blog_post width_atmost_md"><!--[--><article><header><h1 class="mt_xl5 mb_lg">Introducing Webdevladder</h1> <p class="mb_xl5"><!---->Aug 14, 2024<!--[-->,
+	updated Jun 28, 2025<!--]--><!----></p></header><!----> <section><p>Webdevladder is a <a href="https://youtube.com/@webdevladder">YouTube channel</a> and <a href="https://www.webdevladder.net/blog">blog</a> about the technical topics that interest
+			me as I make open source software. I've been a professional web developer since 2011, and
+			since 2019 I've been working in public full-time, publishing most of my code to <a href="https://github.com/ryanatkn">GitHub</a> as I write it. Webdevladder is a public alias that
+			feels comfortably decoupled from my personal life (being on GitHub since 2012 with my real name
+			is weird in some respects, the professional environment strongnudged me to do it; in 2024 I created
+			this alias and site to gain some distance).</p> <p>The open web is humanity's shared, decentralized platform. I love it for its wide reach and
+			gatekeeper optionality. For all its flaws, the web allows us to reach more people with less
+			friction than any other platform. My goal is to work on open source web software that I find
+			meaningful. I've been lucky to have the resources to work independently for the past 6+ years
+			as I pursue a career in open source, and over the next few years I hope to continue making
+			software that people value enough to sustain its development.</p> <p>With Webdevladder, I'm producing videos and blog posts about the technology I use in my work,
+			with an emphasis on <a href="https://svelte.dev/">Svelte</a> and <a href="https://www.typescriptlang.org/">TypeScript</a>. My projects span the whole stack,
+			from a CSS framework and design system to a Svelte UI library to a fullstack dev-and-end-user
+			tool. I also make websites that use the stack and tools to streamline the process. The
+			fullstack tool is <a href="https://www.zzz.software/">Zzz</a>, and it's my focus for funding because its target
+			audience is both nontechnical and dev users, and it's the main thing my other software has
+			been designed for.</p> <p>My stated goal here is to deepen my knowledge of web technology and improve my communication
+			skills through blogging and videos, and an ulterior motive is to market my work for
+			sustainability and egoic self interest. You're reading the blog now, and I'm producing
+			educational videos on my <a href="https://youtube.com/@webdevladder">main channel</a>, and
+			less polished content like raw programming sessions and demos of my apps on a <a href="https://youtube.com/@webdevladder_vods">second channel</a>.</p> <p>But before you subscribe to <a href="/blog/feed.xml">the feed</a>, here's some more context.</p></section> <section><h2>What Webdevladder is not</h2> <p>I'm seeking to be an independent open source developer funded directly by my users, which is
+			an uncommon situation in 2024. I hope that the few user-funded developers of today will be
+			joined by many more in the future, and I want to be among them. I like the idea of having many
+			smaller supporters versus one or a few large ones, permitting me more freedom from unhelpful
+			influence. I don't need huge resources to sustain my work, and I may do some marginal hustling
+			like selling merch. Thinking wishfully I'd like to hire a small team or be sponsored by a
+			company while keeping independence on my open source projects.</p> <p>I share some similarities with a few contemporary archetypes, but there are important
+			differences. The main point is that I'm devoting my time primarily to making software. All of
+			the other stuff, like this blog, is supplementary.</p> <p>For one, I'm not a startup. I will never take investor funding for these projects or sell
+			control over the core repos Zzz, Fuz, fuz_css, Gro, etc - excluding any products I build using
+			the stack. I'm trying to make the social contract transparent and respectful for any community
+			that forms. My goal is to make the best software I can, and profit-mindedness is
+			counterproductive. I believe profit-incentivized companies can make geat software, but not the
+			best of the kind I want in the long-term. I prefer to keep organizational profitability out of
+			the equation for pure software projects that operate no services (a neat productivity trick:
+			keep your FOSS dev unburdened by IRL service operations) If parts of my stack are successful,
+			they'll be owned by a nonprofit or equivalent.</p> <p>I'm also not an entertainer, influencer, or video content creator. Making software, not
+			videos, will remain my priority. Being funded through YouTube ad revenue or sponsorships would
+			misalign my incentives, taking my focus away from building software. My current stance is that
+			I won't do any software-related sponsorships, which means the dev opinions you get from me are
+			entirely rooted in either my preferences or professional experience. I'm open to sponsorship
+			in the form of a job where I can work on Zzz and its dependencies at least part-time (if I'm
+			going to shill, I'll shill one company at a time, and I'll really mean it, mostly), and I may
+			use the content creator playbook, minus dev-related sponsorships, to build a financially
+			supportive audience.</p> <p>And finally, I'm not a comprehensive educator. I won't retread the same beginner content
+			that's excellently covered elsewhere, and I won't sell courses or do any time-consuming
+			content creation for media companies. While Webdevladder is educational content, it's tailored
+			to what I find interesting and generally more advanced and less accessible. I don't run a
+			Discord community and I'm focused on my projects, but I would like, so to speak, to prop up a
+			ladder that anyone could climb.</p></section> <section><h2>My plan</h2> <p>I'm lucky to have the resources to pursue my <a href="https://www.ryanatkn.com/tree">projects</a> for a few more years, and regardless of my personal situation I plan to continue working on this
+			software and monetize it without possibly-enshittifying patterns. It's all permissively licensed
+			so anyone can create commercial projects using it, and I may do this for a company to sustain development,
+			but I'm a stickler for boundaries when it comes to what goes into the repos.</p> <p><a href="https://youtube.com/@webdevladder">@webdevladder</a> is a channel where I get to
+			learn the ropes of video communication in a low pressure environment. My other channel <a href="https://youtube.com/@webdevladder_vods">@webdevladder_vods</a> gives me even lower pressure
+			experience making videos related to my software and practices, including unfiltered programming
+			sessions for those interested in learning that particular way.</p> <p>For more about me, see my <a href="https://www.ryanatkn.com/">personal website</a>.</p> <p>If any of this sounds interesting, there's all kinds of links and buttons to click. See you
+			next time.</p></section><!----> <!----> <!--[--><hr/><!---->  <section><h2>Comments</h2> <!--[--><!----><div class="toot svelte-otzyot"><div class="toot_content svelte-otzyot"><!--[!--><!--]--> <div class="main_post panel svelte-otzyot"><div class="panel bg_panel svelte-otzyot"><!--[!--><div class="transition_wrapper svelte-otzyot"><button type="button" class="pending_button  svelte-eax9wj"><span class="content svelte-eax9wj"><div class="icon_button_content svelte-otzyot"><div class="icon svelte-otzyot">🦣</div> <div class="button_content svelte-otzyot"><div>load toot<!--[-->s<!--]--> from</div> <code class="ellipsis"><!--[-->fosstodon.org<!--]--></code></div></div><!----></span> <!--[!--><!--]--></button><!----></div><!--]--></div></div> <!--[!--><!--]--></div> <!--[!--><!--]--> <div class="toot_controls svelte-otzyot"><div class="controls svelte-otzyot"><div class="row"><button type="button" class="deselectable" style="margin-right: var(--space_sm);">settings</button> <div class="reset svelte-otzyot"><button type="button" disabled>reset</button><!--[!--><!--]--></div></div></div> <!--[!--><!--]--></div></div><!----><!----><!--]--></section> <hr/><!----><!--]--></article><!--]--></div><!----><!----></div> <div class="breadcrumbs mb_xl9 mt_xl7 svelte-17j22sm"><div class="breadcrumb  svelte-1k0skcb"><a href="/" class="svelte-1k0skcb"><!--[--><svg viewBox="0 0 100 100" aria-label="a spider web between two rungs of a ladder" class="  svelte-1b36jzq" style="width: var(--icon_size_sm); height: var(--icon_size_sm); flex-shrink: 1;"><!--[!--><!--]--><!--[--><!--[--><path fill="#3db33d" d="M 37.174163,0.4792687 21.634926,39.631201 0.16786597,97.97918 16.575416,99.521374 19.352058,91.559689 68.736056,94.77021 70.61636,84.176728 21.745713,80.516425 33.323161,43.781709 44.12821,16.308249 84.47938,15.069186 86.44336,5.5860536 47.872897,6.9685586 49.611104,1.8736809 M 86.061057,1.9243199 74.915756,51.346436 65.559591,99.975909 82.510118,98.660645 89.82178,48.868054 99.675222,0.2061973" class="svelte-1b36jzq"></path><path fill="#3db33d" d="M 82.541527,24.61445 53.862329,44.979685 26.077601,62.33992 25.099707,65.937651 55.229899,47.076762 81.507935,28.318661 M 66.33555,87.233139 54.738379,48.989886 44.170835,12.54806 42.725942,15.71185 52.060344,49.856839 63.493965,86.901562 M 67.524475,13.659828 52.81301,43.245382 35.985883,84.117296 38.703349,84.412401 55.158864,44.100695 70.474719,13.501929 m 5.1603,41.982295 -23.74376,-10.305007 -17.603166,-9.426434 -0.972181,2.878616 17.876898,8.612725 23.958503,10.964992" class="svelte-1b36jzq"></path><path fill="#3db33d" d="m 50.5769,48.285601 0.966122,3.361133 2.456436,-0.09293 2.944734,-2.586661 -0.487976,-4.866721 -1.365959,-1.908962 -3.545067,0.04669 -2.781093,2.644178 -1.139247,5.065325 1.443893,5.999034 5.886709,0.356695 5.877825,-5.767341 0.765816,-9.526984 -4.632806,-4.416277 -7.978619,-0.418274 -5.522701,6.340293 -1.318243,11.151446 3.639737,9.979651 L 57.644364,63.06574 65.560214,52.529221 68.781299,35.897047 60.700698,29.322838 46.760117,27.037036 36.988493,39.207818 33.631767,58.700914 41.28115,74.499356 60.724825,72.962824 71.958187,55.382886 77.273782,30.412258 65.694639,19.60012 44.511786,14.731021 44.715509,16.675374 64.52349,21.522567 74.843098,31.738084 69.730823,54.159963 59.634025,70.76874 42.717921,72.097706 35.95196,57.551866 l 2.738009,-17.179374 8.834853,-11.13111 12.095799,2.019068 6.862581,6.161296 -3.066403,14.068912 -6.523733,9.299082 -9.939247,0.591529 -2.829727,-8.963835 1.086548,-8.709392 4.596194,-5.524272 6.319767,0.309359 3.579728,3.550699 -0.928078,7.718816 -4.331029,4.154252 -4.574097,-0.220971" class="svelte-1b36jzq"></path><!--]--><!--]--></svg><!----><!--]--></a><!--[--><!--[!--><span class="separator svelte-1k0skcb"><!--[!-->/<!--]--></span><!--]--><!--[--><a href="/blog" class="svelte-1k0skcb">blog</a><!--]--><!--[!--><span class="separator svelte-1k0skcb"><!--[!-->/<!--]--></span><!--]--><!--[--><a href="/blog/introducing-webdevladder" class="svelte-1k0skcb selected">introducing-webdevladder</a><!--]--><!--]--></div><!----></div><!----><!--]--><!----><!----><!----><!--]--> <!--[!--><!--]--><!--]-->
+			
+			<script>
+				{
+					__sveltekit_hs7z7i = {
+						base: ""
+					};
+
+					const element = document.currentScript.parentElement;
+
+					Promise.all([
+						import("/_app/immutable/entry/start._5qyMMYW.js"),
+						import("/_app/immutable/entry/app.BGGPMfqL.js")
+					]).then(([kit, app]) => {
+						kit.start(app, element, {
+							node_ids: [0, 2, 10],
+							data: [null,null,null],
+							form: null,
+							error: null
+						});
+					});
+				}
+			</script>
+		</div>
+	</body>
+</html>
