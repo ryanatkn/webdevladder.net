@@ -109,6 +109,13 @@ a.chip {
 	font-size: var(--font_size_xl5);
 	--font_size: var(--font_size_xl5);
 }
+.text_70 {
+	color: var(--text_70);
+	--text_color: var(--text_70);
+}
+.shade_00 {
+	background-color: var(--shade_00);
+}
 .shadow_inset_xs {
 	box-shadow: var(--shadow_inset_xs)
 		color-mix(

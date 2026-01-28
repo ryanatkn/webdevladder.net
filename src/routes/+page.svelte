@@ -29,7 +29,7 @@
 		<Card href={resolve('/tools')} icon="🪄" align="right">tools</Card>
 	</section>
 	<section class="panel p_md shadow_inset_bottom_xs width:100%">
-		<div class="panel shadow_inset_xs bg p_xl">
+		<div class="panel shadow_inset_xs shade_00 p_xl">
 			<h2 class="mt_md">welcome</h2>
 			<p>
 				Webdevladder is a blog and collection of YouTube channels for my open source webdev <a
@@ -47,7 +47,7 @@
 		</div>
 	</section>
 	<section class="panel p_md shadow_inset_bottom_xs width:100%">
-		<div class="panel shadow_inset_xs bg p_xl">
+		<div class="panel shadow_inset_xs shade_00 p_xl">
 			<Videos {channels} />
 		</div>
 	</section>

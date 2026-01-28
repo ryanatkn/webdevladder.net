@@ -24,7 +24,7 @@
 	<div class="font_size_xl">
 		{#if ms != null}{ms}{:else}null{/if}
 	</div>
-	<small class="display:block text_color_3">milliseconds </small>
+	<small class="display:block text_70">milliseconds </small>
 	<div class="copy">
 		<CopyToClipboard text={ms + ''} />
 	</div>
