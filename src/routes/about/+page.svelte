@@ -13,7 +13,7 @@
 	// TODO standardize
 </script>
 
-<main class="width_atmost_md">
+<main class="width_atmost_md pb_xl9">
 	<section class="box">
 		<header class="box">
 			<h1 class="my_xl3">webdevladder</h1>
@@ -46,8 +46,5 @@
 		display: flex;
 		align-items: baseline;
 		text-align: center;
-	}
-	section {
-		margin-bottom: var(--space_xl5);
 	}
 </style>
