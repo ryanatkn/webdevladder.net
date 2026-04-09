@@ -8,7 +8,7 @@
 	 * This component takes in a YouTube-formatted timestamp and outputs milliseconds.
 	 */
 
-	let str = $state('');
+	let str = $state.raw('');
 
 	const parsed_time = $derived(parse_time(str));
 

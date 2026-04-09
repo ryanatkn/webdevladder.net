@@ -10,9 +10,11 @@
 		duration: number;
 	} = $props();
 
+	// TODO better pattern than the effect?
+	// svelte-ignore state_referenced_locally
 	const date = new SvelteDate(duration);
 	// TODO is this ill advised? is there a better way to sync the prop to the reactive object?
-	$effect(() => {
+	$effect.pre(() => {
 		date.setTime(duration); // TODO this actually sets twice, on init and then here on mount
 	});
 
