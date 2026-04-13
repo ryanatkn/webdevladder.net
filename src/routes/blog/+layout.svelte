@@ -33,13 +33,13 @@
 	// TODO redirect from the numbers or render UI to navigate to it, maybe in `BlogPost`
 </script>
 
-<div class="breadcrumbs mt_xl3">
+<div class="column align-items:center mt_xl3">
 	<Breadcrumb><Svg data={logo_webdevladder} size="var(--icon_size_sm)" /></Breadcrumb>
 </div>
-<div class="wrapper">
+<div class="column align-items:center flex:1 p_xl2">
 	{@render children()}
 </div>
-<div class="breadcrumbs mb_xl9 mt_xl7">
+<div class="column align-items:center mb_xl9 mt_xl7">
 	<Breadcrumb><Svg data={logo_webdevladder} size="var(--icon_size_sm)" /></Breadcrumb>
 </div>
 
@@ -50,18 +50,3 @@
 		<a href="https://www.w3.org/Provider/Style/URI">uncool URI</a>
 	</p>
 </section> -->
-
-<style>
-	.wrapper {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		flex: 1;
-		padding: var(--space_xl2);
-	}
-	.breadcrumbs {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-	}
-</style>

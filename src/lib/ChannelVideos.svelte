@@ -17,11 +17,11 @@
 	const videos_without_playlists = $derived(channel.videos.filter((v) => v.playlists.length === 0));
 </script>
 
-<section class="channel_videos">
+<section class="channel-videos">
 	<!-- TODO format these logos, responsive design -->
 	<header class="mb_xl7">
-		<div class="header_icon"><Logo name={channel.name} size="var(--icon_size_xl)" /></div>
-		<div class="header_content">
+		<div class="header-icon"><Logo name={channel.name} size="var(--icon_size_xl)" /></div>
+		<div class="header-content">
 			<h3>
 				<!-- eslint-disable-next-line svelte/no-navigation-without-resolve -->
 				<a href={channel.url}>@{channel.name}</a>
@@ -36,8 +36,8 @@
 		<section>
 			<!-- TODO format these logos, responsive design -->
 			<header class="mb_lg">
-				<div class="header_icon"><Logo name={playlist.name} /></div>
-				<div class="header_content">
+				<div class="header-icon"><Logo name={playlist.name} /></div>
+				<div class="header-content">
 					<h4>
 						<!-- eslint-disable-next-line svelte/no-navigation-without-resolve -->
 						<a href={playlist.url}>{playlist.name}</a>
@@ -84,10 +84,10 @@
 	blockquote {
 		margin-top: var(--space_md);
 	}
-	.header_icon {
+	.header-icon {
 		margin-right: var(--space_lg);
 	}
-	.header_content {
+	.header-content {
 		flex: 1;
 		max-width: 100%;
 	}

@@ -13,10 +13,10 @@
 	// TODO standardize
 </script>
 
-<main class="width_atmost_md pb_xl9">
+<main class="column align-items:center mx_auto width_atmost_md pb_xl9">
 	<section class="box">
 		<header class="box">
-			<h1 class="my_xl3">webdevladder</h1>
+			<h1 class="my_xl3 text-align:center">webdevladder</h1>
 		</header>
 		<Breadcrumb>{library_json.package_json.glyph}</Breadcrumb>
 	</section>
@@ -34,17 +34,3 @@
 		</DocsFooter>
 	</section>
 </main>
-
-<style>
-	main {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		margin: 0 auto;
-	}
-	h1 {
-		display: flex;
-		align-items: baseline;
-		text-align: center;
-	}
-</style>

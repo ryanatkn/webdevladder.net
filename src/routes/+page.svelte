@@ -16,7 +16,7 @@
 	const library = new Library(library_json);
 </script>
 
-<main class="width_atmost_md">
+<main class="column align-items:center mx_auto width_atmost_md">
 	<section class="box">
 		<header class="box">
 			<Svg data={logo_webdevladder} size="var(--icon_size_xl2)" class="mt_xl5" />
@@ -59,12 +59,3 @@
 		</DocsFooter>
 	</section>
 </main>
-
-<style>
-	main {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		margin: 0 auto;
-	}
-</style>
