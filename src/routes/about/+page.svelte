@@ -1,16 +1,13 @@
 <script lang="ts">
 	// TODO docs?
 	// import LibraryDetail from '@fuzdev/fuz_ui/LibraryDetail.svelte';
-	import {Library} from '@fuzdev/fuz_ui/library.svelte.js';
 	import DocsFooter from '@fuzdev/fuz_ui/DocsFooter.svelte';
 	import Breadcrumb from '@fuzdev/fuz_ui/Breadcrumb.svelte';
+	import {site_context} from '@fuzdev/fuz_ui/site.svelte.js';
 
 	import PersonalEcosystemLinksPanel from '$routes/PersonalEcosystemLinksPanel.svelte';
-	import {library_json} from '$routes/library.js';
 
-	const library = new Library(library_json);
-
-	// TODO standardize
+	const site = site_context.get();
 </script>
 
 <main class="column align-items:center mx_auto width_atmost_md pb_xl9">
@@ -18,7 +15,7 @@
 		<header class="box">
 			<h1 class="my_xl3 text-align:center">webdevladder</h1>
 		</header>
-		<Breadcrumb>{library_json.package_json.glyph}</Breadcrumb>
+		<Breadcrumb />
 	</section>
 	<PersonalEcosystemLinksPanel />
 	<!-- <section class="box width:100% mb_lg">
@@ -27,9 +24,9 @@
 		</div>
 	</section> -->
 	<section class="box">
-		<DocsFooter {library}>
+		<DocsFooter repo_url={site.repo_url}>
 			<div class="mb_xl">
-				<Breadcrumb>{library_json.package_json.glyph}</Breadcrumb>
+				<Breadcrumb />
 			</div>
 		</DocsFooter>
 	</section>

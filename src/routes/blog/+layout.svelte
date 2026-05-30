@@ -1,14 +1,11 @@
 <script lang="ts">
 	import Breadcrumb from '@fuzdev/fuz_ui/Breadcrumb.svelte';
 	import type {Snippet} from 'svelte';
-	import Svg from '@fuzdev/fuz_ui/Svg.svelte';
 	import {DEV} from 'esm-env';
 	import {
 		MastodonCache,
 		mastodon_cache_context,
 	} from '@fuzdev/fuz_mastodon/mastodon_cache.svelte.js';
-
-	import {logo_webdevladder} from '$lib/logos.js';
 
 	const {
 		children,
@@ -34,13 +31,13 @@
 </script>
 
 <div class="column align-items:center mt_xl3">
-	<Breadcrumb><Svg data={logo_webdevladder} size="var(--icon_size_sm)" /></Breadcrumb>
+	<Breadcrumb />
 </div>
 <div class="column align-items:center flex:1 p_xl2">
 	{@render children()}
 </div>
 <div class="column align-items:center mb_xl9 mt_xl7">
-	<Breadcrumb><Svg data={logo_webdevladder} size="var(--icon_size_sm)" /></Breadcrumb>
+	<Breadcrumb />
 </div>
 
 <!-- TODO 404, needs to work with prerendering -->

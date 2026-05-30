@@ -1,19 +1,17 @@
 <script lang="ts">
 	import {resolve} from '$app/paths';
-	import {Library} from '@fuzdev/fuz_ui/library.svelte.js';
 	import DocsFooter from '@fuzdev/fuz_ui/DocsFooter.svelte';
 	import Svg from '@fuzdev/fuz_ui/Svg.svelte';
 	import Card from '@fuzdev/fuz_ui/Card.svelte';
+	import {site_context} from '@fuzdev/fuz_ui/site.svelte.js';
 
 	import PersonalEcosystemLinks from '$routes/PersonalEcosystemLinks.svelte';
 	import PersonalProjectLinks from '$routes/PersonalProjectLinks.svelte';
 	import {logo_webdevladder} from '$lib/logos.js';
-	import {library_json} from '$routes/library.js';
 	import Videos from '$lib/Videos.svelte';
 	import {channels} from '$routes/channel_data.js';
 
-	// TODO put in context?
-	const library = new Library(library_json);
+	const site = site_context.get();
 </script>
 
 <main class="column align-items:center mx_auto width_atmost_md">
@@ -52,7 +50,7 @@
 		</div>
 	</section>
 	<section class="mb_xl7">
-		<DocsFooter {library}>
+		<DocsFooter repo_url={site.repo_url}>
 			{#snippet logo_header()}
 				<a class="mb_md" href={resolve('/about')}>about</a>
 			{/snippet}

@@ -1,18 +1,17 @@
 <script lang="ts">
 	import DocsFooter from '@fuzdev/fuz_ui/DocsFooter.svelte';
 	import Breadcrumb from '@fuzdev/fuz_ui/Breadcrumb.svelte';
-	import {Library} from '@fuzdev/fuz_ui/library.svelte.js';
+	import {site_context} from '@fuzdev/fuz_ui/site.svelte.js';
 
-	import {library_json} from '$routes/library.js';
 	import TimeConverter from '$routes/tools/TimeConverter.svelte';
 
-	const library = new Library(library_json);
+	const site = site_context.get();
 </script>
 
 <main class="width_atmost_md box mx_auto px_lg pt_xl5 pb_xl9">
 	<header>
 		<div class="mb_xl5" style:--font_size="var(--font_size_xl)">
-			<Breadcrumb>{library_json.package_json.glyph}</Breadcrumb>
+			<Breadcrumb />
 		</div>
 	</header>
 	<section>
@@ -26,9 +25,9 @@
 		</p>
 	</section>
 	<section class="box">
-		<DocsFooter {library}>
+		<DocsFooter repo_url={site.repo_url}>
 			<div class="mb_xl">
-				<Breadcrumb>{library_json.package_json.glyph}</Breadcrumb>
+				<Breadcrumb />
 			</div>
 		</DocsFooter>
 	</section>
