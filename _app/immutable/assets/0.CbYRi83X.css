@@ -68,6 +68,7 @@
 	--darken_95: #000000fa;
 	--disabled_opacity: 60%;
 	--distance_md: 800px;
+	--distance_sm: 320px;
 	--duration_5: 1.5s;
 	--fg_05: var(--darken_05);
 	--fg_10: var(--darken_10);
@@ -95,6 +96,7 @@
 	--icon_size_lg: 80px;
 	--icon_size_md: 48px;
 	--icon_size_xl: 128px;
+	--icon_size_xl2: 192px;
 	--input_fill: var(--bg_80);
 	--input_height: var(--space_xl5);
 	--input_height_compact: var(--space_xl4);
@@ -132,6 +134,7 @@
 	--shade_min: #fff;
 	--shadow_alpha_30: 25%;
 	--shadow_alpha_40: 36%;
+	--shadow_bottom_sm: 0 1.5px 4px 0px;
 	--shadow_color_highlight: hsl(var(--tint_hue) var(--tint_saturation) 94%);
 	--shadow_color_umbra: #000;
 	--shadow_inset_bottom_sm: inset 0 -1.5px 4px 0px;
