@@ -103,8 +103,5 @@
       "svelte": "./dist/*.svelte",
       "default": "./dist/*.svelte"
     }
-  },
-  "dependencies": {
-    "@fuzdev/fuz_gitops": "^0.76.0"
   }
 }
