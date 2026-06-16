@@ -1,4 +1,4 @@
-import type {SvgData} from '@fuzdev/fuz_ui/svg.js';
+import type {SvgData} from '@fuzdev/fuz_ui/svg.ts';
 
 export const logo_webdevladder = {
 	label: 'a spider web between two rungs of a ladder',

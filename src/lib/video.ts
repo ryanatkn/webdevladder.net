@@ -1,8 +1,8 @@
-import type {Url} from '@fuzdev/fuz_util/url.js';
-import type {Flavored} from '@fuzdev/fuz_util/types.js';
+import type {Url} from '@fuzdev/fuz_util/url.ts';
+import type {Flavored} from '@fuzdev/fuz_util/types.ts';
 
-import type {Milliseconds} from './time.js';
-import type {Playlist, PlaylistName} from './channel.js';
+import type {Milliseconds} from './time.ts';
+import type {Playlist, PlaylistName} from './channel.ts';
 
 // TODO @many probably extract, maybe to `fuz_video`
 

@@ -1,6 +1,6 @@
 <script lang="ts" module>
 	import {asset} from '$app/paths';
-	import type {BlogPostData} from '@fuzdev/fuz_blog/blog.js';
+	import type {BlogPostData} from '@fuzdev/fuz_blog/blog.ts';
 
 	export const post = {
 		title: 'Introducing Webdevladder',

@@ -3,13 +3,13 @@
 	import DocsFooter from '@fuzdev/fuz_ui/DocsFooter.svelte';
 	import Svg from '@fuzdev/fuz_ui/Svg.svelte';
 	import Card from '@fuzdev/fuz_ui/Card.svelte';
-	import {site_context} from '@fuzdev/fuz_ui/site.svelte.js';
+	import {site_context} from '@fuzdev/fuz_ui/site.svelte.ts';
 
-	import PersonalEcosystemLinks from '$routes/PersonalEcosystemLinks.svelte';
-	import PersonalProjectLinks from '$routes/PersonalProjectLinks.svelte';
-	import {logo_webdevladder} from '$lib/logos.js';
+	import PersonalEcosystemLinks from './PersonalEcosystemLinks.svelte';
+	import PersonalProjectLinks from './PersonalProjectLinks.svelte';
+	import {logo_webdevladder} from '$lib/logos.ts';
 	import Videos from '$lib/Videos.svelte';
-	import {channels} from '$routes/channel_data.js';
+	import {channels} from './channel_data.ts';
 
 	const site = site_context.get();
 </script>

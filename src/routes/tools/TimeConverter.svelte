@@ -2,7 +2,7 @@
 	import Code from '@fuzdev/fuz_code/Code.svelte';
 	import CopyToClipboard from '@fuzdev/fuz_ui/CopyToClipboard.svelte';
 
-	import {parse_time, time_to_ms} from '$lib/time.js';
+	import {parse_time, time_to_ms} from '$lib/time.ts';
 
 	/**
 	 * This component takes in a YouTube-formatted timestamp and outputs milliseconds.

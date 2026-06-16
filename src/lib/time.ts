@@ -1,4 +1,4 @@
-import type {Flavored} from '@fuzdev/fuz_util/types.js';
+import type {Flavored} from '@fuzdev/fuz_util/types.ts';
 
 // TODO @many probably extract, maybe to `fuz_video` or `fuz_util`?
 

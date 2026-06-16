@@ -1,5 +1,5 @@
 <script lang="ts">
-	import type {VideoJson} from './video.js';
+	import type {VideoJson} from './video.ts';
 	import Duration from './Duration.svelte';
 
 	const {

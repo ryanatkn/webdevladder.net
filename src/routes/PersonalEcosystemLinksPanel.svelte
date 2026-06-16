@@ -1,8 +1,8 @@
 <script lang="ts">
 	import type {Snippet} from 'svelte';
 
-	import EcosystemLinks from '$routes/PersonalEcosystemLinks.svelte';
-	import ProjectLinks from '$routes/PersonalProjectLinks.svelte';
+	import EcosystemLinks from './PersonalEcosystemLinks.svelte';
+	import ProjectLinks from './PersonalProjectLinks.svelte';
 
 	const {
 		children,

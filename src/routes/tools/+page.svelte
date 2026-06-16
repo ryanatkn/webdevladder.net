@@ -1,9 +1,9 @@
 <script lang="ts">
 	import DocsFooter from '@fuzdev/fuz_ui/DocsFooter.svelte';
 	import Breadcrumb from '@fuzdev/fuz_ui/Breadcrumb.svelte';
-	import {site_context} from '@fuzdev/fuz_ui/site.svelte.js';
+	import {site_context} from '@fuzdev/fuz_ui/site.svelte.ts';
 
-	import TimeConverter from '$routes/tools/TimeConverter.svelte';
+	import TimeConverter from './TimeConverter.svelte';
 
 	const site = site_context.get();
 </script>

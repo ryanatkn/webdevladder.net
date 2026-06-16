@@ -1,10 +1,10 @@
 <script lang="ts">
 	import Svg from '@fuzdev/fuz_ui/Svg.svelte';
-	import type {SvgData} from '@fuzdev/fuz_ui/svg.js';
-	import {logo_fuz, logo_fuz_css, logo_fuz_blog, logo_fuz_mastodon} from '@fuzdev/fuz_ui/logos.js';
+	import type {SvgData} from '@fuzdev/fuz_ui/svg.ts';
+	import {logo_fuz, logo_fuz_css, logo_fuz_blog, logo_fuz_mastodon} from '@fuzdev/fuz_ui/logos.ts';
 
-	import type {ChannelName, PlaylistName} from './channel.js';
-	import {logo_webdevladder, logo_earbetter} from './logos.js';
+	import type {ChannelName, PlaylistName} from './channel.ts';
+	import {logo_webdevladder, logo_earbetter} from './logos.ts';
 
 	const {
 		name,

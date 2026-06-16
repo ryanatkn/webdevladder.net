@@ -1,6 +1,6 @@
 <script lang="ts">
 	import ChannelVideos from './ChannelVideos.svelte';
-	import type {Channel} from './channel.js';
+	import type {Channel} from './channel.ts';
 
 	const {
 		channels,

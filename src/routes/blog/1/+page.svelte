@@ -1,5 +1,5 @@
 <script lang="ts" module>
-	import type {BlogPostData} from '@fuzdev/fuz_blog/blog.js';
+	import type {BlogPostData} from '@fuzdev/fuz_blog/blog.ts';
 	import BlogPost from '@fuzdev/fuz_blog/BlogPost.svelte';
 
 	export const post = {

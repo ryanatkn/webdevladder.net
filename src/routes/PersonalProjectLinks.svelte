@@ -6,7 +6,7 @@
 		logo_fuz_css,
 		logo_fuz_template,
 		logo_fuz_ui,
-	} from '@fuzdev/fuz_ui/logos.js';
+	} from '@fuzdev/fuz_ui/logos.ts';
 
 	const size = 'var(--icon_size_lg)';
 </script>

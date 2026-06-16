@@ -1,7 +1,7 @@
-import type {Flavored} from '@fuzdev/fuz_util/types.js';
-import type {Url} from '@fuzdev/fuz_util/url.js';
+import type {Flavored} from '@fuzdev/fuz_util/types.ts';
+import type {Url} from '@fuzdev/fuz_util/url.ts';
 
-import type {VideoJson} from './video.js';
+import type {VideoJson} from './video.ts';
 
 // TODO @many probably extract, maybe to `fuz_video`
 
