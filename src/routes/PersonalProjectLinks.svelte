@@ -30,12 +30,12 @@
 >
 <a
 	class="project-link"
-	title="fuz_css - CSS framework and design system"
+	title="fuz_css - semantic-first CSS framework and design system"
 	href="https://css.fuz.dev/"><Svg data={logo_fuz_css} {size} /><span class="name">fuz_css</span></a
 >
 <a
 	class="project-link"
-	title="fuz_template - a static web app and Node library template with TypeScript, Svelte, SvelteKit, Vite, esbuild, Fuz, and Gro"
+	title="fuz_template - a web app template with TypeScript + SvelteKit + optional Rust for the fuz-stack"
 	href="https://template.fuz.dev/"
 	><Svg data={logo_fuz_template} {size} /><span class="name">fuz_template</span></a
 >
