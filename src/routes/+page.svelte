@@ -1,15 +1,15 @@
 <script lang="ts">
-	import {resolve} from '$app/paths';
+	import { resolve } from '$app/paths';
 	import DocsFooter from '@fuzdev/fuz_ui/DocsFooter.svelte';
 	import Svg from '@fuzdev/fuz_ui/Svg.svelte';
 	import Card from '@fuzdev/fuz_ui/Card.svelte';
-	import {site_context} from '@fuzdev/fuz_ui/site.svelte.ts';
+	import { site_context } from '@fuzdev/fuz_ui/site.svelte.ts';
 
 	import PersonalEcosystemLinks from './PersonalEcosystemLinks.svelte';
 	import PersonalProjectLinks from './PersonalProjectLinks.svelte';
-	import {logo_webdevladder} from '$lib/logos.ts';
+	import { logo_webdevladder } from '$lib/logos.ts';
 	import Videos from '$lib/Videos.svelte';
-	import {channels} from './channel_data.ts';
+	import { channels } from './channel_data.ts';
 
 	const site = site_context.get();
 </script>

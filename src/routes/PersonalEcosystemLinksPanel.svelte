@@ -1,11 +1,11 @@
 <script lang="ts">
-	import type {Snippet} from 'svelte';
+	import type { Snippet } from 'svelte';
 
 	import EcosystemLinks from './PersonalEcosystemLinks.svelte';
 	import ProjectLinks from './PersonalProjectLinks.svelte';
 
 	const {
-		children,
+		children
 	}: {
 		children?: Snippet;
 	} = $props();

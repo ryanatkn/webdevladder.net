@@ -1,5 +1,5 @@
-import type {Url} from '@fuzdev/fuz_util/url.ts';
-import type {FetchValueCacheItem} from '@fuzdev/fuz_util/fetch.ts';
+import type { Url } from '@fuzdev/fuz_util/url.ts';
+import type { FetchValueCacheItem } from '@fuzdev/fuz_util/fetch.ts';
 
 export const mastodon_dev_cache_data: Array<[Url, FetchValueCacheItem]> = [
 	[
@@ -8,10 +8,10 @@ export const mastodon_dev_cache_data: Array<[Url, FetchValueCacheItem]> = [
 			key: 'GET::https://mastodon.social/api/v1/statuses/112764548975084845/context',
 			url: 'https://mastodon.social/api/v1/statuses/112764548975084845/context',
 			params: null,
-			value: {ancestors: [], descendants: []},
+			value: { ancestors: [], descendants: [] },
 			etag: null,
-			last_modified: null,
-		},
+			last_modified: null
+		}
 	],
 	[
 		'GET::https://mastodon.social/api/v1/statuses/112764548975084845',
@@ -37,7 +37,7 @@ export const mastodon_dev_cache_data: Array<[Url, FetchValueCacheItem]> = [
 				content:
 					'<p>I blogged about webdevladder.net&#39;s first blog post</p><p><a href="https://www.webdevladder.net/blog/hello-webdevladder-blog" target="_blank" rel="nofollow noopener noreferrer" translate="no"><span class="invisible">https://www.</span><span class="ellipsis">webdevladder.net/blog/hello-we</span><span class="invisible">bdevladder-blog</span></a></p><p>It includes Mastodon comments using fuz_mastodon: <a href="https://github.com/fuzdev/fuz_mastodon" target="_blank" rel="nofollow noopener noreferrer" translate="no"><span class="invisible">https://</span><span class="ellipsis">github.com/fuzdev/fuz_mastod</span><span class="invisible">on</span></a></p><p>If you reply to this post and I like it, it&#39;ll show up on the blog!</p><p>It&#39;s made with <a href="https://mastodon.social/tags/SvelteKit" class="mention hashtag" rel="tag">#<span>SvelteKit</span></a> and <a href="https://mastodon.social/tags/TypeScript" class="mention hashtag" rel="tag">#<span>TypeScript</span></a> using fuz_blog, my blog creation library for developers - <a href="https://github.com/fuzdev/fuz_blog" target="_blank" rel="nofollow noopener noreferrer" translate="no"><span class="invisible">https://</span><span class="">github.com/fuzdev/fuz_blog</span><span class="invisible"></span></a></p><p>pull request for the blog: <a href="https://github.com/ryanatkn/webdevladder.net/pull/5" target="_blank" rel="nofollow noopener noreferrer" translate="no"><span class="invisible">https://</span><span class="ellipsis">github.com/ryanatkn/webdevladd</span><span class="invisible">er.net/pull/5</span></a></p><p>pull request for the comments: <a href="https://github.com/ryanatkn/webdevladder.net/pull/6" target="_blank" rel="nofollow noopener noreferrer" translate="no"><span class="invisible">https://</span><span class="ellipsis">github.com/ryanatkn/webdevladd</span><span class="invisible">er.net/pull/6</span></a></p>',
 				reblog: null,
-				application: {name: 'Web', website: null},
+				application: { name: 'Web', website: null },
 				account: {
 					id: '112020728666685461',
 					username: 'webdevladder',
@@ -73,33 +73,33 @@ export const mastodon_dev_cache_data: Array<[Url, FetchValueCacheItem]> = [
 							name: 'youtube',
 							value:
 								'<a href="https://youtube.com/@webdevladder" target="_blank" rel="nofollow noopener noreferrer me" translate="no"><span class="invisible">https://</span><span class="">youtube.com/@webdevladder</span><span class="invisible"></span></a>',
-							verified_at: null,
+							verified_at: null
 						},
 						{
 							name: 'website',
 							value:
 								'<a href="https://www.webdevladder.net/" target="_blank" rel="nofollow noopener noreferrer me" translate="no"><span class="invisible">https://www.</span><span class="">webdevladder.net/</span><span class="invisible"></span></a>',
-							verified_at: '2024-07-09T05:35:59.267+00:00',
+							verified_at: '2024-07-09T05:35:59.267+00:00'
 						},
 						{
 							name: 'github',
 							value:
 								'<a href="https://github.com/ryanatkn/webdevladder.net" target="_blank" rel="nofollow noopener noreferrer me" translate="no"><span class="invisible">https://</span><span class="ellipsis">github.com/ryanatkn/webdevladd</span><span class="invisible">er.net</span></a>',
-							verified_at: null,
+							verified_at: null
 						},
 						{
 							name: 'me',
 							value:
 								'<a href="https://www.ryanatkn.com/" target="_blank" rel="nofollow noopener noreferrer me" translate="no"><span class="invisible">https://www.</span><span class="">ryanatkn.com/</span><span class="invisible"></span></a>',
-							verified_at: '2024-03-01T17:19:07.902+00:00',
-						},
-					],
+							verified_at: '2024-03-01T17:19:07.902+00:00'
+						}
+					]
 				},
 				media_attachments: [],
 				mentions: [],
 				tags: [
-					{name: 'sveltekit', url: 'https://mastodon.social/tags/sveltekit'},
-					{name: 'typescript', url: 'https://mastodon.social/tags/typescript'},
+					{ name: 'sveltekit', url: 'https://mastodon.social/tags/sveltekit' },
+					{ name: 'typescript', url: 'https://mastodon.social/tags/typescript' }
 				],
 				emojis: [],
 				card: {
@@ -120,12 +120,12 @@ export const mastodon_dev_cache_data: Array<[Url, FetchValueCacheItem]> = [
 					embed_url: '',
 					blurhash: null,
 					published_at: null,
-					authors: [{name: '', url: '', account: null}],
+					authors: [{ name: '', url: '', account: null }]
 				},
-				poll: null,
+				poll: null
 			},
 			etag: null,
-			last_modified: null,
-		},
-	],
+			last_modified: null
+		}
+	]
 ];

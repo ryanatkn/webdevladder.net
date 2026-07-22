@@ -1,8 +1,8 @@
 <script lang="ts">
-	import {SvelteDate} from 'svelte/reactivity';
+	import { SvelteDate } from 'svelte/reactivity';
 
 	const {
-		duration,
+		duration
 	}: {
 		/**
 		 * Time in milliseconds.

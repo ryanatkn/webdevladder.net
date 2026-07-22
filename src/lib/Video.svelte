@@ -1,9 +1,9 @@
 <script lang="ts">
-	import type {VideoJson} from './video.ts';
+	import type { VideoJson } from './video.ts';
 	import Duration from './Duration.svelte';
 
 	const {
-		video,
+		video
 	}: {
 		video: VideoJson;
 	} = $props();

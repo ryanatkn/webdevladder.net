@@ -1,6 +1,6 @@
 <script lang="ts">
 	const {
-		selected,
+		selected
 	}: {
 		selected?: 'webdevladder.net' | 'ryanatkn.com'; // 'spiderspace.org' |
 	} = $props();

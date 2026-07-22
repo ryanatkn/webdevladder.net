@@ -1,6 +1,6 @@
 <script lang="ts">
 	const {
-		number,
+		number
 	}: {
 		number: number; // TODO name?
 	} = $props();

@@ -1,6 +1,6 @@
 <script lang="ts" module>
-	import {asset} from '$app/paths';
-	import type {BlogPostData} from '@fuzdev/fuz_blog/blog.ts';
+	import { asset } from '$app/paths';
+	import type { BlogPostData } from '@fuzdev/fuz_blog/blog.ts';
 
 	export const post = {
 		title: 'Introducing Webdevladder',
@@ -12,8 +12,8 @@
 		tags: ['webdevladder'],
 		comments: {
 			type: 'mastodon',
-			url: 'https://fosstodon.org/@webdevladder/113312132188029470',
-		},
+			url: 'https://fosstodon.org/@webdevladder/113312132188029470'
+		}
 	} satisfies BlogPostData;
 </script>
 

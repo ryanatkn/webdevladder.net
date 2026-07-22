@@ -1,11 +1,11 @@
 <script lang="ts">
 	import Video from './Video.svelte';
-	import type {Channel} from './channel.ts';
-	import {filter_playlist_videos} from './video.ts';
+	import type { Channel } from './channel.ts';
+	import { filter_playlist_videos } from './video.ts';
 	import Logo from './Logo.svelte';
 
 	const {
-		channel,
+		channel
 	}: {
 		channel: Channel;
 	} = $props();

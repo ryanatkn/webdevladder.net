@@ -1,7 +1,7 @@
 <script lang="ts">
 	import DocsFooter from '@fuzdev/fuz_ui/DocsFooter.svelte';
 	import Breadcrumb from '@fuzdev/fuz_ui/Breadcrumb.svelte';
-	import {site_context} from '@fuzdev/fuz_ui/site.svelte.ts';
+	import { site_context } from '@fuzdev/fuz_ui/site.svelte.ts';
 
 	import TimeConverter from './TimeConverter.svelte';
 

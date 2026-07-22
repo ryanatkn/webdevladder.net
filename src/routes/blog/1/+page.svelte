@@ -1,5 +1,5 @@
 <script lang="ts" module>
-	import type {BlogPostData} from '@fuzdev/fuz_blog/blog.ts';
+	import type { BlogPostData } from '@fuzdev/fuz_blog/blog.ts';
 	import BlogPost from '@fuzdev/fuz_blog/BlogPost.svelte';
 
 	export const post = {
@@ -11,8 +11,8 @@
 		tags: ['webdev', 'svelte', 'typescript', 'sveltekit', 'vite'],
 		comments: {
 			type: 'mastodon',
-			url: 'https://fosstodon.org/@webdevladder/113312147463274655',
-		},
+			url: 'https://fosstodon.org/@webdevladder/113312147463274655'
+		}
 	} satisfies BlogPostData;
 </script>
 

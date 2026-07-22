@@ -1,9 +1,9 @@
 <script lang="ts">
-	import type {Snippet} from 'svelte';
+	import type { Snippet } from 'svelte';
 
 	const {
 		number,
-		children,
+		children
 	}: {
 		number: number; // TODO name?
 		children: Snippet;

@@ -1,4 +1,4 @@
-import type {Flavored} from '@fuzdev/fuz_util/types.ts';
+import type { Flavored } from '@fuzdev/fuz_util/types.ts';
 
 // TODO @many probably extract, maybe to `fuz_video` or `fuz_util`?
 
@@ -32,9 +32,9 @@ export const parse_time = (str: string): Time | null => {
 		hours: Number.isNaN(hours) ? 0 : hours,
 		minutes: Number.isNaN(minutes) ? 0 : minutes,
 		seconds: Number.isNaN(seconds) ? 0 : seconds,
-		ms: Number.isNaN(ms) ? 0 : ms,
+		ms: Number.isNaN(ms) ? 0 : ms
 	};
 };
 
-export const time_to_ms = ({hours, minutes, seconds, ms}: Time): number =>
+export const time_to_ms = ({ hours, minutes, seconds, ms }: Time): number =>
 	(hours * 60 * 60 + minutes * 60 + seconds) * 1000 + ms;

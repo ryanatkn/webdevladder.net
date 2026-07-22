@@ -1,5 +1,5 @@
 <script lang="ts" module>
-	import type {BlogPostData} from '@fuzdev/fuz_blog/blog.ts';
+	import type { BlogPostData } from '@fuzdev/fuz_blog/blog.ts';
 
 	export const post = {
 		title: 'Svelte 5 signals fix its glitchy and inconsistent reactivity',
@@ -11,8 +11,8 @@
 		tags: ['svelte', 'signals'],
 		comments: {
 			type: 'mastodon',
-			url: 'https://fosstodon.org/@webdevladder/113312123824800794',
-		},
+			url: 'https://fosstodon.org/@webdevladder/113312123824800794'
+		}
 	} satisfies BlogPostData;
 </script>
 

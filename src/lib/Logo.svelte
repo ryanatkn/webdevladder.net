@@ -1,14 +1,19 @@
 <script lang="ts">
 	import Svg from '@fuzdev/fuz_ui/Svg.svelte';
-	import type {SvgData} from '@fuzdev/fuz_ui/svg.ts';
-	import {logo_fuz, logo_fuz_css, logo_fuz_blog, logo_fuz_mastodon} from '@fuzdev/fuz_ui/logos.ts';
+	import type { SvgData } from '@fuzdev/fuz_ui/svg.ts';
+	import {
+		logo_fuz,
+		logo_fuz_css,
+		logo_fuz_blog,
+		logo_fuz_mastodon
+	} from '@fuzdev/fuz_ui/logos.ts';
 
-	import type {ChannelName, PlaylistName} from './channel.ts';
-	import {logo_webdevladder, logo_earbetter} from './logos.ts';
+	import type { ChannelName, PlaylistName } from './channel.ts';
+	import { logo_webdevladder, logo_earbetter } from './logos.ts';
 
 	const {
 		name,
-		size = 'var(--icon_size_lg)',
+		size = 'var(--icon_size_lg)'
 	}: {
 		name: ChannelName | PlaylistName;
 		size?: string;
@@ -22,7 +27,7 @@
 		fuz_css: logo_fuz_css,
 		fuz_blog: logo_fuz_blog,
 		fuz_mastodon: logo_fuz_mastodon,
-		Earbetter: logo_earbetter,
+		Earbetter: logo_earbetter
 	};
 
 	// TODO make generic so we can extract to `fuz_video`
