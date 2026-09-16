@@ -1,0 +1,1 @@
+import{i as e,ad as h}from"./CvP6vg0C.js";import{B as f}from"./DUzfFLrC.js";function b(n,t,...a){var s=new f(n);e(()=>{const r=t()??null;s.ensure(r,r&&(i=>r(i,...a)))},h)}const m=(n,t)=>!t||!n.startsWith(t)?n:n.substring(t.length),o=(n,t)=>!t||!n.endsWith(t)?n:n.substring(0,n.length-t.length),u=(n,t)=>n.endsWith(t)?n:n+t;export{m as a,o as b,u as e,b as s};
