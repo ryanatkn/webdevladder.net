@@ -1,6 +1,7 @@
 <script lang="ts" module>
-	import type { BlogPostData } from '@fuzdev/fuz_blog/blog.ts';
+	import type { BlogPostMetadata } from '@fuzdev/fuz_blog/blog.ts';
 	import BlogPost from '@fuzdev/fuz_blog/BlogPost.svelte';
+	import BlogPostComments from '@fuzdev/fuz_blog/BlogPostComments.svelte';
 
 	export const post = {
 		title: 'Hello webdevladder blog',
@@ -13,7 +14,7 @@
 			type: 'mastodon',
 			url: 'https://fosstodon.org/@webdevladder/113312147463274655'
 		}
-	} satisfies BlogPostData;
+	} satisfies BlogPostMetadata;
 </script>
 
 <script lang="ts">
@@ -51,4 +52,7 @@
 		</ol>
 		<p>Stay tuned for more.</p>
 	</section>
+	{#snippet comments(item)}
+		<BlogPostComments {item} />
+	{/snippet}
 </BlogPost>

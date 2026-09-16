@@ -1,5 +1,5 @@
 <script lang="ts" module>
-	import type { BlogPostData } from '@fuzdev/fuz_blog/blog.ts';
+	import type { BlogPostMetadata } from '@fuzdev/fuz_blog/blog.ts';
 
 	export const post = {
 		title: 'Svelte 5 signals fix its glitchy and inconsistent reactivity',
@@ -13,11 +13,12 @@
 			type: 'mastodon',
 			url: 'https://fosstodon.org/@webdevladder/113312123824800794'
 		}
-	} satisfies BlogPostData;
+	} satisfies BlogPostMetadata;
 </script>
 
 <script lang="ts">
 	import BlogPost from '@fuzdev/fuz_blog/BlogPost.svelte';
+	import BlogPostComments from '@fuzdev/fuz_blog/BlogPostComments.svelte';
 	import Code from '@fuzdev/fuz_code/Code.svelte';
 	import Details from '@fuzdev/fuz_ui/Details.svelte';
 
@@ -458,4 +459,7 @@ $lastname = 'Turing'; // logs "Alan Turing"
 			</p>
 		</FootnoteContent>
 	</section>
+	{#snippet comments(item)}
+		<BlogPostComments {item} />
+	{/snippet}
 </BlogPost>
