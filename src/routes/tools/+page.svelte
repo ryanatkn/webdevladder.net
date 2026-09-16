@@ -19,9 +19,9 @@
 			<TimeConverter />
 		</div>
 		<p>
-			<a href="https://www.youtube.com/watch?v=tNoG-CLLWXc&list=PLio_5jgyVNVlYerzp8npCg8mUs2zKEavS"
-				>video</a
-			> of me making this
+			<a href="https://www.youtube.com/watch?v=tNoG-CLLWXc&list=PLio_5jgyVNVlYerzp8npCg8mUs2zKEavS">
+				video
+			</a> of me making this
 		</p>
 	</section>
 	<section class="box">

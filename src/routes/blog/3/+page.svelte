@@ -39,18 +39,19 @@
 			<a href="https://svelte.dev/">Svelte</a> is a frontend JS framework that's known in part for
 			its terse and ergonomic reactivity. Reactivity is how changes to data synchronize with the UI
 			and other downstream data. In 2019 Svelte 3
-			<a href="https://svelte.dev/blog/svelte-3-rethinking-reactivity"
-				>introduced a reactivity design</a
-			>
-			that caught a lot of attention for its ease and apparent simplicity. Svelte rapidly rose to prominence
-			in its crowded space, and in surveys it has consistently been
+			<a href="https://svelte.dev/blog/svelte-3-rethinking-reactivity">
+				introduced a reactivity design
+			</a>
+			that caught a lot of attention for its ease and apparent simplicity. Svelte rapidly rose to
+			prominence in its crowded space, and in surveys it has consistently been
 			<a
 				href="https://2023.stateofjs.com/en-US/libraries/front-end-frameworks/#front_end_frameworks_experience"
-				>well-liked</a
 			>
-			by its users. But 5 years later, Svelte is again rethinking its reactivity with version 5, this
-			time with
-			<a href="https://svelte.dev/blog/runes">signals and runes syntax</a> - why? I thought we loved it?
+				well-liked
+			</a>
+			by its users. But 5 years later, Svelte is again rethinking its reactivity with version 5,
+			this time with <a href="https://svelte.dev/blog/runes">signals and runes syntax</a> - why? I
+			thought we loved it?
 		</p>
 		<p>
 			To many, Svelte 3 was a fresh and attractive answer to the hard problem of building reactive
@@ -93,12 +94,13 @@
 			improve its reactivity and fix these two problems, among others. In 2024 signals are being
 			adopted by most popular frontend frameworks, React being the notable exception with its purely
 			functional roots. Signals are popular enough to have a broadly-backed
-			<a href="https://github.com/tc39/proposal-signals">proposal to standardize them</a> in the JS language.
+			<a href="https://github.com/tc39/proposal-signals">proposal to standardize them</a> in the JS
+			language.
 		</p>
 		<aside>
 			For more about signals in great detail, Solid creator Ryan Carniato's
-			<a href="https://dev.to/ryansolid">blog posts</a>
-			and <a href="https://www.youtube.com/@ryansolid">YouTube channel</a> are excellent resources. He's
+			<a href="https://dev.to/ryansolid">blog posts</a> and
+			<a href="https://www.youtube.com/@ryansolid">YouTube channel</a> are excellent resources. He's
 			known as the main popularizer of signals.
 		</aside>
 	</section>
@@ -106,12 +108,11 @@
 	<section>
 		<h2>Inconsistent reactive statements</h2>
 		<p>
-			Inconsistency is a term I'm borrowing from Ryan Carniato (see <a
-				href="https://www.youtube.com/live/kz-p_017Usc?si=FeF63XruPUEJXH-w&t=16161">this video</a
-			>
-			for example) that describes the situation where you update the dependencies of a derived value (in
-			this case, derived via a reactive statement), and then synchronously read the derived value, but
-			you get the old value. For example:
+			Inconsistency is a term I'm borrowing from Ryan Carniato (see
+			<a href="https://www.youtube.com/live/kz-p_017Usc?si=FeF63XruPUEJXH-w&t=16161">this video</a>
+			for example) that describes the situation where you update the dependencies of a derived value
+			(in this case, derived via a reactive statement), and then synchronously read the derived
+			value, but you get the old value. For example:
 		</p>
 		<Code
 			lang="ts"
@@ -127,15 +128,16 @@ setTimeout(() => {
 		<p>
 			<a
 				href="https://svelte-5-preview.vercel.app/#H4sIAAAAAAAAA3WOywrCMBBFf2UYXLRSWqy7pA_8B3fGRR9TCaRJaKaClP67RN26vOdcLnfDSRsKKG4b2m4mFHjxHjPkl48hPMkwYYbBrcsQSRWGRXtulFVsiKGDGk4ypoOAHmro4AjlBwTiq57JrZwkKdQNbJEqHpwNzlBu3CPpUwlFAeXXxLGz_N-Ctm2j3VOpbFX8rmCGsxv1pGlEwctK-31_A4xoLxvZAAAA"
-				>REPL</a
 			>
+				REPL
+			</a>
 		</p>
 		<p>
 			It seems logical that <code>b</code> would be <code>6</code> after reassigning <code>a</code>
 			to <code>3</code>, not still <code>2</code>. The problem is the reactive statement starting
-			with <code>$:</code>
-			does not re-run immediately - its update is deferred to the next tick of the JS runtime. The same
-			problem causes <code>b</code> to be <code>undefined</code> during initialization:
+			with <code>$:</code> does not re-run immediately - its update is deferred to the next tick of
+			the JS runtime. The same problem causes <code>b</code> to be <code>undefined</code> during
+			initialization:
 		</p>
 		<Code
 			lang="ts"
@@ -147,8 +149,9 @@ console.log(b); // undefined ???
 		<p>
 			<a
 				href="https://svelte-5-preview.vercel.app/#H4sIAAAAAAAAAy3MSwrCMBRG4a1cfhyoFIMO0xeuwzpIm1sJpElIUkFK9y4Rh-cbnA2zsZwgHxucWhgS9xBQIX9CifRmmxkVkl_jVKRJUzQhd4MbsuVMilq61qUOkkZqSdGZbj-YvEve8sX613E81SQErU7zbBxr6vt-cI3431Bh8drMhjVkjivvz_0L4hPggZwAAAA="
-				>REPL</a
 			>
+				REPL
+			</a>
 		</p>
 		<p>Svelte 5 fixes this problem with runes, which use signals under the hood:</p>
 		<Code
@@ -165,16 +168,16 @@ setTimeout(() => {
 		<p>
 			<a
 				href="https://svelte-5-preview.vercel.app/#H4sIAAAAAAAAA22OzQqDMBCEX2VZekiKVGqhB_-g79Bb7SHqWgLRhGQVivjuJVTopbeZbxhmVhy0oYD5Y8VJjYQ53pzDBPntogkLGSZMMNjZd5GUofPacd1MDRtiUFDBIbBiEmdZRNrZKTC0kffk9UK9UHCE7JdaQydjX6KVBaQpZJDLGAXiux7JziyEhKqGNdKG48Sl-Oo_9ete3-JAme7_MMHR9nrQ1GPOfqbtuX0AnMmRUe4AAAA="
-				>REPL</a
 			>
+				REPL
+			</a>
 		</p>
 		<p>
 			This behavior of reactive statements wasn't unthoughtful design. It avoids numerous issues
 			that result from eager evaluation, and it was an exploration of the limits of static analysis,
 			which was a promising direction to improve the ergonomics and efficiency of reactive systems,
-			as Svelte creator Rich Harris <a
-				href="https://youtu.be/z7n17ajJpCo?si=Vzvwm5QeUbaax-v3&t=2539">discusses in this video</a
-			>.
+			as Svelte creator Rich Harris
+			<a href="https://youtu.be/z7n17ajJpCo?si=Vzvwm5QeUbaax-v3&t=2539">discusses in this video</a>.
 		</p>
 		<p>
 			Signals straightforwardly resolve this wicked problem of reading stale derived values by
@@ -191,14 +194,12 @@ setTimeout(() => {
 	<section>
 		<h2>Glitchy derived stores</h2>
 		<p>
-			In reactive programming, <a href="https://wikipedia.org/wiki/Reactive_programming#Glitches"
-				>glitches</a
-			>
-			occur when a program computes temporary values that make no sense. For example if you have
-			<code>fullname</code>
-			that combines a <code>firstname</code> and <code>lastname</code>, an example glitch might
-			involve computing a full name using the first and last names of two different people, even
-			when the code updates variables sequentially:
+			In reactive programming,
+			<a href="https://wikipedia.org/wiki/Reactive_programming#Glitches">glitches</a> occur when a
+			program computes temporary values that make no sense. For example if you have
+			<code>fullname</code> that combines a <code>firstname</code> and <code>lastname</code>, an
+			example glitch might involve computing a full name using the first and last names of two
+			different people, even when the code updates variables sequentially:
 		</p>
 		<Code
 			content={`// pseudo-code
@@ -240,13 +241,13 @@ $lastname = 'Turing'; // logs "Alan Turing"
 		<p>
 			<a
 				href="https://svelte-5-preview.vercel.app/#H4sIAAAAAAAACm2RS2-DMBCE_8pqFclEccudPKT03GNvkIMDhloxNlobqgrx3yuHZ6QePTvf7GrcY6m0dJikPRpRS0zw2jTI0f824eE6qb1Ejs62lAfl5HJSjb9kJvOqbix56H9IeXHXkkMhSXWyGKAkWwMb8dh5S5IdMxOg3BrnoVTkfNgIZ5jxiH0IugsSbH9cnVr8Y_xU7mG7F1_Zaj35piuidNnCl5gbhyjdbQa7ZbKH8wX6kDhn7jahKwMHYMDgsKLHFbJavmtbRWw6YrkrGZH5uZ8Ykr4ls-pPeRinqwhxDNpWDjKcOoKxggxH46ZOdtXCsCdSaeXzb3ib2TB5BTftsq-WlKnYdtkTGPUAnOLp95FjbQtVKllg4qmVw234A3D_DmNMAgAA"
-				>REPL</a
 			>
+				REPL
+			</a>
 		</p>
 		<p>
-			Signals are one reactivity system that can avoid glitches, depending on the implementation<Footnote
-				number={1}
-			/>. Svelte 5 and the proposed standard are glitch-free.
+			Signals are one reactivity system that can avoid glitches, depending on the
+			implementation<Footnote number={1} />. Svelte 5 and the proposed standard are glitch-free.
 		</p>
 		<aside>
 			I think I'm mis-using the term glitch here. (please send feedback with better terminology -
@@ -257,12 +258,12 @@ $lastname = 'Turing'; // logs "Alan Turing"
 			gives us, updating values can be error-prone and wasteful.
 		</aside>
 		<p>
-			One important detail here is that signals do allow reading intermediate values. If you read <code
-				>fullname</code
-			> in between the two updates, you will indeed see the same value as the glitch. This makes sense,
-			because it means it's consistent as described above with reactive statements. The key point is that
-			unlike derived stores, signals do not see or calculate intermediate values by default - they can
-			but it's under your control. Explicitly pulling an intermediate value is not a glitch.
+			One important detail here is that signals do allow reading intermediate values. If you read
+			<code>fullname</code> in between the two updates, you will indeed see the same value as the
+			glitch. This makes sense, because it means it's consistent as described above with reactive
+			statements. The key point is that unlike derived stores, signals do not see or calculate
+			intermediate values by default - they can but it's under your control. Explicitly pulling an
+			intermediate value is not a glitch.
 		</p>
 		<p>
 			Also, reactive statements are incapable of observing intermediate values, a limitation that
@@ -270,24 +271,23 @@ $lastname = 'Turing'; // logs "Alan Turing"
 		</p>
 		<p>
 			Signals give us the best of both worlds, with the eager observability of derived stores, and
-			the glitch-free efficient batching of reactive statements. They afford not only <a
-				href="https://dev.to/ryansolid/a-hands-on-introduction-to-fine-grained-reactivity-3ndf"
-				>fine-grained performance</a
-			>, but also fine-grained control<Footnote number={2} />.
+			the glitch-free efficient batching of reactive statements. They afford not only
+			<a href="https://dev.to/ryansolid/a-hands-on-introduction-to-fine-grained-reactivity-3ndf">
+				fine-grained performance
+			</a>, but also fine-grained control<Footnote number={2} />.
 		</p>
 		<aside>
-			The signals algorithm is <a
-				href="https://github.com/tc39/proposal-signals#how-do-signals-work">often described</a
-			>
-			as push-pull, a hybrid of push and pull reactivity - see
-			<a href="https://wikipedia.org/wiki/Reactive_programming#Change_propagation_algorithms"
-				>Wikipedia</a
-			>
-			for more. This may sound complex, and internally I consider it so, but it's how we get these simple
-			guarantees externally as users. This behavior means you sometimes need to pay close attention to
-			<em>when</em> you read values - for example pulling an intermediate value is not a glitch, but it
-			may be an error in your logic. Sometimes you need to structure your code accordingly, but in my
-			experience, it's a good and coherent set of tradeoffs.
+			The signals algorithm is
+			<a href="https://github.com/tc39/proposal-signals#how-do-signals-work">often described</a> as
+			push-pull, a hybrid of push and pull reactivity - see
+			<a href="https://wikipedia.org/wiki/Reactive_programming#Change_propagation_algorithms">
+				Wikipedia
+			</a>
+			for more. This may sound complex, and internally I consider it so, but it's how we get these
+			simple guarantees externally as users. This behavior means you sometimes need to pay close
+			attention to <em>when</em> you read values - for example pulling an intermediate value is not
+			a glitch, but it may be an error in your logic. Sometimes you need to structure your code
+			accordingly, but in my experience, it's a good and coherent set of tradeoffs.
 		</aside>
 	</section>
 
@@ -295,12 +295,13 @@ $lastname = 'Turing'; // logs "Alan Turing"
 		<h2>A complete example</h2>
 		<p>
 			<!-- eslint-disable-next-line svelte/no-navigation-without-resolve -->
-			<a href={repl_link}>This REPL</a> compares Svelte 3 reactive statements, derived stores, and Svelte
-			5 signal-based runes. These three different reactive systems have subtle but important differences.
+			<a href={repl_link}>This REPL</a> compares Svelte 3 reactive statements, derived stores, and
+			Svelte 5 signal-based runes. These three different reactive systems have subtle but important
+			differences.
 		</p>
 		<aside>
-			The <a href="https://www.youtube.com/watch?v=lcnimZTNOCA">video</a> walkthrough of this code is
-			probably easier to follow.
+			The <a href="https://www.youtube.com/watch?v=lcnimZTNOCA">video</a> walkthrough of this code
+			is probably easier to follow.
 		</aside>
 		<p>
 			Here are the key lines of code being compared, rewritten to remove the logging noise needed
@@ -314,8 +315,9 @@ $lastname = 'Turing'; // logs "Alan Turing"
 		<Code lang="ts" content={`const ab = $derived(a + ' ' + b);`} />
 		<aside>
 			<Details>
-				{#snippet summary()}Here are the same lines verbatim from the demo, including the added
-					noise:{/snippet}
+				{#snippet summary()}
+					Here are the same lines verbatim from the demo, including the added noise:
+				{/snippet}
 				<p>Reactive statements:</p>
 				<Code lang="ts" content={`$: ab = log('deriving: ' + a + ' ' + b) || a + ' ' + b;`} />
 				<p>Derived stores:</p>
@@ -346,11 +348,8 @@ $lastname = 'Turing'; // logs "Alan Turing"
 		<ul>
 			<li>
 				the final rendered output in the DOM is what we expect, leading many people to be unaware of
-				the lurking problems (e.g. clicking "swap uppercase and lowercase" never displays <code
-					>A b</code
-				>
-				or
-				<code>a B</code>)
+				the lurking problems (e.g. clicking "swap uppercase and lowercase" never displays
+				<code>A b</code> or <code>a B</code>)
 			</li>
 			<li>
 				reactive statements are <code>undefined</code> during initialization - this is inconsistent
@@ -358,8 +357,8 @@ $lastname = 'Turing'; // logs "Alan Turing"
 			<li>
 				reactive statements have stale values when read synchronously after writes to their
 				dependencies - click the swap button and see how the <code>after swap</code> values are the
-				same as <code>before swap</code> for reactive statements, unlike the other two examples - this
-				is inconsistent
+				same as <code>before swap</code> for reactive statements, unlike the other two examples -
+				this is inconsistent
 			</li>
 			<li>
 				derived stores calculate and notify glitchy values like <code>A b</code>, <code>a B</code>,
@@ -379,31 +378,32 @@ $lastname = 'Turing'; // logs "Alan Turing"
 	<section>
 		<h2>From easy to simple</h2>
 		<p>
-			Engineering is all about tradeoffs, and as Rich Harris said in <a
-				href="https://www.youtube.com/live/uWLTDUjNrhQ?si=sirvPwCLiieg-x8R&t=1373">this interview</a
-			>, Svelte before version 5 was overly focused on the first 5 minutes of the developer
+			Engineering is all about tradeoffs, and as Rich Harris said in
+			<a href="https://www.youtube.com/live/uWLTDUjNrhQ?si=sirvPwCLiieg-x8R&t=1373">
+				this interview
+			</a>, Svelte before version 5 was overly focused on the first 5 minutes of the developer
 			experience. Svelte 3's apparent simplicity is full of subtle complexity. The cost of easy was
 			unexpectedly high, and part of that cost was paid in simplicity for nontrivial usage. This
 			post covers only a small fraction of Svelte 3's complexities. If you're curious about the
 			details you could start with
 			<a
 				href="https://www.reddit.com/r/sveltejs/comments/1b1fsna/svelte_5_is_easy_made_simple_v3_and_v4_are_easy/"
-				>these issues</a
-			>.
+			>
+				these issues
+			</a>.
 		</p>
 		<aside>
 			I still consider Svelte 5 easy, but I view its design as trading away some ease for
 			simplicity. For example the character count has increased a bit in components, but it's much
-			more explicit and predictable. I'm borrowing the simple/easy dichotomy from <a
-				href="https://www.youtube.com/watch?v=SxdOUGdseq4">Rich Hickey</a
-			>.
+			more explicit and predictable. I'm borrowing the simple/easy dichotomy from
+			<a href="https://www.youtube.com/watch?v=SxdOUGdseq4">Rich Hickey</a>.
 		</aside>
 		<p>
 			Svelte 3 has two different reactive systems - component-local reactivity (including reactive
 			statements) and stores (including derived) - each with its own problems, and where the former
-			system is available only inside <code>.svelte</code> files. This creates two worlds where interactions
-			between them can be surprising, reasoning through the details is challenging, and refactoring code
-			between them is tedious and error-prone.
+			system is available only inside <code>.svelte</code> files. This creates two worlds where
+			interactions between them can be surprising, reasoning through the details is challenging, and
+			refactoring code between them is tedious and error-prone.
 		</p>
 		<p>
 			In 2019 I rationalized this by thinking I could select the better system for the problem at
@@ -433,19 +433,17 @@ $lastname = 'Turing'; // logs "Alan Turing"
 		<FootnoteContent number={1}>
 			<p>
 				Not all signals implementations are glitch-free, as I understand the term. (in hindsight I
-				think I'm misinterpreting the <a
-					href="https://wikipedia.org/wiki/Reactive_programming#Glitches"
-					>Wikipedia glitch description</a
-				>, confusing glitches with something related to transactions) For example
-				<a href="https://www.youtube.com/watch?v=IsJtmbvW2SI">my first video</a>
-				describes glitchy values that are possible in the store-compatible
-				<a href="https://github.com/preactjs/signals">Preact Signals</a>
-				library (starting at
+				think I'm misinterpreting the
+				<a href="https://wikipedia.org/wiki/Reactive_programming#Glitches">
+					Wikipedia glitch description
+				</a>, confusing glitches with something related to transactions) For example
+				<a href="https://www.youtube.com/watch?v=IsJtmbvW2SI">my first video</a> describes glitchy
+				values that are possible in the store-compatible
+				<a href="https://github.com/preactjs/signals">Preact Signals</a> library (starting at
 				<a href="https://youtu.be/IsJtmbvW2SI?si=V1HVyf_IGs02ZWP-&t=164">this timestamp</a>). Preact
-				Signals provides
-				<code>batch</code> to create explicit transactions that do not glitch. Svelte 5 instead batches
-				automatically, with tradeoffs like effects being deferred instead of eager. I generally prefer
-				Svelte 5's tradeoffs.
+				Signals provides <code>batch</code> to create explicit transactions that do not glitch.
+				Svelte 5 instead batches automatically, with tradeoffs like effects being deferred instead
+				of eager. I generally prefer Svelte 5's tradeoffs.
 			</p>
 		</FootnoteContent>
 		<FootnoteContent number={2}>
@@ -453,9 +451,9 @@ $lastname = 'Turing'; // logs "Alan Turing"
 				The deferred effects of Svelte 5's signals have good ergonomics, but like reactive
 				statements, they cannot observe intermediate values. This makes Svelte 5's control less
 				fine-grained than what's possible, although one can imagine extending its API to opt into
-				eager effects (which are sometimes glitchy and wasteful). <a
-					href="https://github.com/tc39/proposal-signals">The TC39 signals proposal</a
-				> has no opinion on effects because it's unclear what's best - and maybe there's no perfect answer.
+				eager effects (which are sometimes glitchy and wasteful).
+				<a href="https://github.com/tc39/proposal-signals">The TC39 signals proposal</a> has no
+				opinion on effects because it's unclear what's best - and maybe there's no perfect answer.
 				I'd love to learn more about this if you have resources to share.
 			</p>
 		</FootnoteContent>

@@ -8,9 +8,9 @@
 
 <ul>
 	<li>
-		<a rel="me" href="https://www.ryanatkn.com/" class:selected={selected === 'ryanatkn.com'}
-			>ryanatkn.com</a
-		>
+		<a rel="me" href="https://www.ryanatkn.com/" class:selected={selected === 'ryanatkn.com'}>
+			ryanatkn.com
+		</a>
 		- my homepage{#if selected === 'ryanatkn.com'}, you are here{/if}
 	</li>
 	<!-- <li>
@@ -27,21 +27,20 @@
 		<a href="https://bsky.app/profile/ryanatkn.com">@ryanatkn.com</a>
 	</li>
 	<li>
-		Mastodon as
-		<a rel="me" href="https://fosstodon.org/@ryanatkn">@ryanatkn@fosstodon.org</a> and
+		Mastodon as <a rel="me" href="https://fosstodon.org/@ryanatkn">@ryanatkn@fosstodon.org</a> and
 		<a rel="me" href="https://fosstodon.org/@webdevladder">@webdevladder@fosstodon.org</a>
 	</li>
 	<li>
 		<a
 			rel="me"
 			href="https://www.webdevladder.net/"
-			class:selected={selected === 'webdevladder.net'}>webdevladder.net</a
+			class:selected={selected === 'webdevladder.net'}
 		>
+			webdevladder.net
+		</a>
 		- realworld webdev with TypeScript and Svelte,
-		<a href="https://www.webdevladder.net/blog">blog</a>
-		and YouTube channels
-		<a rel="me" href="https://youtube.com/@webdevladder">@webdevladder</a>
-		and
+		<a href="https://www.webdevladder.net/blog">blog</a> and YouTube channels
+		<a rel="me" href="https://youtube.com/@webdevladder">@webdevladder</a> and
 		<a rel="me" href="https://youtube.com/@webdevladder_vods">@webdevladder_vods</a>, also
 		@webdevladder on <a rel="me" href="https://www.reddit.com/user/webdevladder/">Reddit</a> and
 		<a href="https://news.ycombinator.com/user?id=webdevladder">Hacker News</a

@@ -28,10 +28,10 @@
 			<a href="https://github.com/fuzdev/fuz_blog">source code</a>)
 		</p>
 		<p>
-			Here's the video where I added the blog and this post with Mastodon comments: <a
-				href="https://www.youtube.com/watch?v=V4Fg3-B6Su8"
-				>Creating my channel's blog and adding Mastodon comments</a
-			>
+			Here's the video where I added the blog and this post with Mastodon comments:
+			<a href="https://www.youtube.com/watch?v=V4Fg3-B6Su8">
+				Creating my channel's blog and adding Mastodon comments
+			</a>
 		</p>
 		<p>
 			If you're interested in the videos where I created <code>fuz_blog</code>, extracting it from
@@ -39,14 +39,14 @@
 		</p>
 		<ol>
 			<li>
-				<a href="https://www.youtube.com/watch?v=wP9qghWkTLc"
-					>Coding a blog creation library for SvelteKit developers from scratch</a
-				>
+				<a href="https://www.youtube.com/watch?v=wP9qghWkTLc">
+					Coding a blog creation library for SvelteKit developers from scratch
+				</a>
 			</li>
 			<li>
-				<a href="https://www.youtube.com/watch?v=dh_6Vyjbuiw"
-					>Extracting fuz_blog from my personal blog and publishing to npm</a
-				>
+				<a href="https://www.youtube.com/watch?v=dh_6Vyjbuiw">
+					Extracting fuz_blog from my personal blog and publishing to npm
+				</a>
 			</li>
 		</ol>
 		<p>Stay tuned for more.</p>

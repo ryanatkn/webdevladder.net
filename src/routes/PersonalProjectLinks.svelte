@@ -20,25 +20,30 @@
 <a
 	class="project-link"
 	title="Gro - task runner and toolkit extending SvelteKit"
-	href="https://gro.ryanatkn.com/"><Svg data={logo_gro} {size} /><span class="name">Gro</span></a
+	href="https://gro.ryanatkn.com/"
 >
-<a class="project-link" title="Fuz - zippy stack for human agency" href="https://www.fuz.dev/"
-	><Svg data={logo_fuz} {size} /><span class="name">Fuz</span></a
->
-<a class="project-link" title="fuz_ui - Svelte UI library" href="https://ui.fuz.dev/"
-	><Svg data={logo_fuz_ui} {size} /><span class="name">fuz_ui</span></a
->
+	<Svg data={logo_gro} {size} /><span class="name">Gro</span>
+</a>
+<a class="project-link" title="Fuz - zippy stack for human agency" href="https://www.fuz.dev/">
+	<Svg data={logo_fuz} {size} /><span class="name">Fuz</span>
+</a>
+<a class="project-link" title="fuz_ui - Svelte UI library" href="https://ui.fuz.dev/">
+	<Svg data={logo_fuz_ui} {size} /><span class="name">fuz_ui</span>
+</a>
 <a
 	class="project-link"
 	title="fuz_css - semantic-first CSS framework and design system"
-	href="https://css.fuz.dev/"><Svg data={logo_fuz_css} {size} /><span class="name">fuz_css</span></a
+	href="https://css.fuz.dev/"
 >
+	<Svg data={logo_fuz_css} {size} /><span class="name">fuz_css</span>
+</a>
 <a
 	class="project-link"
 	title="fuz_template - a web app template with TypeScript + SvelteKit + optional Rust for the fuz-stack"
 	href="https://template.fuz.dev/"
-	><Svg data={logo_fuz_template} {size} /><span class="name">fuz_template</span></a
 >
+	<Svg data={logo_fuz_template} {size} /><span class="name">fuz_template</span>
+</a>
 
 <style>
 	.project-link {

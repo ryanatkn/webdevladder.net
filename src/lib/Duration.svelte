@@ -26,6 +26,6 @@
 	const formatted_seconds = $derived(minutes ? seconds.toString().padStart(2, '0') : seconds);
 </script>
 
-<span
-	>{#if hours}{hours}:{/if}{formatted_minutes}:{formatted_seconds}</span
->
+<span>
+	{#if hours}{hours}:{/if}{formatted_minutes}:{formatted_seconds}
+</span>

@@ -30,11 +30,10 @@
 		<div class="panel shadow_inset_xs shade_00 p_xl">
 			<h2 class="mt_md">welcome</h2>
 			<p>
-				Webdevladder is a blog and collection of YouTube channels for my open source webdev <a
-					href="https://www.ryanatkn.com/">work</a
-				>. I'm writing blog posts and making educational videos on the technical topics I find most
-				interesting, often advanced and very niche. Some topics have both a blog post and
-				accompanying video.
+				Webdevladder is a blog and collection of YouTube channels for my open source webdev
+				<a href="https://www.ryanatkn.com/">work</a>. I'm writing blog posts and making educational
+				videos on the technical topics I find most interesting, often advanced and very niche. Some
+				topics have both a blog post and accompanying video.
 			</p>
 			<aside>
 				<PersonalEcosystemLinks />

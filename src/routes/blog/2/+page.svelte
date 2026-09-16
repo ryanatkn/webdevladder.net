@@ -33,10 +33,10 @@
 			<a href="https://www.webdevladder.net/blog">blog</a> about the technical topics that interest
 			me as I make open source software. I've been a professional web developer since 2011, and
 			since 2019 I've been working in public full-time, publishing most of my code to
-			<a href="https://github.com/ryanatkn">GitHub</a> as I write it. Webdevladder is a public alias that
-			feels comfortably decoupled from my personal life (being on GitHub since 2012 with my real name
-			is weird in some respects, the professional environment strongnudged me to do it; in 2024 I created
-			this alias and site to gain some distance).
+			<a href="https://github.com/ryanatkn">GitHub</a> as I write it. Webdevladder is a public alias
+			that feels comfortably decoupled from my personal life (being on GitHub since 2012 with my
+			real name is weird in some respects, the professional environment strongnudged me to do it; in
+			2024 I created this alias and site to gain some distance).
 		</p>
 		<p>
 			The open web is humanity's shared, decentralized platform. I love it for its wide reach and
@@ -52,10 +52,9 @@
 			<a href="https://www.typescriptlang.org/">TypeScript</a>. My projects span the whole stack,
 			from a CSS framework and design system to a Svelte UI library to a fullstack dev-and-end-user
 			tool. I also make websites that use the stack and tools to streamline the process. The
-			fullstack tool is
-			<a href="https://www.zzz.software/">Zzz</a>, and it's my focus for funding because its target
-			audience is both nontechnical and dev users, and it's the main thing my other software has
-			been designed for.
+			fullstack tool is <a href="https://www.zzz.software/">Zzz</a>, and it's my focus for funding
+			because its target audience is both nontechnical and dev users, and it's the main thing my
+			other software has been designed for.
 		</p>
 		<p>
 			My stated goal here is to deepen my knowledge of web technology and improve my communication
@@ -121,19 +120,19 @@
 	<section>
 		<h2>My plan</h2>
 		<p>
-			I'm lucky to have the resources to pursue my <a href="https://www.ryanatkn.com/tree"
-				>projects</a
-			> for a few more years, and regardless of my personal situation I plan to continue working on this
-			software and monetize it without possibly-enshittifying patterns. It's all permissively licensed
-			so anyone can create commercial projects using it, and I may do this for a company to sustain development,
-			but I'm a stickler for boundaries when it comes to what goes into the repos.
+			I'm lucky to have the resources to pursue my
+			<a href="https://www.ryanatkn.com/tree">projects</a> for a few more years, and regardless of
+			my personal situation I plan to continue working on this software and monetize it without
+			possibly-enshittifying patterns. It's all permissively licensed so anyone can create
+			commercial projects using it, and I may do this for a company to sustain development, but I'm
+			a stickler for boundaries when it comes to what goes into the repos.
 		</p>
 		<p>
 			<a href="https://youtube.com/@webdevladder">@webdevladder</a> is a channel where I get to
 			learn the ropes of video communication in a low pressure environment. My other channel
-			<a href="https://youtube.com/@webdevladder_vods">@webdevladder_vods</a> gives me even lower pressure
-			experience making videos related to my software and practices, including unfiltered programming
-			sessions for those interested in learning that particular way.
+			<a href="https://youtube.com/@webdevladder_vods">@webdevladder_vods</a> gives me even lower
+			pressure experience making videos related to my software and practices, including unfiltered
+			programming sessions for those interested in learning that particular way.
 		</p>
 		<p>For more about me, see my <a href="https://www.ryanatkn.com/">personal website</a>.</p>
 		<p>
