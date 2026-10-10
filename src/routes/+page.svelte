@@ -24,7 +24,7 @@
 	</section>
 	<section class="box gap_lg">
 		<Card href={resolve('/blog')} icon="🖊️">blog</Card>
-		<Card href={resolve('/tools')} icon="🪄" align="right">tools</Card>
+		<Card href={resolve('/tools')} icon="🪄" align="end">tools</Card>
 	</section>
 	<section class="panel p_md shadow_inset_bottom_xs width:100%">
 		<div class="panel shadow_inset_xs shade_00 p_xl">
