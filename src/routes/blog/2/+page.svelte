@@ -68,7 +68,7 @@
 		<p>
 			But before you subscribe to
 			<!-- eslint-disable-next-line svelte/no-navigation-without-resolve -->
-			<a href={asset('/blog/feed.xml')}>the feed</a>, here's some more context.
+			<a href={asset('blog/feed.xml')}>the feed</a>, here's some more context.
 		</p>
 	</section>
 	<section>

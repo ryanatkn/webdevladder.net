@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { asset, resolve } from '$app/paths';
-	import type { Pathname } from '$app/types';
+	import type { Path } from '$app/types';
 	import FeedItemDate from '@fuzdev/fuz_blog/FeedItemDate.svelte';
 	import { blog_feed_context } from '@fuzdev/fuz_blog/blog.ts';
 
@@ -13,7 +13,8 @@
 	<ol class="panel" reversed>
 		{#each items as item (item.id)}
 			<li class="blog-card">
-				<a href={resolve(item.pathname as Pathname)}>{item.title}</a>
+				<!-- every post `pathname` is a literal app route, and kit's `Path` drops the leading `/` -->
+				<a href={resolve(item.pathname.slice(1) as Path)}>{item.title}</a>
 				<div class="date"><FeedItemDate {item} /></div>
 			</li>
 		{:else}
@@ -21,7 +22,7 @@
 		{/each}
 	</ol>
 	<!-- eslint-disable-next-line svelte/no-navigation-without-resolve -->
-	<a class="feed-link chip" href={asset('/blog/feed.xml')} download>Atom feed</a>
+	<a class="feed-link chip" href={asset('blog/feed.xml')} download>Atom feed</a>
 </section>
 
 <style>

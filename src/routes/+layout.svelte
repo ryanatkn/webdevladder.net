@@ -9,7 +9,7 @@
 	import { blog_feed_context } from '@fuzdev/fuz_blog/blog.ts';
 	import pkg_json from 'virtual:pkg.json';
 
-	import { logo_webdevladder } from '$lib/logos.ts';
+	import { logo_webdevladder } from '#lib/logos.ts';
 	import { feed } from './blog/feed.ts';
 
 	const {

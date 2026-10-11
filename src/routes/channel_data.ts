@@ -1,5 +1,5 @@
-import type { Channel } from '$lib/channel.ts';
-import type { VideoJson } from '$lib/video.ts';
+import type { Channel } from '#lib/channel.ts';
+import type { VideoJson } from '#lib/video.ts';
 
 const webdevladder_videos: Array<VideoJson> = [
 	// {

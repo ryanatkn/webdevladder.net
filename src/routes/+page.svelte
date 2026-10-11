@@ -7,8 +7,8 @@
 
 	import PersonalEcosystemLinks from './PersonalEcosystemLinks.svelte';
 	import PersonalProjectLinks from './PersonalProjectLinks.svelte';
-	import { logo_webdevladder } from '$lib/logos.ts';
-	import Videos from '$lib/Videos.svelte';
+	import { logo_webdevladder } from '#lib/logos.ts';
+	import Videos from '#lib/Videos.svelte';
 	import { channels } from './channel_data.ts';
 
 	const site = site_context.get();
