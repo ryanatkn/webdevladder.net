@@ -3,8 +3,8 @@
 import type { BlogFeed } from '@fuzdev/fuz_blog/blog.ts';
 
 export const feed: BlogFeed = {
-	id: 'https://www.webdevladder.net/',
 	title: 'webdevladder.net blog',
+	id: 'https://www.webdevladder.net/',
 	home_page_url: 'https://www.webdevladder.net/blog',
 	description: 'blog of a web developer building free and open source tools and toys',
 	icon: 'https://www.webdevladder.net/favicon.png',
@@ -23,7 +23,7 @@ export const feed: BlogFeed = {
 			date_modified: '2024-07-10T23:06:38.928Z',
 			summary: "creating webdevladder's blog",
 			tags: ['webdev', 'svelte', 'typescript', 'sveltekit', 'vite'],
-			comments: { url: 'https://fosstodon.org/@webdevladder/113312147463274655', type: 'mastodon' }
+			comments: { type: 'mastodon', url: 'https://fosstodon.org/@webdevladder/113312147463274655' }
 		},
 		{
 			id: 'https://www.webdevladder.net/blog/2',
@@ -37,7 +37,7 @@ export const feed: BlogFeed = {
 			summary:
 				'I describe the purpose of my YouTube channel and blog, Webdevladder, and my plans for the future',
 			tags: ['webdevladder'],
-			comments: { url: 'https://fosstodon.org/@webdevladder/113312132188029470', type: 'mastodon' }
+			comments: { type: 'mastodon', url: 'https://fosstodon.org/@webdevladder/113312132188029470' }
 		},
 		{
 			id: 'https://www.webdevladder.net/blog/3',
@@ -51,7 +51,7 @@ export const feed: BlogFeed = {
 			summary:
 				'Svelte 5 adopted signals to replace its old reactivity system that had some subtle but important problems',
 			tags: ['svelte', 'signals'],
-			comments: { url: 'https://fosstodon.org/@webdevladder/113312123824800794', type: 'mastodon' }
+			comments: { type: 'mastodon', url: 'https://fosstodon.org/@webdevladder/113312123824800794' }
 		}
 	]
 };
