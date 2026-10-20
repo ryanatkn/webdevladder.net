@@ -9,17 +9,12 @@
 		date_modified: '2025-06-28T23:31:20.100Z',
 		summary:
 			'I describe the purpose of my YouTube channel and blog, Webdevladder, and my plans for the future',
-		tags: ['webdevladder'],
-		comments: {
-			type: 'mastodon',
-			url: 'https://fosstodon.org/@webdevladder/113312132188029470'
-		}
+		tags: ['webdevladder']
 	} satisfies BlogPostMetadata;
 </script>
 
 <script lang="ts">
 	import BlogPost from '@fuzdev/fuz_blog/BlogPost.svelte';
-	import BlogPostComments from '@fuzdev/fuz_blog/BlogPostComments.svelte';
 </script>
 
 <BlogPost {post}>
@@ -141,7 +136,4 @@
 			next time.
 		</p>
 	</section>
-	{#snippet comments(item)}
-		<BlogPostComments {item} />
-	{/snippet}
 </BlogPost>

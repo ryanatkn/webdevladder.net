@@ -22,8 +22,7 @@ export const feed: BlogFeed = {
 			date_published: '2024-07-10T22:07:32.473Z',
 			date_modified: '2024-07-10T23:06:38.928Z',
 			summary: "creating webdevladder's blog",
-			tags: ['webdev', 'svelte', 'typescript', 'sveltekit', 'vite'],
-			comments: { type: 'mastodon', url: 'https://fosstodon.org/@webdevladder/113312147463274655' }
+			tags: ['webdev', 'svelte', 'typescript', 'sveltekit', 'vite']
 		},
 		{
 			id: 'https://www.webdevladder.net/blog/2',
@@ -36,8 +35,7 @@ export const feed: BlogFeed = {
 			date_modified: '2025-06-28T23:31:20.100Z',
 			summary:
 				'I describe the purpose of my YouTube channel and blog, Webdevladder, and my plans for the future',
-			tags: ['webdevladder'],
-			comments: { type: 'mastodon', url: 'https://fosstodon.org/@webdevladder/113312132188029470' }
+			tags: ['webdevladder']
 		},
 		{
 			id: 'https://www.webdevladder.net/blog/3',
@@ -50,8 +48,7 @@ export const feed: BlogFeed = {
 			date_modified: '2024-08-15T12:53:55.522Z',
 			summary:
 				'Svelte 5 adopted signals to replace its old reactivity system that had some subtle but important problems',
-			tags: ['svelte', 'signals'],
-			comments: { type: 'mastodon', url: 'https://fosstodon.org/@webdevladder/113312123824800794' }
+			tags: ['svelte', 'signals']
 		}
 	]
 };

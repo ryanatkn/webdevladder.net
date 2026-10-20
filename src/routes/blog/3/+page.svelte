@@ -8,17 +8,12 @@
 		date_modified: '2024-08-15T12:53:55.522Z',
 		summary:
 			'Svelte 5 adopted signals to replace its old reactivity system that had some subtle but important problems',
-		tags: ['svelte', 'signals'],
-		comments: {
-			type: 'mastodon',
-			url: 'https://fosstodon.org/@webdevladder/113312123824800794'
-		}
+		tags: ['svelte', 'signals']
 	} satisfies BlogPostMetadata;
 </script>
 
 <script lang="ts">
 	import BlogPost from '@fuzdev/fuz_blog/BlogPost.svelte';
-	import BlogPostComments from '@fuzdev/fuz_blog/BlogPostComments.svelte';
 	import Code from '@fuzdev/fuz_code/Code.svelte';
 	import Details from '@fuzdev/fuz_ui/Details.svelte';
 
@@ -459,7 +454,4 @@ $lastname = 'Turing'; // logs "Alan Turing"
 			</p>
 		</FootnoteContent>
 	</section>
-	{#snippet comments(item)}
-		<BlogPostComments {item} />
-	{/snippet}
 </BlogPost>

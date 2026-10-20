@@ -27,8 +27,7 @@
 		<a href="https://bsky.app/profile/ryanatkn.com">@ryanatkn.com</a>
 	</li>
 	<li>
-		Mastodon as <a rel="me" href="https://fosstodon.org/@ryanatkn">@ryanatkn@fosstodon.org</a> and
-		<a rel="me" href="https://fosstodon.org/@webdevladder">@webdevladder@fosstodon.org</a>
+		Mastodon as <a rel="me" href="https://hci.social/@ryanatkn">@ryanatkn@hci.social</a>
 	</li>
 	<li>
 		<a
