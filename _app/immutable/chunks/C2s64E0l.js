@@ -1,1 +1,0 @@
-import{T as e,et as t,tt as n,z as r}from"./BXIYjPRq.js";import{t as i}from"./CQdk06DO.js";var a=class{load_data;#e=n();get data(){return r(this.#e)}set data(e){t(this.#e,e)}constructor(t,n=!0){this.load_data=t,n&&e(this.load)}load=async()=>{let e=await this.load_data();this.data=e&&new Map(e)}},o=i();export{o as n,a as t};

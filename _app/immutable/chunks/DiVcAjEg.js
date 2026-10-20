@@ -1,1 +1,0 @@
-var e=(e,t)=>!t||!e.startsWith(t)?e:e.substring(t.length),t=(e,t)=>!t||!e.endsWith(t)?e:e.substring(0,e.length-t.length),n=(e,t)=>e.endsWith(t)?e:e+t;export{t as n,e as r,n as t};
